@@ -18,12 +18,12 @@ CREATE TABLE `wp_revisr` (
   `message` text,
   `event` varchar(42) NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2015-03-04 04:01:12','Successfully created a new repository.','init');
+INSERT INTO `wp_revisr` VALUES (1,'2015-03-04 04:01:12','Successfully created a new repository.','init'),(2,'2015-03-04 04:05:19','Successfully backed up the database.','backup'),(3,'2015-03-04 04:05:19','The daily backup was successful.','backup');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
