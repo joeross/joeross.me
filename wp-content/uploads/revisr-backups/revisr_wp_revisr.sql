@@ -18,12 +18,12 @@ CREATE TABLE `wp_revisr` (
   `message` text,
   `event` varchar(42) NOT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2015-03-04 04:01:12','Successfully created a new repository.','init'),(2,'2015-03-04 04:05:19','Successfully backed up the database.','backup'),(3,'2015-03-04 04:05:19','The daily backup was successful.','backup');
+INSERT INTO `wp_revisr` VALUES (1,'2015-03-04 04:01:12','Successfully created a new repository.','init'),(2,'2015-03-04 04:05:19','Successfully backed up the database.','backup'),(3,'2015-03-04 04:05:19','The daily backup was successful.','backup'),(4,'2015-03-04 04:10:32','Successfully backed up the database.','backup'),(5,'2015-03-04 04:10:33','Error pushing changes to the remote repository.','error'),(6,'2015-03-04 04:10:33','Committed <a href=\"http://blog.joeross.me/wp-admin/post.php?post=813&action=edit\">#4b789a9</a> to the local repository.','commit'),(7,'2015-03-04 04:10:33','Error pushing changes to the remote repository.','error');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
