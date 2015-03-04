@@ -1,0 +1,53 @@
+Version 1.0
+i) Intial version Release.
+
+Version 1.1
+i) Removed responsive layout bugs.
+
+Version 1.2
+i) Removed unused images.
+ii) Used GPL compliant images.
+iii) Solved Front Page and Blog settings.
+iv) Solved background image problem.
+
+Version 1.3
+i) Licensing attributes defined properly.
+
+Version 1.4
+i) Setting blog from readings was removing the homepage.
+
+Version 1.5
+i) Removed function of custom background and header.
+
+Version 1.5.1
+i) Tweaked this theme as per WordPress coding standards.
+
+Version 1.5.2
+i) Archive.php changed as per reviewer comments and favicon by default removed.
+
+Version 1.5.3
+i) Changed layout settings.
+
+Version 1.5.4
+i) Screenshot issue fixed.
+
+
+Version 1.5.5
+i) Removed shortcode blog.
+
+Version 1.5.6
+i) Woocommerce Compatible.
+
+Version 1.5.7
+i) No Change.
+
+Version 1.5.8
+i) Proper Licensing of Pixabay images.
+
+Version 1.5.9
+i) Resolved slider issue.
+
+Version 1.6
+i) Fixed bug pointed by reviewer.
+
+

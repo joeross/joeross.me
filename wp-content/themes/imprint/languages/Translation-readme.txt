@@ -1,0 +1,3 @@
+Imprint theme is translation ready.
+
+You can translate Imprint in your own language by using FREE poedit tool...

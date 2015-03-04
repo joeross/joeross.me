@@ -1,0 +1,63 @@
+/*
+Theme Name: plaino
+Layout: Content-Sidebar
+*/
+
+.site-main {
+    background: #fff;
+}
+.site-content .widget-area {
+    width: 380px;
+    float: right;
+    padding: 4rem;
+    background: #fff;
+    background: hsl(0, 0%, 100%);
+	border: 1px dotted #e0e0e0;
+}
+
+.site-footer {
+    clear: both;
+    width: 100%;
+}
+
+.entry-header,
+.entry-content,
+.entry-meta,
+.entry-footer,
+.tag-links,
+.post-navigation,
+.comments-area,
+.paging-navigation,
+.page-header {
+    position: relative;
+    max-width: 780px;
+    max-width: 78rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+  
+@media screen and (min-width: 960px){
+	.content-area {
+	    width: 100%;
+	    float: left;
+	    margin-left: -380px;
+	    padding-left: 380px;
+	}
+}
+
+@media screen and (max-width: 959px){
+	.site-content .widget-area {
+	    width: auto;
+		max-width: 760px;
+	    float: none;
+		margin: 1em auto 0;	    
+		border-width: 0px;
+	}
+} 
+
+.page-header {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    list-style-type: none;
+    background: #d2f4d5;
+}

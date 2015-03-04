@@ -1,0 +1,73 @@
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu li {
+	position: relative;
+}
+.sf-menu ul {
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+	z-index: 99;
+}
+.sf-menu > li {
+	float: left;
+}
+
+.sf-menu li:hover > ul,
+.sf-menu li.sfHover > ul {
+	display: block;
+}
+
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+
+.sf-menu ul ul {
+        position: absolute;
+        display: none;
+	top: 0;
+	left: 100%;
+}
+
+#menu-container #menu.mudrn-menu ul {
+    width: 100%;
+}
+
+#menu-container .mudrn-tab {
+    background-image: url("../../../global/images/core/responsive-menu-icon.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    padding: 2px 0;
+    margin: 0 auto;
+}
+
+#menu-container #menu.mudrn-menu ul.sub-menu {
+        position: relative !important;
+        display: block !important;
+        visibility: visible !important;
+        background-color: transparent !important;
+        width: 100%;
+	top: 0%;
+	left: 0%;
+        padding-left: 20px;
+        padding-right: 40px;
+        overflow: hidden;
+        float:none;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+#menu-container #menu.mudrn-menu ul.sub-menu a{
+    width: 100%;
+    display: block;
+}
+#menu-container #menu.mudrn-menu,
+#menu-container #menu.mudrn-menu ul li a {
+    background-image: none !important;
+}
+#menu-container #menu.mudrn-menu > ul > li:first-child > a:hover{border-left: none;}

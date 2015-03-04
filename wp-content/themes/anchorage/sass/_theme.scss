@@ -1,0 +1,191 @@
+/**
+ * Sass for theme rules.
+ *
+ * Colors, fonts, borders.
+ *
+ * @package WordPress
+ * @subpackage anchorage
+ * @since anchorage 1.0
+ */
+
+/* Color Pallette */
+body,
+select,
+input,
+textarea,
+.sub-menu,
+.inverse-color .widget_search input[type="search"],
+.inverse-color .widget_search input[type="submit"] {
+	background: $bg_color;
+	color: $color;
+}
+
+a {color: $accent_color;}
+
+.primary-menu-toggle:focus,
+a:hover {color: $inverse_accent_color;}
+
+#blog-header > *,
+a.button,
+.button,
+[type='submit'],
+[type='image'],
+button,
+.inverse-color,
+.inverse-color a,
+.inverse-color .sub-menu {
+	background: $inverse_bg_color; 
+	color: $inverse_color;
+}
+
+.inverse-color {
+	select,
+	input,
+	textarea {
+		background: $inverse_bg_color;
+		color: $inverse_color;
+	}
+}
+
+input.inverse-color:hover,
+input.inverse-color:focus,
+.inverse-color input:hover,
+.inverse-color input:focus,
+a.inverse-color:hover,
+.inverse-color a:hover {
+	color: $inverse_accent_color;
+}
+
+/* Mildly accented items */
+.mild-contrast-color {
+	background: $top_shadow_color;
+}
+
+.comments-loop table,
+.entry-content table,
+.hentry.format-chat .entry-content,
+.comments-loop blockquote,
+.entry-content blockquote,
+.bypostauthor,
+figure,
+.wp-caption,
+#respond,
+form,
+.comments-loop pre,
+.entry-content pre {
+	background: $bottom_shadow_color;
+}
+
+/* excepted from mild accent */
+.comments-loop tr:nth-child(even) > *,
+.entry-content tr:nth-child(even) > *,
+.comments-loop table thead tr > *,
+.entry-content table thead tr > *,
+.gallery figure {
+	background: $bg_color;
+}
+
+/* Typograhpy */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt,
+th,
+label,
+[type='submit'],
+[type='image'],
+.button,
+button,
+.inverse-font,
+.entry-content blockquote cite {
+	font-family: helvetica, arial, sans-serif;
+}
+
+body {
+	font-family: georgia, times, sans-serif;
+}
+
+/* Text Shadowing */
+.shadowed,
+.shadowed .search-field {
+	text-shadow: 1px 1px 0 $inverse_color,
+			     2px 2px 0 $color;
+	padding-left: 2px;
+	letter-spacing: 1px;
+}
+
+.inverse-color.shadowed,
+.inverse-color .shadowed{
+	text-shadow: 1px 1px 0 $color,
+			     2px 2px 0 $inverse_color;
+	}
+
+/* Breaks */
+.comments-loop br,
+.entry-content br,
+.break {
+	border-bottom: 1px solid $bottom_shadow_color;
+	border-top: 1px solid $top_shadow_color;
+}
+
+/* Tables */
+.comments-loop tr:nth-child(even) > *,
+.entry-content tr:nth-child(even) > * {
+	border-right: 1px solid $bottom_shadow_color;
+}
+
+.comments-loop tr:nth-child(even) > :last-child,
+.entry-content tr:nth-child(even) > :last-child {
+	border-right: none;
+}
+
+.comments-loop tr:nth-child(odd) > *,
+.entry-content tr:nth-child(odd) > * {
+	border-right: 1px solid $bg_color;
+}
+
+.comments-loop tr:nth-child(odd) > :last-child,
+.entry-content tr:nth-child(odd) > :last-child {
+	border-right: none;
+}
+
+/* Borders & Box Shadow */
+
+fieldset {
+	border: 1px solid $inverse_accent_color;
+}
+
+select,
+input,
+textarea {
+	border: 1px solid $inverse_accent_color;
+	box-shadow: inset -1px 1px 3px $transparent_color;
+}
+
+input,
+textarea {
+	border: 1px solid $inverse_accent_color;
+}
+
+input[ type="submit" ] {
+	border: none;
+}
+
+.inverse-color {
+
+	select,
+	input,
+	textarea {
+		border: 1px solid $inverse_color;
+		box-shadow: inset -1px 1px 3px $transparent_color;
+	}
+
+	input,
+	textarea {
+		border: 1px solid $inverse_accent_color;
+	}
+
+}

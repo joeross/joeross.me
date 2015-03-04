@@ -1,0 +1,59 @@
+@media only screen and (max-width: 840px) {
+	.pagetitle {
+		float: none!important;
+		margin: 0 0 20px!important;
+	}
+	.blogpage .pagesocial {
+		float: none!important;
+	}
+}
+@media only screen and (max-width: 720px) {
+	#content-left {
+		width: 100%!important;
+		float: none!important;
+	}
+	#sidebar {
+		width: 100%!important;
+		float: none!important;
+		margin: 0!important;
+		padding: 0 45px;
+	}
+	.left, .right  {
+		float: none!important;
+	}
+	.footer-nav ul li {
+		margin: 0 10px 0 0!important; 
+	}
+	#comments input, #comments textarea {
+		width: 100%;
+	}
+	ul.children {
+		margin: 0 0 0 5%!important;
+	}
+	ul.children li {
+		padding: 0 0 0 5%!important;
+	}
+
+}
+@media only screen and (max-width: 320px) {
+	#sidebar, #content-left article, #content-full article, #comments {
+		padding: 0 20px!important;
+	}
+	.blogpage header {
+		padding: 20px!important;
+	}
+	.post {
+		width: 260px!important;
+	}
+	#comments .avatar {
+		float: none!important;
+		margin: 0 0 10px!important;
+	}
+	.comment-text {
+		float: none!important;
+	}
+	#content-left embed {
+	width: 70% !important;
+	height:auto;
+	}
+}

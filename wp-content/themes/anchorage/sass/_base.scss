@@ -1,0 +1,538 @@
+/**
+ * SCSS for base elements.
+ *
+ * @package WordPress
+ * @subpackage anchorage
+ * @since anchorage 1.0
+ */
+
+/**
+ * Star defaults.
+ */
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	border: none;
+}
+
+/**
+ * HTML defaults
+ */
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%; /* Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+	font-size: 16px;
+	line-height: 1.68em;
+}
+
+@media ( max-width: $small_device ) {
+	html {
+		font-size: 12px;
+	}
+}
+
+/**
+ * Header defaults
+ */
+h1 {
+	font-size: 33px;
+	line-height: 1.1em;
+}
+
+h2 {
+	font-size: 27px;
+	line-height: 1.15em;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 1.2em;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 1.25em;
+}
+
+h5 {
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+h6 {
+	font-size: 15px;
+	line-height: 1.35em;
+}
+
+@media ( max-width: $small_device ) {
+	h1 { font-size: 24px; }
+
+	h2 { font-size: 22px; }
+
+	h3 { font-size: 20px; }
+
+	h4 { font-size: 16px; }
+
+	h5 { font-size: 14px; }
+
+	h6 { font-size: 12px; }
+}
+
+/* Margin Defaults */
+.entry-content .button,
+blockquote,
+dl,
+fieldset,
+form,
+p,
+ol,
+table,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: $large_margin;
+}
+
+/*Unicode char defaults*/
+.arrow {
+	font-family: "Lucida Sans Unicode", "lucida-sans-unicode";
+}
+
+/* HTML5 display definitions */
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+	display: block;
+}
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+	display: inline-block; /* 1 */
+	vertical-align: baseline; /* 2 */
+}
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+	display: none;
+}
+
+/* Links */
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a,
+a > * {
+	background: transparent;
+}
+
+/* Text-level semantics */
+
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+
+/**
+ * Standardize font-weight.
+ */
+dt,
+b,
+strong {
+	font-weight: 600;
+}
+
+/**
+ * Standardize font-style.
+ */
+dfn,
+em,
+i {
+	font-style: italic;
+}
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+	font-style: italic;
+	background-color: transparent;
+}
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+/* Embedded content */
+
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+	border: 0;
+}
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+	overflow: auto;
+}
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+/* Forms */
+
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+
+/**
+ * Correct font properties not being inherited.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+	font: inherit;
+}
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+	overflow: visible;
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+	text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"], /* 1 */
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button; /* 2 */
+	cursor: pointer; /* 3 */
+}
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+	line-height: normal;
+}
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+}
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+	border: 0; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+	overflow: auto;
+}
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+	font-weight: bold;
+}
+
+/*Forms*/
+select,
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+textarea {
+	border-radius: $small_border_radius;
+	padding: $small_padding;
+	width: 100%;
+	margin: 0 0 $medium_margin;
+	display: block;
+}
+
+fieldset {
+	border-radius: $small_border_radius;
+	padding: $large_padding;
+}
+
+legend {
+	font-style: italic;
+}
+
+form.post-password-form input[type='submit'],
+form > input.button,
+.content-holder nav.button,
+.button,
+[type='submit'],
+[type='image'],
+button {
+	border-radius: $small_border_radius;
+	font-weight: 600;
+	padding: 10px 14px 8px;
+	display: inline-block;
+	text-transform: capitalize;
+}
+
+.widget_search [type="submit"],
+.widget_search [type="search"],
+.button-minor {
+	padding: 6px 7px 4px;
+}
+
+textarea {
+	width: 100%;
+	padding: 5px 8px;
+	border-radius: 5px;
+}
+
+/* Tables */
+
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Navigation Lists */
+nav li {
+	list-style: none;
+}
+
+nav ul {
+	margin: 0;
+}
+
+/**
+ * 1.2 Repeatable Patterns
+ * ----------------------------------------------------------------------------
+ */
+
+/* Clearing floats */
+.clear:after {
+	clear: both;
+}
+
+.clear:before,
+.clear:after {
+	content: "";
+	display: table;
+}
+
+/* Assistive text */
+.screen-reader-text {
+	position: absolute;
+	font-size: 0;
+	opacity: 0;
+	z-index: -1;
+}
+
+.screen-reader-text:active,
+.screen-reader-text:focus {
+	font-size: inherit;
+	opacity: 1;
+	z-index: 999;
+}
+
+/*
+ * Responsive images
+ *
+ * Fluid images for posts, comments, and widgets
+ */
+img,
+figure,
+embed,
+iframe,
+object,
+video {
+	max-width: 100%;
+}
+
+img,
+figure,
+embed,
+object,
+video {
+	height: auto;
+}
+
+

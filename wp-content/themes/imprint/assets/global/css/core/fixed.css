@@ -1,0 +1,13 @@
+/*******************************
+           Theme Structure
+********************************/
+
+#wrapper {
+    max-width: 1056px;
+    width:1056px;
+    margin: 12px auto;
+}
+
+.mudrn-tab {
+    display: none;
+}

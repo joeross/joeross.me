@@ -1,0 +1,1994 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Imprint\n"
+"POT-Creation-Date: 2014-06-19 16:02+0530\n"
+"PO-Revision-Date: 2014-09-04 16:30+0530\n"
+"Last-Translator: \n"
+"Language-Team: mudthemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _;__;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ../comments.php:13
+msgid ""
+"This post is password protected. Enter the password to view any comments"
+msgstr ""
+"Dette indlæg er beskyttet med adgangskode. Indtast kodeord for at se "
+"kommentarer."
+
+#: ../comments.php:32
+msgid "Older Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ældre Kommentarer <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../comments.php:33
+msgid "<span class=\"meta-nav\">&larr;</span> Newer Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Nyere Kommentarer"
+
+#: ../comments.php:40
+msgid "Sorry, Comments are closed."
+msgstr "Beklager, er kommentarer lukket."
+
+#: ../footer.php:21
+msgid "Copyright"
+msgstr "Ophavsret"
+
+#: ../footer.php:26
+msgid "Powered by"
+msgstr "Powered by"
+
+#: ../footer.php:29
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../footer.php:32
+msgid "ImprintPro theme by"
+msgstr "ImprintPro tema ved"
+
+#: ../footer.php:35
+msgid "mudthemes"
+msgstr "mudThemes"
+
+#: ../includes/lib/core/class.core_author_template.php:47
+#, php-format
+msgid "Author : %s"
+msgstr "Forfatter : %s"
+
+#: ../includes/lib/core/class.core_author_template.php:52
+#: ../includes/lib/core/class.core_loop_template.php:105
+#: ../includes/lib/core/class.core_loop_template.php:107
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: ../includes/lib/core/class.core_category_template.php:44
+#, php-format
+msgid "Category : %s"
+msgstr "Kategori : %s"
+
+#: ../includes/lib/core/class.core_date_template.php:44
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Daglig Arkiver: %s"
+
+#: ../includes/lib/core/class.core_date_template.php:46
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Månedlig Arkiv: %s"
+
+#: ../includes/lib/core/class.core_date_template.php:48
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Årlige Arkiv: %s"
+
+#: ../includes/lib/core/class.core_date_template.php:50
+msgid "Blog Archives"
+msgstr "Blog Arkiv"
+
+#: ../includes/lib/core/class.core_date_template.php:55
+#, php-format
+msgid "Archive of posts published in the specified %s"
+msgstr "Arkiv af stillinger, der er offentliggjort i den angivne %s"
+
+#: ../includes/lib/core/class.core_loop_template.php:135
+msgid "Written on"
+msgstr "Skrevet på"
+
+#: ../includes/lib/core/class.core_loop_template.php:136
+msgid "by"
+msgstr "ved"
+
+#: ../includes/lib/core/class.core_loop_template.php:137
+msgid "in"
+msgstr "i"
+
+#: ../includes/lib/core/class.core_loop_template.php:197
+#: ../includes/lib/core/class.core_post_template.php:133 ../page.php:26
+msgid "Pages:"
+msgstr "Sider:"
+
+#: ../includes/lib/core/class.core_post_template.php:70
+#, php-format
+msgid ""
+"<span class=\"meta-author-url\">Posted By</span> %1$s<span class=\"meta-date-"
+"url\">, On %2$s </span>"
+msgstr ""
+"<span class=\"meta-author-url\">Indsendt af</span> %1$s<span class=\"meta-"
+"date-url\">, På %2$s </span>"
+
+#: ../includes/lib/core/class.core_post_template.php:73
+#: ../includes/lib/core/core_functions.php:160
+#, php-format
+msgid "View all posts by %s"
+msgstr "Vis alle indlæg fra %s"
+
+#: ../includes/lib/core/class.core_post_template.php:206
+msgid "Tags: "
+msgstr "Tags: "
+
+#: ../includes/lib/core/class.core_post_template.php:222
+msgid "edit post"
+msgstr "redigere indlæg"
+
+#: ../includes/lib/core/class.core_tag_template.php:41
+#, php-format
+msgid "Tag : %s"
+msgstr "Tag : %s"
+
+#: ../includes/lib/core/core_functions.php:58
+msgid "Ooops! Nothing Found"
+msgstr "Undskyld! Intet Fundet"
+
+#: ../includes/lib/core/core_functions.php:60
+#: ../includes/lib/core/core_functions.php:62
+#, php-format
+msgid "Nothing found for: %s"
+msgstr "Intet fundet for:%s"
+
+#: ../includes/lib/core/core_functions.php:69
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Undskyldninger, men ingen resultater blev fundet for den ønskede arkivet. "
+"Måske søger vil hjælpe med at finde et relateret indlæg."
+
+#: ../includes/lib/core/core_functions.php:91
+#: ../includes/lib/extend/mod.pagination.php:29
+msgid "Older posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ældre indlæg <span class=\"meta-nav\">&rarr;</span>"
+
+#: ../includes/lib/core/core_functions.php:92
+#: ../includes/lib/extend/mod.pagination.php:30
+msgid "<span class=\"meta-nav\">&larr;</span> Newer posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Nyere indlæg"
+
+#: ../includes/lib/core/core_functions.php:154
+#, php-format
+msgid ""
+"<span class=\"meta-date-url\">Posted on</span> %1$s<span class=\"meta-author-"
+"url\">, By %2$s </span>"
+msgstr ""
+"<span class=\"meta-author-url\">Sendt den</span> %1$s<span class=\"meta-date-"
+"url\">, Ved %2$s </span>"
+
+#: ../includes/lib/core/core_functions.php:216
+msgid "Day"
+msgstr "Dag"
+
+#: ../includes/lib/core/core_functions.php:218
+msgid "Month"
+msgstr "Måned"
+
+#: ../includes/lib/core/core_functions.php:220
+msgid "Year"
+msgstr "År"
+
+#: ../includes/lib/core/core_functions.php:222
+msgid "Period"
+msgstr "Periode"
+
+#: ../includes/lib/core/core_functions.php:289
+#, php-format
+msgid "Page %s"
+msgstr "Side %s"
+
+#: ../includes/lib/core/core_functions.php:317
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">siger:</span>"
+
+#: ../includes/lib/core/core_functions.php:318
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation."
+
+#: ../includes/lib/core/core_functions.php:319
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s på %2$s"
+
+#: ../includes/lib/core/core_functions.php:327
+#: ../includes/lib/core/core_functions.php:341
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: ../includes/lib/core/core_functions.php:341
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../includes/lib/core/options-framework/options-framework.php:180
+msgid "Imprint Theme - Settings"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-framework.php:180
+#: ../includes/lib/core/options-framework/options-framework.php:387
+msgid "Theme Options"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-framework.php:286
+msgid "<i class=\"mdf mdf-undo\"></i> Options reset"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-framework.php:336
+msgid "<i class=\"mdf mdf-check\"></i> Options saved"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-framework.php:446
+msgid ""
+"<i class=\"mdf mdf-quote-left\"></i> Upgrade to Imprint Pro Version <i class="
+"\"mdf mdf-quote-right\"></i> and get 5 premium skins with 500+ Google Fonts, "
+"full-width layout, extra color options and much more."
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-framework.php:473
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:63
+msgid "No file chosen"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:66
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:120
+msgid "Upload"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:68
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:121
+msgid "Remove"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-medialibrary-uploader.php:95
+msgid "View File"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:242
+msgid "repeat"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:243
+msgid "No Repeat"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:244
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:245
+msgid "Repeat Vertically"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:246
+msgid "Repeat All"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:259
+msgid "top left"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:260
+msgid "Top Left"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:261
+msgid "Top Center"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:262
+msgid "Top Right"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:263
+msgid "Middle Left"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:264
+msgid "Middle Center"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:265
+msgid "Middle Right"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:266
+msgid "Bottom Left"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:267
+msgid "Bottom Center"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:268
+msgid "Bottom Right"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:281
+msgid "fixed"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:282
+msgid "Scroll Normally"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:283
+msgid "Fixed in Place"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:357
+msgid "Normal"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:358
+msgid "Italic"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:359
+msgid "Bold"
+msgstr ""
+
+#: ../includes/lib/core/options-framework/options-sanitize.php:360
+msgid "Bold Italic"
+msgstr ""
+
+#: ../includes/lib/extend/mod.custom_header.php:31
+msgid "Imprint Header Image"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:47
+#: ../includes/lib/extend/push/push.options.php:51
+msgid "Basic Settings"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:51
+#: ../includes/lib/extend/push/push.options.php:55
+msgid "Choose Theme Skin"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:52
+#: ../includes/lib/extend/push/push.options.php:56
+msgid ""
+"Select skin for your theme. (Note: Premium skins are only available with "
+"Imprint Pro Version)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:61
+#: ../includes/lib/extend/push/push.options.php:71
+msgid "Theme Layout Type"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:62
+#: ../includes/lib/extend/push/push.options.php:72
+msgid ""
+"Select layout type for your theme:<ol><li>Box Fixed - Layout is "
+"unresponsiveness</li><li>Box Responsive - Layout is responsive</li><li>Full "
+"Width Responsive - Only with Imprint Pro</li></ol><a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:77
+#: ../includes/lib/extend/push/push.options.php:87
+msgid "Favicon Image:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:78
+msgid ""
+"Put the Favicon Icon image here. <a href=\"http://webdesign.about.com/od/"
+"favicon/f/blfaqfavicon1.htm\" target=\"_blank\"><i>What is Favicon?</i></a> "
+"<i class=\"fa fa-external-link valign-bottom font-11\"></i>"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:84
+#: ../includes/lib/extend/push/push.options.php:94
+msgid "Organization Name:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:85
+#: ../includes/lib/extend/push/push.options.php:95
+msgid ""
+"This name will be displayed along with <strong>copyright information in the "
+"footer.</strong> (Can be either your company name or website name, <i>e.g.</"
+"i> : Example Inc or example.com)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:91
+#: ../includes/lib/extend/push/push.options.php:100
+msgid "Body Font"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:92
+#: ../includes/lib/extend/push/push.options.php:101
+msgid ""
+"Changing font type here will change font of the text which has no font-type "
+"\"specified\". You can use this option while redesigning your entire theme. "
+"<a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:99
+#: ../includes/lib/extend/push/push.options.php:108
+msgid "Wrapper Background Color:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:100
+#: ../includes/lib/extend/push/push.options.php:109
+msgid "Changes the background color of wrapper (main content area)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:106
+#: ../includes/lib/extend/push/push.options.php:115
+msgid "Wrapper Border Color:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:107
+#: ../includes/lib/extend/push/push.options.php:116
+msgid "Changes the border color of wrapper (main content area)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:117
+#: ../includes/lib/extend/push/push.options.php:137
+msgid "Theme Layout"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:138
+#: ../includes/lib/extend/push/push.options.php:158
+msgid "Footerbox Columns"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:139
+msgid ""
+"Select the number of columns you want for Footerbox. <br /><i class=\"fa fa-"
+"warning font-11\"></i> Why is footerbox is hidden? <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:149
+#: ../includes/lib/extend/push/push.options.php:178
+msgid "Disable Thumbnails:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:150
+#: ../includes/lib/extend/push/push.options.php:179
+msgid ""
+"Checking this will disable Thumbnail images on homepage and archive pages."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:156
+#: ../includes/lib/extend/push/push.options.php:185
+msgid "Disable Excerpts:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:157
+#: ../includes/lib/extend/push/push.options.php:186
+msgid ""
+"Checking this will disable Excerpts and show full content on homepage and "
+"archive pages."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:163
+#: ../includes/lib/extend/push/push.options.php:199
+msgid "Hide Footerbox:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:164
+#: ../includes/lib/extend/push/push.options.php:200
+msgid "Checking this will disable Footerbox. <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:170
+#: ../includes/lib/extend/push/push.options.php:206
+msgid "Toggle Menu"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:171
+#: ../includes/lib/extend/push/push.options.php:207
+msgid ""
+"Select the position of your Primary Menu.<ol><li>Above - will display menu "
+"above Featured Image or Slideshow</li><li>Below - will display menu below "
+"Featured Image or Slideshow</li></ol>"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:182
+#: ../includes/lib/extend/push/push.options.php:218
+msgid "Hide Top Margin:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:183
+#: ../includes/lib/extend/push/push.options.php:219
+msgid "Checking this will hide top margin."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:189
+#: ../includes/lib/extend/push/push.options.php:225
+msgid "Hide Bottom Margin:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:190
+#: ../includes/lib/extend/push/push.options.php:226
+msgid "Checking this will hide bottom margin."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:196
+#: ../includes/lib/extend/push/push.options.php:232
+msgid "Hide Slideshow Margin:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:197
+#: ../includes/lib/extend/push/push.options.php:233
+msgid "Checking this will hide Slideshow margin."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:203
+#: ../includes/lib/extend/push/push.options.php:239
+msgid "Hide Margin Below Posts:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:204
+#: ../includes/lib/extend/push/push.options.php:240
+msgid ""
+"Checking this will hide margin below posts on Homepage and Archive Pages."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:210
+#: ../includes/lib/extend/push/push.options.php:288
+msgid "Disable Tags:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:211
+#: ../includes/lib/extend/push/push.options.php:289
+msgid "Checking this will hide Tag links below posts."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:221
+#: ../includes/lib/extend/push/push.options.php:299
+msgid "Header Settings"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:225
+#: ../includes/lib/extend/mod.options.php:586
+#: ../includes/lib/extend/push/push.options.php:303
+#: ../includes/lib/extend/push/push.options.php:970
+msgid "Site Title:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:226
+#: ../includes/lib/extend/push/push.options.php:304
+msgid "Color of the Site Title (displayed at the top)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:232
+#: ../includes/lib/extend/mod.options.php:594
+#: ../includes/lib/extend/push/push.options.php:310
+#: ../includes/lib/extend/push/push.options.php:978
+msgid "Site Description:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:233
+#: ../includes/lib/extend/push/push.options.php:311
+msgid "Color of the Site Description (displayed below site title)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:239
+#: ../includes/lib/extend/push/push.options.php:317
+msgid "Logo:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:240
+#: ../includes/lib/extend/push/push.options.php:318
+msgid "Upload your Logo Image - PNG or JPEG file formats are recommended."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:246
+#: ../includes/lib/extend/push/push.options.php:324
+msgid "Disable Logo Image:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:247
+#: ../includes/lib/extend/push/push.options.php:325
+msgid "Checking this will display Site Title (text) rather than Image."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:253
+#: ../includes/lib/extend/push/push.options.php:331
+msgid "Hide Site Description:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:254
+#: ../includes/lib/extend/push/push.options.php:332
+msgid "Checking this will hide Site Description."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:263
+#: ../includes/lib/extend/push/push.options.php:437
+msgid "Menu Styling"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:267
+msgid "Bottom Menu: <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:268
+#: ../includes/lib/extend/push/push.options.php:534
+msgid "Color of bottom menu text."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:274
+msgid "Bottom Menu: <br />(mouse hover)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:275
+#: ../includes/lib/extend/push/push.options.php:541
+msgid "Color of bottom menu (mouse hover)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:287
+#: ../includes/lib/extend/push/push.options.php:550
+msgid "Social Options"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:291
+#: ../includes/lib/extend/push/push.options.php:561
+msgid "Hide Social Icons:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:292
+#: ../includes/lib/extend/push/push.options.php:562
+msgid "Checking this will hide social icons."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:298
+#: ../includes/lib/extend/push/push.options.php:582
+msgid "RSS Feed URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:299
+#: ../includes/lib/extend/push/push.options.php:583
+msgid "RSS feed url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:305
+#: ../includes/lib/extend/push/push.options.php:589
+msgid "Facebook Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:306
+#: ../includes/lib/extend/push/push.options.php:590
+msgid ""
+"Facebook profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:312
+#: ../includes/lib/extend/push/push.options.php:596
+msgid "Twitter Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:313
+#: ../includes/lib/extend/push/push.options.php:597
+msgid ""
+"Twitter profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:319
+#: ../includes/lib/extend/push/push.options.php:603
+msgid "Linkedin Profile URL: "
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:320
+#: ../includes/lib/extend/push/push.options.php:604
+msgid ""
+"Linkedin profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:326
+#: ../includes/lib/extend/push/push.options.php:610
+msgid "YouTube Channel URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:327
+#: ../includes/lib/extend/push/push.options.php:611
+msgid ""
+"YouTube channel url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:333
+#: ../includes/lib/extend/push/push.options.php:617
+msgid "Google+ Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:334
+#: ../includes/lib/extend/push/push.options.php:618
+msgid ""
+"Google+ profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:340
+#: ../includes/lib/extend/push/push.options.php:624
+msgid "Pinterest Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:341
+#: ../includes/lib/extend/push/push.options.php:625
+msgid ""
+"Pinterest profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:347
+#: ../includes/lib/extend/push/push.options.php:631
+msgid "Tumblr Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:348
+#: ../includes/lib/extend/push/push.options.php:632
+msgid ""
+"Tumblr profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:354
+#: ../includes/lib/extend/push/push.options.php:638
+msgid "Skype Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:355
+#: ../includes/lib/extend/push/push.options.php:639
+msgid ""
+"Skype profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:361
+#: ../includes/lib/extend/push/push.options.php:645
+msgid "Flickr Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:362
+#: ../includes/lib/extend/push/push.options.php:646
+msgid ""
+"Flickr profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:370
+#: ../includes/lib/extend/push/push.options.php:683
+msgid "Color Options"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:374
+#: ../includes/lib/extend/mod.options.php:642
+#: ../includes/lib/extend/push/push.options.php:687
+#: ../includes/lib/extend/push/push.options.php:1026
+msgid "Primary Sidebar Links:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:375
+#: ../includes/lib/extend/push/push.options.php:688
+msgid "Color of links that appear in primary sidebar."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:381
+#: ../includes/lib/extend/push/push.options.php:694
+msgid "Footerbox Sidebar Link:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:382
+#: ../includes/lib/extend/push/push.options.php:695
+msgid "Color of links that appear in footerbox."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:388
+#: ../includes/lib/extend/push/push.options.php:701
+msgid "Theme Links:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:389
+#: ../includes/lib/extend/push/push.options.php:702
+msgid "Color of all the links in your theme (globally)."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:395
+#: ../includes/lib/extend/push/push.options.php:708
+msgid "Theme Links: <br /> (mouse hover)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:396
+#: ../includes/lib/extend/push/push.options.php:709
+msgid "Theme link color - when mouse hovers upon it."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:402
+#: ../includes/lib/extend/push/push.options.php:715
+msgid "Theme Links: <br />(visited)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:403
+#: ../includes/lib/extend/push/push.options.php:716
+msgid "Theme link color which have been visited before."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:409
+#: ../includes/lib/extend/push/push.options.php:722
+msgid "Sticky Post:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:410
+#: ../includes/lib/extend/push/push.options.php:723
+msgid "Sticky Post Background Color"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:416
+#: ../includes/lib/extend/push/push.options.php:729
+msgid "Read more [button] <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:417
+#: ../includes/lib/extend/push/push.options.php:730
+msgid "Read more (button) text color. <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:423
+#: ../includes/lib/extend/push/push.options.php:736
+msgid "Read more [button]: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:424
+#: ../includes/lib/extend/push/push.options.php:737
+msgid "Changes the background color of \"read more\" button."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:430
+#: ../includes/lib/extend/push/push.options.php:743
+msgid "Read more [button] <br />(border color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:431
+#: ../includes/lib/extend/push/push.options.php:744
+msgid ""
+"Changes the color of shadow which appears at the sides of the box containing "
+"the \"read more\" button."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:437
+#: ../includes/lib/extend/mod.options.php:602
+#: ../includes/lib/extend/push/push.options.php:750
+#: ../includes/lib/extend/push/push.options.php:986
+msgid "Homepage Post Title:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:438
+#: ../includes/lib/extend/push/push.options.php:751
+msgid "Homepage Post Title Color"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:444
+#: ../includes/lib/extend/mod.options.php:610
+#: ../includes/lib/extend/push/push.options.php:757
+#: ../includes/lib/extend/push/push.options.php:994
+msgid "Homepage Post Meta:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:445
+#: ../includes/lib/extend/push/push.options.php:758
+msgid "Homepage Post Meta Color"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:451
+#: ../includes/lib/extend/mod.options.php:618
+#: ../includes/lib/extend/push/push.options.php:764
+#: ../includes/lib/extend/push/push.options.php:1002
+msgid "Homepage Post Excerpt:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:452
+#: ../includes/lib/extend/push/push.options.php:765
+msgid "Homepage Post Excerpt Color"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:458
+#: ../includes/lib/extend/push/push.options.php:771
+msgid "Homepage Thumbnail: <br /> (border color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:459
+#: ../includes/lib/extend/push/push.options.php:772
+msgid "Homepage Thumbnail Border Color"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:465
+#: ../includes/lib/extend/push/push.options.php:778
+msgid "Homepage Divider:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:466
+msgid "Color of the line that divides each post on the homepage."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:472
+#: ../includes/lib/extend/mod.options.php:690
+#: ../includes/lib/extend/push/push.options.php:807
+#: ../includes/lib/extend/push/push.options.php:1090
+msgid "Single Post Title:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:473
+#: ../includes/lib/extend/push/push.options.php:808
+msgid "Color of single posts and pages - Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:479
+#: ../includes/lib/extend/push/push.options.php:814
+msgid "single Post Meta:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:480
+#: ../includes/lib/extend/push/push.options.php:815
+msgid "Color of single posts and pages - Meta Text."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:486
+#: ../includes/lib/extend/mod.options.php:706
+#: ../includes/lib/extend/push/push.options.php:821
+#: ../includes/lib/extend/push/push.options.php:1106
+msgid "Single Post Content:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:487
+#: ../includes/lib/extend/push/push.options.php:822
+msgid "Color of single posts and pages - Content."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:493
+#: ../includes/lib/extend/push/push.options.php:828
+msgid "Heading Tag:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:494
+#: ../includes/lib/extend/push/push.options.php:829
+msgid ""
+"Color of heading HTML tags {h1, h2, h3, h4, h5, h6} that appear inside a "
+"single post or page."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:500
+#: ../includes/lib/extend/push/push.options.php:835
+msgid "PRE Tag: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:501
+#: ../includes/lib/extend/push/push.options.php:836
+msgid ""
+"Background Color of {pre} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:507
+#: ../includes/lib/extend/push/push.options.php:842
+msgid "PRE Tag: <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:508
+#: ../includes/lib/extend/push/push.options.php:843
+msgid "Text Color of {pre} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:514
+#: ../includes/lib/extend/push/push.options.php:849
+msgid "HR Tag: <br />(color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:515
+#: ../includes/lib/extend/push/push.options.php:850
+msgid "Color of {hr} HTML tag that appear inside a single post or page."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:521
+#: ../includes/lib/extend/push/push.options.php:856
+msgid "Tag Links:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:522
+#: ../includes/lib/extend/push/push.options.php:857
+msgid "Color of Tag Links that appear at the bottom of a single post."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:528
+#: ../includes/lib/extend/push/push.options.php:898
+msgid "Post Navigation: <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:529
+#: ../includes/lib/extend/push/push.options.php:899
+msgid "Color of 2 post navigation links that appear below a single post."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:535
+#: ../includes/lib/extend/push/push.options.php:905
+msgid "Image Caption: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:536
+#: ../includes/lib/extend/push/push.options.php:906
+msgid "Background color of Image Captions."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:542
+#: ../includes/lib/extend/push/push.options.php:912
+msgid "Image Caption: <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:543
+#: ../includes/lib/extend/push/push.options.php:913
+msgid "Color of Image Captions"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:549
+#: ../includes/lib/extend/push/push.options.php:933
+msgid "Footer Box Widget Title: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:550
+#: ../includes/lib/extend/push/push.options.php:934
+msgid "Changes the background image or color of the Footerbox widget's title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:556
+#: ../includes/lib/extend/push/push.options.php:940
+msgid "Footer Box Widget Body: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:557
+#: ../includes/lib/extend/push/push.options.php:941
+msgid "Changes the background image or color of the Footerbox widget's body."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:563
+#: ../includes/lib/extend/push/push.options.php:947
+msgid "Widgets Title: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:564
+#: ../includes/lib/extend/push/push.options.php:948
+msgid ""
+"Changes the background image or color of the Primary sidebar's widget title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:570
+#: ../includes/lib/extend/push/push.options.php:954
+msgid "Widgets Body: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:571
+#: ../includes/lib/extend/push/push.options.php:955
+msgid ""
+"Changes the background image or color of the Primary sidebar's widget body."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:582
+#: ../includes/lib/extend/push/push.options.php:966
+msgid "Fonts Types"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:587
+#: ../includes/lib/extend/push/push.options.php:971
+msgid "Font Type for Site Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:595
+#: ../includes/lib/extend/push/push.options.php:979
+msgid "Font Type for Site Description."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:603
+#: ../includes/lib/extend/push/push.options.php:987
+msgid "Font Type for Homepage Post's Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:611
+#: ../includes/lib/extend/push/push.options.php:995
+msgid "Font Type for Homepage Post's Meta."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:619
+#: ../includes/lib/extend/push/push.options.php:1003
+msgid "Font Type for Homepage Post's Excerpt."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:626
+#: ../includes/lib/extend/push/push.options.php:1010
+msgid "Read more [button]:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:627
+#: ../includes/lib/extend/push/push.options.php:1011
+msgid "Font Type for \"read more\" [button]."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:634
+#: ../includes/lib/extend/push/push.options.php:1018
+msgid "Primary Sidebar Title:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:635
+#: ../includes/lib/extend/push/push.options.php:1019
+msgid "Font Type for Primary Sidebar Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:643
+#: ../includes/lib/extend/push/push.options.php:1027
+msgid "Font Type for Primary Sidebar Links."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:650
+#: ../includes/lib/extend/push/push.options.php:1034
+msgid "Primary Sidebar Content:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:651
+#: ../includes/lib/extend/push/push.options.php:1035
+msgid "Font Type for Primary Sidebar Content."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:658
+#: ../includes/lib/extend/push/push.options.php:1042
+msgid "Footerbox Widget Title:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:659
+#: ../includes/lib/extend/push/push.options.php:1043
+msgid "Font Type for Footerbox Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:666
+#: ../includes/lib/extend/push/push.options.php:1050
+msgid "Footerbox Widget Content:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:667
+#: ../includes/lib/extend/push/push.options.php:1051
+msgid "Font Type for Footerbox Widget Content."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:674
+#: ../includes/lib/extend/push/push.options.php:1058
+msgid "Footerbox Links:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:675
+#: ../includes/lib/extend/push/push.options.php:1059
+msgid "Font Type for Footerbox Links."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:682
+#: ../includes/lib/extend/push/push.options.php:1066
+msgid "Footer Text:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:683
+#: ../includes/lib/extend/push/push.options.php:1067
+msgid "Font Type for Footer Text."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:691
+#: ../includes/lib/extend/push/push.options.php:1091
+msgid "Font Type for Single Post or Page Title."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:698
+#: ../includes/lib/extend/push/push.options.php:1098
+msgid "Single Post Meta:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:699
+#: ../includes/lib/extend/push/push.options.php:1099
+msgid "Font Type for Single Post or Page Meta."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:707
+#: ../includes/lib/extend/push/push.options.php:1107
+msgid "Font Type for Single Post or Page Content."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:714
+#: ../includes/lib/extend/push/push.options.php:1114
+msgid "PRE Tag:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:715
+#: ../includes/lib/extend/push/push.options.php:1115
+msgid "Font Type for {pre} HTML Tag."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:722
+#: ../includes/lib/extend/push/push.options.php:1122
+msgid "Single Post List:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:723
+#: ../includes/lib/extend/push/push.options.php:1123
+msgid "Font Type for List {li HTML Tag} on Single Post or Page."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:730
+#: ../includes/lib/extend/push/push.options.php:1130
+msgid "Single Post Headings:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:731
+#: ../includes/lib/extend/push/push.options.php:1131
+msgid "Font Type for Post or Page Headings. {H1, H2, H3, H4, H5, H6 Tags}"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:792
+#: ../includes/lib/extend/push/push.options.php:1205
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:800
+#: ../includes/lib/extend/push/push.options.php:1213
+msgid "Custom CSS Styles:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:801
+#: ../includes/lib/extend/push/push.options.php:1214
+msgid ""
+"<strong>Important:</strong> Use this section only if you are well versed "
+"with CSS styling. Any bad input here can ruin the entire look of your theme. "
+"You can put your custom CSS styles here. It is recommended that you use this "
+"section rather than editing <i>style.css</i> directly. "
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:817
+#: ../includes/lib/extend/push/push.options.php:1231
+msgid "Slideshow"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:821
+#: ../includes/lib/extend/push/push.options.php:1235
+msgid "Toggle Carousel"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:822
+#: ../includes/lib/extend/push/push.options.php:1236
+msgid "Type of Carousel"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:829
+#: ../includes/lib/extend/push/push.options.php:1243
+msgid "Slideshow Speed"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:830
+#: ../includes/lib/extend/push/push.options.php:1244
+msgid "Speed of slideshow"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:836
+#: ../includes/lib/extend/push/push.options.php:1250
+msgid "Slideshow Animation Speed"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:837
+#: ../includes/lib/extend/push/push.options.php:1251
+msgid "Speed of slideshow animation"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:843
+#: ../includes/lib/extend/push/push.options.php:1257
+msgid "Hide Navigation:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:844
+#: ../includes/lib/extend/push/push.options.php:1258
+msgid "Hide left and right navigation"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:849
+#: ../includes/lib/extend/push/push.options.php:1263
+msgid "Smooth Height:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:850
+#: ../includes/lib/extend/push/push.options.php:1264
+msgid "Disable Smooth Height."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:856
+#: ../includes/lib/extend/push/push.options.php:1270
+msgid "Animation Type"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:857
+#: ../includes/lib/extend/push/push.options.php:1271
+msgid "Slideshow animation type."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:863
+#: ../includes/lib/extend/push/push.options.php:1277
+msgid "Slideshow Direction"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:864
+#: ../includes/lib/extend/push/push.options.php:1278
+msgid "Slideshow Direction."
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:871
+#: ../includes/lib/extend/push/push.options.php:1285
+msgid "Slideshow Image 1:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:872
+#: ../includes/lib/extend/push/push.options.php:1286
+msgid "First Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:878
+#: ../includes/lib/extend/push/push.options.php:1292
+msgid "Slideshow Image 2:"
+msgstr ""
+
+#: ../includes/lib/extend/mod.options.php:879
+#: ../includes/lib/extend/push/push.options.php:1293
+msgid "Second Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:88
+msgid ""
+"Put the Favicon Icon image here. <a href=\"http://webdesign.about.com/od/"
+"favicon/f/blfaqfavicon1.htm\" target=\"_blank\"><i>What is Favicon?</i></a> "
+"<i class=\"mdf mdf-external-link valign-bottom font-11\"></i>"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:125
+msgid "Read more: <br />(text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:126
+msgid "Text to be displayed as the read more button."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:159
+msgid ""
+"Select the number of columns you want for Footerbox. <br /><i class=\"mdf "
+"mdf-warning font-11\"></i> Why is footerbox is hidden? <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:169
+msgid "Full-width Template"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:170
+msgid ""
+"Defines the width of a page/post when viewed in full width (without "
+"sidebars)."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:192
+msgid "Hide Continue Reading Link:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:193
+msgid ""
+"Checking this will disable 'Continue Reading' link on homepage and archive "
+"pages."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:246
+msgid "Disable Breadcrumbs:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:247
+msgid "Checking this will hide Breadcrumbs."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:253
+msgid "Hide Pagination:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:254
+msgid "Checking this will hide Bottom Pagination"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:260
+msgid "Hide Authorbox:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:261
+msgid "Checking this will hide Author box on posts."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:267
+msgid "Hide 'No Comments' Box:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:268
+msgid ""
+"Checking this will hide \"Sorry, Comments are closed.\" box below posts."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:274
+msgid "Hide Footer Text:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:275
+msgid "Checking this will hide (copyright) Footer Text."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:281
+msgid "Disable Post Meta:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:282
+msgid ""
+"Checking this will hide posts meta \"Written on....\" text from home and "
+"archive pages."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:338
+msgid "Hide Theme Header:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:339
+msgid "Checking this will hide Theme Header completely."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:349
+msgid "3 Featured Boxes"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:353
+msgid "Hide Featured Boxes:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:354
+msgid ""
+"Checking this will hide the '3 featured boxes' throughout the website. (This "
+"is a global setting and will override others)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:360
+msgid "Homepage Only:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:361
+msgid ""
+"Checking this will show '3 featured boxes' only on homepage and not anywhere "
+"else."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:367
+msgid "Featured Box #1 Title:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:368
+msgid "This will be the title of the 1st column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:374
+msgid "Featured Box #1 Content:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:375
+msgid "This will be the content of the 1st column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:381
+msgid "Featured Box #1 Icon:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:382
+msgid "This will be the icon of the 1st column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:389
+msgid "Featured Box #2 Title:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:390
+msgid "This will be the title of the 2nd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:396
+msgid "Featured Box #2 Content:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:397
+msgid "This will be the Content of the 2nd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:403
+msgid "Featured Box #2 Icon:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:404
+msgid "This will be the icon of the 2nd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:411
+msgid "Featured Box #3 Title:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:412
+msgid "This will be the title of the 3rd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:418
+msgid "Featured Box #3 Content:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:419
+msgid "This will be the content of the 3rd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:425
+msgid "Featured Box #3 Icon:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:426
+msgid "This will be the icon of the 3rd column in Featured Area."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:441
+msgid "Hide Primary Menu:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:442
+msgid "Checking this will hide Primary Menu."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:448
+msgid "Hide Bottom Menu:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:449
+msgid "Checking this will hide Bottom Menu."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:455
+msgid "Primary Menu:<br /> (background)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:456
+msgid "Changes primary menu background color or image."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:462
+msgid "Primary Menu:<br />(border)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:463
+msgid "Color of Primary menu border."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:469
+msgid "Primary Menu:<br /> (text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:470
+msgid "Color of Primary Menu Links."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:477
+msgid "Primary Menu:<br /> (hover-background)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:478
+msgid ""
+"Change the primary menu background color or image for mouse hover. <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:484
+msgid "Primary Menu:<br /> (hover-text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:485
+msgid "Color of Primary Menu Links (mouse hover)."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:491
+msgid "Dropdown Menu:<br />(background)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:492
+msgid "Change the dropdown menu background color or image. <a href=\""
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:498
+msgid "Dropdown Menu:<br />(border)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:499
+msgid "Color of Primary Menu -> dropdown menu border."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:505
+msgid "Dropdown Menu: <br />(text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:506
+msgid "Color of Primary Menu -> dropdown menu links."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:512
+msgid "Dropdown Menu :<br />(hover-background)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:513
+msgid ""
+"Change the dropdown menu background color or image for mouse hover. <a href="
+"\""
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:519
+msgid "Dropdown Menu: <br />(hover-border)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:520
+msgid "Color of Primary Menu -> dropdown menu (mouse hover) border."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:526
+msgid "Dropdown Menu: <br />(hover-text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:527
+msgid "Color of Primary Menu -> dropdown menu links (mouse hover)."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:533
+msgid "Bottom Menu: <br />(text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:540
+msgid "Bottom Menu: <br />(hover-text)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:554
+msgid "Hide Social Share Buttons:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:555
+msgid ""
+"Checking this will hide social share buttons. (Facebook, Twitter, Linkedin, "
+"Google+)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:568
+msgid "Social Icons Color:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:569
+msgid "Color of Social Icons."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:575
+msgid "Social Icons Color: <br/>(mouse hover)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:576
+msgid "Color of Social Icons (mouse hover)."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:652
+msgid "Instagram Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:653
+msgid ""
+"Instagram profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:659
+msgid "Dribbble Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:660
+msgid ""
+"Dribbble profile url (include http:// or https:// in the beginning of the "
+"URL)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:666
+msgid "Github Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:667
+msgid ""
+"Github profile url (include http:// or https:// in the beginning of the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:673
+msgid "Stack Overflow Profile URL:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:674
+msgid ""
+"Stack Overflow profile url (include http:// or https:// in the beginning of "
+"the URL)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:779
+msgid ""
+"Color of the line that divides each post on the homepage.(Only for \"Classic "
+"White\" skin.)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:785
+msgid "Homepage Pagination: <br />(text color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:786
+msgid "Color of Pagination links that appear at the bottom."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:792
+msgid "Homepage Pagination: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:793
+msgid "Background color of Pagination links that appear at the bottom."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:799
+msgid "Homepage Pagination Border: <br />(border color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:800
+msgid "Border color of Pagination links that appear at the bottom."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:863
+msgid "Authorbox: <br />(about author)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:864
+msgid "Text color of authorbox <i>\"about the author\"</i> section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:870
+msgid "Authorbox: <br />(author info)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:871
+msgid "Text color of authorbox <i>\"author information\"</i> section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:877
+msgid "Authorbox: <br />(border color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:878
+msgid "Color or the border around the entire authorbox."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:884
+msgid "Authorbox Gravatar: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:885
+msgid "Background Color of the author's Gravatar or Image section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:891
+msgid "Authorbox Info: <br />(background color):"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:892
+msgid "Background Color of the entire authorbox but Gravatar or Image section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:919
+msgid "Footer Background Color:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:920
+msgid "Background color of Theme's Footer."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:926
+msgid "Footer Box: <br />(background color)"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:927
+msgid "Changes the background image or color of the entire Footerbox."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1074
+msgid "Primary Menu:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1075
+msgid "Font Type for Primary Menu."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1082
+msgid "Bottom Menu:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1083
+msgid "Font Type for Bottom Menu."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1138
+msgid "Authorbox <br />(about the author):"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1139
+msgid "Font Type for Authorbox \"about the author\" section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1146
+msgid "Authorbox <br />(info):"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1147
+msgid "Font Type for Authorbox \"author info\" section."
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1299
+msgid "Slideshow Image 3:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1300
+msgid "Third Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1306
+msgid "Slideshow Image 4:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1307
+msgid "Fourth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1313
+msgid "Slideshow Image 5:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1314
+msgid "Fifth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1320
+msgid "Slideshow Image 6:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1321
+msgid "Sixth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1327
+msgid "Slideshow Image 7:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1328
+msgid "Seventh Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1334
+msgid "Slideshow Image 8:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1335
+msgid "Eighth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1341
+msgid "Slideshow Image 9:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1342
+msgid "Ninth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1348
+msgid "Slideshow Image 10:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1349
+msgid "Tenth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1355
+msgid "Slideshow Image 11:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1356
+msgid "Eleventh Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1362
+msgid "Slideshow Image 12:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1363
+msgid "Twelfth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1369
+msgid "Slideshow Image 13:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1370
+msgid "Thirteenth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1376
+msgid "Slideshow Image 14:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1377
+msgid "Fourteenth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1383
+msgid "Slideshow Image 15:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1384
+msgid "Fifteenth Slideshow Image"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1394
+msgid "Google Analytics"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1402
+msgid "Google Analytics Script:"
+msgstr ""
+
+#: ../includes/lib/extend/push/push.options.php:1403
+msgid ""
+"<strong>Important:</strong> Insert your Google Analytics Javascript code "
+"here. This code will be inserted into all the pages of your theme. If you "
+"don't know about Google Analytics code generation then you can <a href=\""
+msgstr ""
+
+#: ../page.php:30
+msgid "Edit"
+msgstr "Rediger"
+
+#: ../search.php:22
+#, php-format
+msgid " Search Result for: %s"
+msgstr "Søgeresultat for: %s"
+
+#: ../sidebar-left.php:18 ../sidebar-right.php:18
+msgid "Recent Posts"
+msgstr "Seneste Indlæg"
+
+#: ../sidebar-left.php:24 ../sidebar-right.php:24
+msgid "Recent Comments"
+msgstr "Seneste Kommentarer"
+
+#: ../sidebar-left.php:29 ../sidebar-right.php:29
+msgid "Search"
+msgstr "Søg"
+
+#: ../sidebar-left.php:34 ../sidebar-right.php:34
+msgid "Tags"
+msgstr "Tags"

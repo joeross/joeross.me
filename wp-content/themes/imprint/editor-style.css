@@ -1,0 +1,374 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 3, 2013, 12:34:28 PM
+    Author     : mudThemes
+*/
+
+/*******************
+     CSS Reset
+********************/
+
+html .mceContentBody {
+    padding: 0 10px;
+	max-width: 615px;
+}
+
+body {
+    font-family: Arial, Helvetica, "Helvetica Neue", sans-serif;
+    line-height: 1;
+}
+
+pre, code, kbd, pre, tt, var {
+    font-family: "Courier New", Courier, monospace;
+}
+
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+address, caption, cite, code, dfn, th, var {
+    font-style: normal;
+    font-weight: normal; 
+}
+
+td, th, caption {
+    font-weight: normal;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img, fieldset {
+    border: 0;
+}
+
+q:before, q:after {
+    content:'';
+}
+
+a img {
+    border: none;
+}
+
+ol ol {
+    list-style-type: upper-alpha;
+}
+
+ol ol ol {
+    list-style-type:lower-roman;
+}
+
+ol ol ol ol {
+    list-style-type:lower-alpha;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+    margin:0;
+}
+
+dl,
+dt,
+dd {
+    margin: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+cite, em, i {
+    font-style: italic;
+    border: none;
+}
+
+
+/***********************
+        Editor CSS
+************************/
+
+h1, h2, h3, h4, h5, h6 {
+    clear: both;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 28px;
+    padding: 10px 0 40px 0;
+}
+
+h2 {
+    font-size: 24px;
+    padding: 10px 0 30px 0;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 5px 0 30px 0;
+}
+
+h4 {
+    font-size: 20px;
+    padding: 5px 0 25px 0;
+}
+
+h5 {
+    font-size: 18px;
+    padding: 5px 0 25px 0;
+}
+
+h6 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 5px 0 25px 0;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.4em;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+}
+
+ol {
+    padding-left: 25px;
+    list-style-type: decimal;
+    margin: 0 0 25px 0;
+}
+
+ul {
+    padding-left: 25px;
+    list-style-type: disc;
+    margin: 0 0 25px 0;
+}
+
+li {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+dl {
+    padding:0 0 25px 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    padding: 10px 0 18px 40px;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+address {
+    font-size: 14px;
+    padding: 0 0 25px 0;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+big {
+    font-size: 140%;
+}
+
+ins {
+    padding: 0 3px;
+    text-decoration: none;
+}
+
+del {
+    padding: 0 3px;
+    text-decoration: line-through;
+}
+
+q {
+    font-style: italic;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5em;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 0 40px;
+    letter-spacing: 1px;
+}
+
+blockquote p {
+    font-size: 14px;
+}
+
+blockquote cite,
+blockquote em,
+blockquote i {
+    font-style: normal;
+}
+
+blockquote cite {
+    display: block;
+    float: right;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+
+pre {
+    font-size: 15px;
+    line-height: 21px;
+    margin: 0 0 25px 0;
+    padding: 1.5em;
+    overflow: auto;
+}
+
+abbr, acronym,
+abbr[title], acronym[title]{
+    cursor: help;
+    border-bottom: 1px dashed #000;
+}
+
+sup, sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+    font-size: 10px;
+}
+
+sup {
+    bottom: 1ex;
+}
+
+sub {
+    top: .5ex;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    height: 1px;
+    margin-bottom:25px;
+}
+
+var,
+tt,
+kbd,
+code {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 13px;
+    line-height: 21px;
+}
+
+/******************************
+            Tables
+*******************************/
+table {
+    margin: 0 auto 25px auto;
+    text-align: left;
+    width: 95%;
+}
+
+tbody tr th {
+    font-family: Times;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    padding-bottom: 12px;
+    line-height: 17px;
+
+}
+thead th {
+    font-family: Times;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px;
+    padding-bottom: 7px;
+
+}
+tr td {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+
+/*************************
+    Colors (White Skin)
+**************************/
+
+ins {
+    background: #D4FCBC;
+    border-bottom: 1px dotted #47AD09;
+    color: #333;
+}
+del {
+    background-color: #FBB6C2;
+    color: #555;
+}
+pre {
+    background: #f7f7f7;
+    color: #222;
+}
+abbr, acronym {
+    border-bottom: 1px solid #666;
+}
+hr {
+    background-color: #e7e7e7;
+}
+var,
+tt,
+kbd,
+code {
+    background-color: #eae8e8;
+}
+strong,
+b,
+dt,
+th {
+    color: #000;
+}
+
+a:link {
+    color: #444;
+}
+
+a:visited {
+    color: #444;
+}
+
+a:hover {
+    color: #888;
+}
+
+/******* Table ********/
+
+thead th {
+    color: #FFF;
+    background-color: #444;
+    border: 1px solid #000;
+}
+tbody tr th {
+    background-color: #EEE;
+    border: 1px solid #999;
+}
+tbody tr th a {
+    text-decoration: none;
+}
+tr td {
+    border: 1px solid #999;
+}

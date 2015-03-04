@@ -1,0 +1,151 @@
+/**
+ * Sass for layout rules.
+ *
+ * Widths, margins, padding, alignment.
+ *
+ * @package WordPress
+ * @subpackage anchorage
+ * @since anchorage 1.0
+ */
+
+/* Grid */
+.zero-width {
+	width: 0;
+	overflow: hidden;
+}
+
+.one-of-five {
+	width: 20%;
+}
+
+.two-of-five {
+	width: 40%;
+}
+
+.three-of-five {
+	width: 60%;
+}
+
+.four-of-five {
+	width: 80%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+/* Needs to be about 23px wider than outer wrappers to prevent odd lateral whitespace around full width elements that have a bg color */
+body {
+	/*min-width: $small_device;*/
+}
+
+/* Desktop Chrome enforces a 400px min-width anyways. */
+.outer-wrapper {
+	width: 100%;
+	min-width: $small_device;
+	clear: both;
+}
+
+.inner-wrapper {
+	max-width: $large_device;
+	margin: 0 auto;
+	display: block;
+	clear: both;
+	padding: 0 $large_padding;
+}
+
+/* Vertical Spacing */
+#respond,
+.editable-content label, /* wp core uses labels to wrap inputs */ 
+.gallery-item,
+.content-holder > *,
+.inner-wrapper > * {
+	margin-bottom: $large_margin	
+}
+
+.textwidget > :last-child,
+form > :last-child,
+form > :last-child :last-child,
+fieldset > :last-child,
+.wp-caption > :last-child,
+blockquote > :last-child,
+.content-holder > :last-child,
+.inner-wrapper > :last-child {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+/**
+ * Padded boxes
+ */
+.accent-block,
+.accent-block:last-child,
+#respond,
+.editable-content form,
+.editable-content form:last-child {
+	padding: $large_padding;
+	clear: both;
+	border-radius: $small_border-radius;
+}
+
+.accent-block > * {
+	margin-bottom: $x_large_margin;
+}
+.accent-block > *:last-child {
+	margin-bottom: 0;
+}
+
+/**
+ * For those inner wrappers who have all their children inline,
+ * their children do not need bottom padding.
+ */
+.has-halfs > * {
+	margin-bottom: 0px;	
+}
+
+/* 50/50 elements */
+.has-halfs >:first-child,
+.has-halfs >:nth-child(2) {
+	display: inline-block;
+	width: 49.4%;
+}
+
+.has-halfs >:first-child {
+	padding-right: 5%;
+}
+
+.has-halfs >:nth-child(2) {
+	padding-left: 5%;
+}
+
+.has-halfs >:nth-child(2),
+.has-halfs >:nth-child(2) > * {
+	text-align: right;
+}
+
+.inverse-band,
+.outer-wrapper {
+	padding: $large_padding 0;
+}
+
+.inverse-band {
+	margin-bottom: $x_large_margin;
+}
+
+/**
+ * The loop is a little bit special and gets some extra spacing that we don't see elsewhere.
+ */
+
+.home #loop {
+	margin-top: $large_margin;
+}
+
+#loop {
+	margin-bottom: $x_large_margin;
+}
+
+@media ( max-width: $small_device ) {
+	.home #loop {
+		margin-top: $medium_margin;
+	}
+}

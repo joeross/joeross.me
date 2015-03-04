@@ -1,0 +1,270 @@
+/* 	SKT Parallaxme
+Document :layout.css
+Created on :June, 2014
+Author  :SKT THemes - sktthemes.net
+Description:Main style sheet for the SKT Parallaxme
+------------------------------------------------------------------------------------------------------------------
+All sections are marked to make it easier to navigate and change the css.
+*/
+
+/*
+-------------------------
+font families
+-------------------------
+font-family:'PT Sans Narrow', sans-serif; font-family:'PT Sans', sans-serif; */
+
+/* 1. Basic Element Styles */
+body {font-family:'PT Sans', Helvetica, sans-serif; font-size:14px; color:#555; margin:0; padding:0; }
+/* Add Market Deco Font */
+ul {margin:0; padding:0; list-style-type:none; }
+ul ul{ margin:0 0 0 30px; padding:0;}
+img {max-width:100%; vertical-align:middle; height:auto; }
+.ra {text-align:right; }
+a {text-decoration:none; color:#3a3a3a; }
+a:hover {text-decoration:none; color:#E74C3C; }
+/* Heading Styles */
+h1.heading {font-size:48px; color:#333333; font-weight:normal; text-align:center; margin:0 0 30px 0; padding:0 0 50px 0; background:url("../images/heading-splitter.png") center bottom no-repeat; }
+h1.heading span {color:#e74c3c; }
+.lead {color:#555; font-size:22px; }
+.fleft{float:left !important;}
+.fright{float:right !important;}
+.wp-caption{border:1px #eee solid; background:#f6f6f6; padding:5px 0 5px; text-align:center; margin:5px 0 10px; max-width:100%;}
+.wp-caption-text{padding:5px 0 0; margin:0; font-size:11px;}
+.alignright{float:right; margin:0 0 5px 20px;}
+.alignleft{float:left; margin:0 20px 5px 0;}
+.aligncenter { display: block; margin:0 auto 10px; }
+.alignnone{display:block; margin:0 0 10px;}
+.sticky{padding-left:10px; border-left:5px #E74C3C solid;}
+.gallery-caption{font-size:11px;}
+
+/* layout */
+#wrap_all{position:relative; z-index:1;}
+
+/* Section Styles */
+section {overflow:hidden; }
+
+/* 2. Header */
+.xshow-bg {background:#f2f1e6; }
+.show-bg .logo h1{font-size:28px; padding:10px 0; margin:0; line-height:1; color:#e74c3c; font-weight:bold;}
+.show-bg nav{text-transform:uppercase;}
+
+/* 3. Feature Styles (Slider) */
+.feature {background:transparent; min-height:560px; color:#fff; font-size:12px; padding:0; margin-bottom:0; position:relative; } /*56px;*/ 
+.feature p {margin:0; }
+.feature p.tel {text-align:right; }
+.feature .feat-info {border-bottom:1px solid #fff; padding-bottom:10px; }
+.feature .slider {position:relative; margin:0 auto; width:580px; }
+
+/* 4. Services Styling */
+.services {text-align:center; }
+.services p {padding:0; }
+.services .lead {text-align:center; position:relative; margin:0 auto 20px auto; width:820px; max-width:100%;}
+.service-icons {overflow:hidden; margin-bottom:20px; }
+.service-icons .item {text-align:center; margin-right:20px; margin-left:20px; }
+.service-icons .item img {margin:0 0 23px 0; }
+.service-icons .item h2 {margin:0 0 13px 0; color:#333333; font-size:22px; font-weight:bold; }
+.service-icons .item p {margin:0; font-size:18px; color:#555; }
+
+/* 5. Testimonials Styling */
+.testimonials { margin:0; padding:10px 0; font-size:18px; }
+.testimonials ul.testi {overflow:hidden; }
+.testimonials ul.testi li {overflow:hidden; }
+.testimonials h2 {text-align:center; font-size:36px; font-weight:normal; border-bottom:1px solid #ccc; margin:0; padding:0 0 20px 0; }
+.testimonials img {float:left; margin:0 40px 0 0; height:auto; }
+.testimonials p.test {float:left; width:770px; margin:0; padding:0; }
+.testimonials strong {float:right; display:block; margin:0; padding:0; }
+.testimonials span {color:#e74c3c; font-weight:bold; }
+
+/* 6. Photobooth/Portfolio Styling */
+.photobooth{}
+.photobooth .intro {margin:0 0 50px 0; }
+.services_txt .intro p, .parallaxme p {font-size:16px; margin:15px 0; padding:0; text-align:left; }
+.services_txt ul, .parallaxme ul{list-style:url(../images/bullet.png) inside; font-size:16px;}
+.services_txt ul li, .parallaxme ul li{padding:5px 0;}
+.photobooth .eleven strong {color:#333; font-size:24px; font-style:italic; margin-bottom:13px; display:block; }
+.photobooth .eleven em {color:#555; font-size:18px; }
+.photobooth .five {font-size:24px; color:#555; margin-top:0; padding-top:0; line-height:31px; }
+.photobooth .filter-gallery {position:relative; width:483px; margin:0 auto 30px auto; text-align:center; }
+.photobooth .filter-gallery ul {overflow:hidden; border-top:1px solid #c1bfbf; border-bottom:1px solid #c1bfbf; }
+.photobooth .filter-gallery ul li {float:left; padding:15px; }
+.photobooth .filter-gallery ul li.current {font-weight:bold; }
+.photobooth .gallery ul li {background:#000; float:left; cursor:pointer; position:relative; -webkit-transition:all 0.6s ease-in-out; -moz-transition:all 0.6s ease-in-out; -ms-transition:all 0.6s ease-in-out; -o-transition:all 0.6s ease-in-out; transition:all 0.6s ease-in-out; background:url("../images/camera-icon.png") 50% 0 no-repeat #000000; margin:0 1px 1px 0; }
+.photobooth .gallery ul li em {color:#111; background:url("../images/heart-icon.png") 50% 0 no-repeat #ffffff; margin:0; padding:10px 0; position:absolute; width:313px; display:none; text-align:center; bottom:0; opacity:0.8; -webkit-transition:all 0.6s ease-in-out; -moz-transition:all 0.6s ease-in-out; -ms-transition:all 0.6s ease-in-out; -o-transition:all 0.6s ease-in-out; transition:all 0.6s ease-in-out; }
+.photobooth .gallery ul li em span {margin-top:20px; display:block; font-weight:bold; }
+.photobooth .gallery ul li strong {color:#fff; margin:0; padding:10px 0; position:absolute; width:313px; display:none; text-align:center; bottom:0; opacity:0.8; }
+.photobooth .gallery ul li img {-webkit-transition:all 0.6s ease-in-out; -moz-transition:all 0.6s ease-in-out; -ms-transition:all 0.6s ease-in-out; -o-transition:all 0.6s ease-in-out; transition:all 0.6s ease-in-out; }
+.photobooth .gallery ul li:hover {background:#000; float:left; background:url("../images/camera-icon.png") 50% 20% no-repeat #000000; }
+.photobooth .gallery ul li:hover img {opacity:0.3; }
+.photobooth .gallery ul li:hover strong {color:#fff; margin:0; padding:10px 0; position:absolute; width:313px; display:block; text-align:center; bottom:50%; opacity:0.8; }
+.photobooth .gallery ul li:hover em {color:#111; background:url("../images/heart-icon.png") 50% 10px no-repeat #ffffff; margin:0; padding:10px 0; position:absolute; width:313px; display:block; text-align:center; bottom:0; opacity:0.8; font-style:normal !important; font-weight:bold;}
+.photobooth .gallery ul li:hover em span {margin-top:20px; display:block; }
+
+/* 7. Twitter Feed Styling */
+#tweeter {margin:0 0 85px 0; height:148px; background:url("../images/parallaxme-board.png") 0 0 no-repeat; color:#666; font-size:20px; min-width:600px; }
+#tweeter #twitter {padding:34px 0 0 210px; }
+#tweeter p {margin-top:35%; }
+
+/* 8. parallaxme */
+.parallaxme {text-align:center; margin-bottom:20px; }
+.parallaxme p.intro {font-size:24px; color:#555; width:820px; position:relative; margin:0 auto 70px auto; }
+.parallaxme ul {overflow:hidden; }
+.parallaxme ul li {margin:0 30px 0 0 !important; }
+.parallaxme ul li img {margin-bottom:14px; }
+.parallaxme ul li h2 {font-size:24px; color:#333; margin:0 0 5px 0; }
+.parallaxme ul li strong {color:#666; font-size:18px; margin-bottom:9px; display:block; }
+.parallaxme ul li p {margin:0 0 10px 0; font-size:14px; }
+.parallaxme ul li ul.social2 {margin-left:70px; }
+.parallaxme ul li ul.social2 li {float:left; margin:0 10px; }
+.parallaxme ul li ul.social2 li img:hover {opacity:0.7; }
+.parallaxme ul li.columns.five {width:295px; margin:0 17px 0 0; }
+
+/* 9. About Styling */
+.about {margin-bottom:100px; }
+.about .razor {background:url("../images/razor-splitter.png") 0 0 no-repeat; height:65px; margin-bottom:70px; }
+.about .text {border-right:1px solid #ddd; padding-right:34px; margin-right:46px !important; }
+.about .text .short {font-size:24px; color:#666; margin:0 0 16px 0; }
+.about .text .long {font-size:18px; color:#666; margin-top:0; }
+.about .skills ul li em {font-weight:bold; font-style:normal; color:#666; font-size:16px; }
+.about .skills ul li p {position:relative; background:#f1f0f0; height:20px; margin:4px 0 17px 0; }
+.about .skills ul li.one p span {background:#eaac9e; height:5px; padding:7px 0; width:77%; display:block; }
+.about .skills ul li.one p strong {position:absolute; right:10px; width:47px; border-radius:50px; background:#474646; text-align:center; color:#fff; }
+.about .skills ul li.two p span {background:#eaac9e; height:5px; padding:7px 0; width:67%; display:block; }
+.about .skills ul li.two p strong {position:absolute; right:20px; width:47px; border-radius:50px; background:#474646; text-align:center; color:#fff; }
+.about .skills ul li.three p span {background:#eaac9e; height:5px; padding:7px 0; width:84%; display:block; }
+.about .skills ul li.three p strong {position:absolute; right:5px; width:47px; border-radius:50px; background:#474646; text-align:center; color:#fff; }
+.about .skills ul li.four p span {background:#eaac9e; height:5px; padding:7px 0; width:65%; display:block; }
+.about .skills ul li.four p strong {position:absolute; right:30px; width:47px; border-radius:50px; background:#474646; text-align:center; color:#fff; }
+.about .skills ul li.five p span {background:#eaac9e; height:5px; padding:7px 0; width:80%; display:block; }
+.about .skills ul li.five p strong {position:absolute; right:15px; width:47px; border-radius:50px; background:#474646; text-align:center; color:#fff; }
+.about .skills ul span:hover,
+.about .skills ul strong:hover,
+.about .skills ul span:hover {opacity:0.7; }
+
+/* 10. Ghost Div(Devices) */
+.ghost {background:#242424; padding:30px 0; text-align:center; margin-bottom:86px; }
+.ghost h2 {color:#fff; font-size:30px; margin:0 0 23px 0; font-weight:normal; }
+.ghost h2 span {color:#eaac9e; }
+.ghost img {position:relative; margin:0 auto; width:706px; }
+
+/* 11. Blog Section Styling */
+.post-date, .post-comment, .post-categories, .post-tags{display:inline-block;}
+article .entry-summary, article .entry-content{ margin-bottom:20px; padding-bottom:5px;}
+.pagination{display:block; clear:both; padding:10px 0;}
+.pagination ul{list-style:none;}
+.pagination ul li{display:inline-block; margin-right:4px;}
+.pagination ul li a, .pagination ul li span{display:block; background:#e74c3c; color:#fff; padding:4px 10px; border-bottom:2px #9c261a solid;}
+.pagination ul li span.current, .pagination ul li a:hover{ background:#eaac9e; border-color:#e74c3c; color:#9c261a; }
+.post-navigation{display:block; clear:both; padding:10px 0;}
+.nav-previous, .nav-next{display:inline-block;}
+.nav-previous{float:left;}
+.nav-next{float:right;}
+.footer .widget-title{display:none;}
+section#sitefull{width:100%; padding-top:40px; padding-bottom:50px; float:none;}
+section#sitemain{width:680px; padding-top:40px; padding-bottom:50px; float:left;}
+#sidebar{width:240px; padding-top:70px; padding-bottom:50px; float:right;}
+#sidebar .widget{padding-bottom:20px;}
+
+/* 12. Contact section styling */
+.hello .lead {text-align:center; position:relative; margin:0 auto 80px auto; width:820px; }
+.hello .details {margin-bottom:35px; }
+.hello .details h2 {margin:0 0 15px 0; font-size:24px; color:#333; }
+.hello .details p {font-size:18px; color:#555; margin:0 0 25px 0; }
+.hello .details h3 {margin:0 0 15px 0; font-size:24px; color:#333; }
+.hello .details ul {font-size:18px; color:#555; }
+.hello .form{padding-bottom:20px;}
+.hello .form input,
+.hello .form textarea {font-size:14px; color:#a7a7a7; border:1px solid #d6d6d6; background:#fff; padding:10px; height:20px; width:95%; margin:15px 0 0 0; }
+.hello .form textarea {height:120px; margin:15px 0 20px 0; }
+.hello .form button {float:right; line-height:0; }
+.hello .form .error {color:#ca5f6b; }
+.map{background:#fff; margin-top:25px; border:10px solid #fff; box-shadow:0 0 10px rgba(0, 0, 0, 0.5); -moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5); -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5); -o-box-shadow:0 0 10px rgba(0, 0, 0, 0.5); -ms-box-shadow:0 0 10px rgba(0, 0, 0, 0.5); }
+.map .gmnoprint {display:none; top:150px !important; }
+.map iframe {border:none; }
+.razor2, hr {background:url("../images/razor-splitter.png") center center no-repeat; height:65px; margin-bottom:20px; border:none;}
+
+/* 13. Footer Styling */
+.footer {padding:20px 0; background:#000; }
+.footer p {margin:0; padding:0; color:#fff; }
+.footer .text {text-align:left; padding-top:17px;}
+.footer .text p {color:#c3c3c3; font-size:12px; }
+.footer .footer-logo {text-align:center;}
+.footer .footer-logo h2{font-size:24px; color:#fff;}
+.footer a, .footer .footer-logo a:hover{color:#e74c3c;}
+.footer a:hover{color:#fff; transition:color 0.5s ease;}
+.social-links{float:right !important;}
+.footer .social-links{overflow:hidden; padding:13px 0 0; text-align:right; float:right;}
+.footer .social-links a{margin-left:5px; opacity:0.8;}
+.footer .social-links a:hover{margin-left:5px; opacity:1;}
+
+/* 14. Button Styling */
+/* Default btn */
+a.btn {color:#fff; }
+.btn {color:#fff; font-weight:bold; font-size:14px; width:100px; height:43px; border:none; background:#e74c3c; border-bottom:4px solid #822016; line-height:43px; padding:12px 23px; }
+.btn:hover {color:#fff; font-weight:bold; font-size:14px; width:100px; height:43px; border:none; background:#822016; border-bottom:4px solid #e74c3c; }
+
+/* developer styles */
+.show-bg{padding:20px 0; background:#f2f1f1; width:100%;}
+.show-bg.fixedmenu{padding:10px 0; position:fixed; top:0; z-index:100;}
+body.admin-bar .show-bg.fixedmenu{top:32px;}
+#content_part{background-color:#fff;}
+section#section1, section#section2, section#section3, section#section4, section#section5, section#section6, section#section7, section#section8, section#section9, section#section10, section#section11, section#section12, section#section13, section#section14, section#section15, section#section16, section#section17, section#section18, section#section19, section#section20{ padding-top:80px; padding-bottom:50px;}
+body.admin-bar section#section1, body.admin-bar section#section2, body.admin-bar section#section3, body.admin-bar section#section4, body.admin-bar section#section5, body.admin-bar section#section6, body.admin-bar section#section7, body.admin-bar section#section8, body.admin-bar section#section9, body.admin-bar section#section10, body.admin-bar section#section11, body.admin-bar section#section12, body.admin-bar section#section13, body.admin-bar section#section14, body.admin-bar section#section15, body.admin-bar section#section16, body.admin-bar section#section17, body.admin-bar section#section18, body.admin-bar section#section19, body.admin-bar section#section20{ padding-top:120px;}
+.cover{background-color:#f6f6f6; }
+input.search-field, .widget_archive select{border:1px #ccc solid; padding:3px;}
+input.search-submit, .btn_small, .read-more a{background:#e74c3c; border:none; padding:3px 10px; color:#fff; border-bottom:2px #9c261a solid; position:relative; top:-1px;}
+input.search-submit:hover, .btn_small:hover, .read-more a:hover{background:#eee; border-bottom-color:#ccc; color:#e74c3c;}
+/* Padding for anchor Links */
+
+/* Admin styles */
+#wpadminbar .quicklinks ul{display:inline-block;}
+.container .service-icons .five.columns{width:305px;}
+.buy_pro_version{position:absolute; top:-20px; right:0;}
+.buy_pro_version a{background:#e74c3c; color:#fff; padding:4px 10px 3px; font-size:14px; font-weight:bold; border-bottom:dotted 2px #f2f1f1;}
+.show-bg.fixedmenu .buy_pro_version{top:-10px;}
+.menu{display:block;}
+.post-thumb{ margin-bottom:15px;}
+#calendar_wrap{ width:100%; margin:0; padding:}
+table#wp-calendar caption{ font-size:1.71em; margin:0.3em 0; color:#000000; width:82%; padding:0 !important;}
+table#wp-calendar tr th{ font-size:1.10em; padding:0 20px 10px 0;}
+#optionsframework p{margin-bottom: 0; padding: 0 10px !important; line-height: 1.4em;}
+
+/* ------ Woocommerce ------- */
+select.orderby{ margin:0; padding:0; height:35px; font:14x 'PT Sans', Helvetica, sans-serif; color:#4e4e4e; border:1px solid #cccccc;}
+.woocommerce ul.products li.product .price, .woocommerce-page ul.products li.product .price{ color:#e74c3c !important;}
+
+/* MEDIA QUERIES */
+@media screen and (min-width:768px){	
+	.show-bg .logo{ float:left;}
+	.show-bg nav{float:right; min-width:550px; padding-top:15px; width:700px; font-size:14px; font-weight:bold;}
+	.show-bg nav ul{text-align:right; width:100%;}
+	.show-bg nav ul li{display:inline-block; position:relative;}
+	.show-bg nav ul li a{padding:5px 10px; background:transparent; color:#5c5c5c; display:block;} 
+	.show-bg nav ul li ul{display:none; font-weight:normal; font-size:13px;}
+	.show-bg nav ul li:hover ul{display:block; position:absolute; background:url(../images/menu_hover_bg.png) repeat left top; left:0; top:24px; width:160px; text-align:left; z-index:99; margin:0 !important;}
+	.show-bg nav ul li:hover ul li{display:block; border-top:1px #666 solid; position:relative;}
+	.show-bg nav ul li:hover ul li a, .show-bg nav ul li:hover ul li:hover ul li a{display:block; color:#fff;}
+	.show-bg nav ul li.current-menu-item a, .show-bg nav ul li.current-menu-ancestor a, .show-bg nav ul li.current-menu-parent a, .show-bg nav ul li a:hover, .show-bg nav ul li:hover ul li:hover a, .show-bg nav ul li:hover ul li:hover ul li a:hover, .show-bg nav ul li ul li.current-menu-item a, .show-bg nav ul li ul li.current-menu-parent a, .show-bg nav ul li ul li.current-menu-parent ul li.current-menu-item a, .show-bg nav ul li ul li ul li.current-menu-parent a{color:#e74c3c;}
+	.show-bg nav ul li:hover ul li ul{display:none;}
+	.show-bg nav ul li:hover ul li:hover ul{display:block; position:absolute; left:160px; top:-1px;}
+	.mobile_nav{display:none;}
+	ol.comment-list{ list-style:none;}
+	span.screen-reader-text{ display:block; margin-bottom:5px;}
+}
+
+@media screen and (max-width:767px){	
+	.show-bg .logo{ float:none; display:block; text-align:center; padding-bottom:10px;}
+	.show-bg nav{float:none; display:none; max-height:162px; overflow-x:hidden; overflow-y:scroll}
+	.show-bg nav > ul{width:100%;}
+	.show-bg nav > ul li{display:block; float:none; margin-right:0;}
+	.show-bg nav > ul li a{color:#fff; padding:10px; display:block; background:url(../images/menu_hover_bg.png) repeat left top; border-bottom:1px #555 solid;}
+	.show-bg nav > ul li a:hover, .show-bg nav ul li.current_page_item a, .show-bg nav ul li.current_page_item ul li a:hover{background:#000;}
+	.show-bg nav ul li.current_page_item ul li a{background:url(../images/menu_hover_bg.png) repeat left top transparent;}
+	.show-bg nav > ul li ul{display:block;}
+	.show-bg nav > ul li ul li a{padding-left:20px;}
+	.show-bg nav > ul li ul li ul li a{padding-left:30px;}
+	.show-bg nav > ul li ul li a:before{content:"\00BB \00A0"; }
+	.mobile_nav{display:block; background:url(../images/mobile_nav_grad.png) repeat-x center center; border:1px #dadada solid;}
+	.mobile_nav a{display:block; padding:10px; background:url(../images/mobile_nav_right.png) no-repeat right center;}
+	ol.comment-list{ list-style:none;}
+	span.screen-reader-text{ display:block; margin-bottom:5px;}
+}

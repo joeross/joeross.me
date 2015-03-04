@@ -1,0 +1,19 @@
+.gf-slider-box {
+    position: fixed;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+    top: 0px;
+    z-index: 1000;
+}
+
+.gf-slider-box-content {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.gf-slider-button {
+    position: absolute;
+}

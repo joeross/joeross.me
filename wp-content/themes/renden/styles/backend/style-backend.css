@@ -1,0 +1,436 @@
+/* Add Styling to Admin Area */
+
+/*----------------------------------------------------
+	RECOMMENDED PLUGINS
+---------------------------------------------------- */
+
+/* Ready Google Maps */
+#gmpWelcomePageFindUsForm .about-message,
+#gmpWelcomePageFindUsForm .plug-icon-shell,
+#gmpWelcomePageFindUsForm > h2,
+#gmpWelcomePageFindUsForm label,
+#gmpWelcomePageFindUsForm .col-3,
+.gmpAdminFooterShell {
+	display: none !important;
+}
+
+#gmpEditMapForm > div:nth-child(4), 
+#gmpEditMapForm > div:nth-child(5), 
+#gmpEditMapForm > div:nth-child(6),
+#gmpEditMapForm > div:nth-child(7),
+#gmpEditMapForm > div:nth-child(9),
+#gmpEditMapForm > div:nth-child(11),
+#gmpEditMapForm > div:nth-child(24) {
+    display: none !important;
+}
+
+
+/*----------------------------------------------------
+	REDUX CUSTOM STYLING
+---------------------------------------------------- */
+
+/* Ready Google Maps */
+#gmpWelcomePageFindUsForm .about-message,
+#gmpWelcomePageFindUsForm .plug-icon-shell,
+#gmpWelcomePageFindUsForm > h2,
+#gmpWelcomePageFindUsForm label,
+#gmpWelcomePageFindUsForm .col-3,
+.gmpAdminFooterShell {
+	display: none !important;
+}
+
+#gmpEditMapForm > div:nth-child(4), 
+#gmpEditMapForm > div:nth-child(5), 
+#gmpEditMapForm > div:nth-child(6),
+#gmpEditMapForm > div:nth-child(7),
+#gmpEditMapForm > div:nth-child(9),
+#gmpEditMapForm > div:nth-child(11),
+#gmpEditMapForm > div:nth-child(24) {
+    display: none !important;
+}
+
+
+/*----------------------------------------------------
+	REDUX CUSTOM STYLING
+---------------------------------------------------- */
+
+/* Hide default descriptions */
+#redux-container .showDefaults {
+	display: none;
+}
+
+.redux-group-tab-link-a span.group_title {
+	padding-left: 40px !important;
+}
+.redux-title {
+	color: #777;
+	font-size: 14px;
+	font-weight: bold;
+}
+#redux-main input {
+	border-color: #ccc !important;
+}
+#redux-container .wp-editor-container input[type="button"]:hover {
+	cursor: pointer
+}
+.redux-group-tab .redux-section-desc,
+.redux-help.redux-info-field {
+	padding: 15px 10px;
+	line-height: 1.5em;
+	font-size: 12px;
+	background-color: #EFF9FF;
+	border: 1px solid #D6F0FF;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+}
+.redux-group-tab .redux-section-desc h3,
+.redux-help.redux-info-field .redux-info-desc {
+	line-height: 1.5;
+	margin: 0;
+	border: none;
+}
+#redux-container p.help, 
+#redux-container p.description, 
+#redux-container span.description, 
+#redux-container .form-wrap p,
+#redux-container .form-table td {
+	font-size: 11px;
+}
+.redux-group-tab .form-table tr th {
+	min-width: 255px;
+	padding-right: 40px;
+}
+
+#redux-container .form-table th,
+#redux-container .form-table td {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#redux-container .redux-info-field {
+	margin: 0;
+}
+#redux-container .redux-image-select {
+	padding-top: 5px;
+	padding-bottom: 0;
+}
+#redux-container .redux-radio-container ul,
+#redux-container .redux-checkbox-container ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#redux-container .redux-group-tab .form-table tr:first-child th,
+#redux-container .redux-group-tab .form-table tr:first-child td {
+	padding-top: 10px;
+}
+
+/* Homepage - Disable autop */
+#redux-container #section-thinkup_homepage_addtext {
+border-bottom: none;
+}
+#redux-container #section-thinkup_homepage_addtext th,
+#redux-container #section-thinkup_homepage_addtext td {
+	padding-bottom: 0;
+}
+#redux-container #section-thinkup_homepage_addtext textarea {
+	height: 180px;
+}
+
+/* Homepage - Slider */
+.redux-slides-accordion-group h3 {
+	position: relative;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 1em 2.4em;
+}
+.ui-accordion .ui-accordion-content input {
+	max-width: 100%
+}
+.ui-accordion .ui-accordion-header .ui-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+	width: 16px;
+	height: 16px
+}
+
+/* Social Media */
+#redux-container #section-thinkup_header_facebooklink,
+#redux-container #section-thinkup_header_facebookiconswitch,
+#redux-container #section-thinkup_header_twitterlink,
+#redux-container #section-thinkup_header_twittericonswitch,
+#redux-container #section-thinkup_header_googlelink,
+#redux-container #section-thinkup_header_googleiconswitch,
+#redux-container #section-thinkup_header_linkedinlink,
+#redux-container #section-thinkup_header_linkediniconswitch,
+#redux-container #section-thinkup_header_flickrlink,
+#redux-container #section-thinkup_header_flickriconswitch,
+#redux-container #section-thinkup_header_pinterestlink,
+#redux-container #section-thinkup_header_pinteresticonswitch,
+#redux-container #section-thinkup_header_youtubelink,
+#redux-container #section-thinkup_header_youtubeiconswitch,
+#redux-container #section-thinkup_header_rsslink,
+#redux-container #section-thinkup_header_rssiconswitch {
+	border:none;
+}
+#redux-container #section-thinkup_header_facebookiconswitch th,
+#redux-container #section-thinkup_header_facebookiconswitch td,
+#redux-container #section-thinkup_header_twittericonswitch th,
+#redux-container #section-thinkup_header_twittericonswitch td,
+#redux-container #section-thinkup_header_googleiconswitch th,
+#redux-container #section-thinkup_header_googleiconswitch td,
+#redux-container #section-thinkup_header_linkediniconswitch th,
+#redux-container #section-thinkup_header_linkediniconswitch td,
+#redux-container #section-thinkup_header_flickriconswitch th,
+#redux-container #section-thinkup_header_flickriconswitch td,
+#redux-container #section-thinkup_header_pinteresticonswitch th,
+#redux-container #section-thinkup_header_pinteresticonswitch td,
+#redux-container #section-thinkup_header_youtubeiconswitch th,
+#redux-container #section-thinkup_header_youtubeiconswitch td,
+#redux-container #section-thinkup_header_rssiconswitch th,
+#redux-container #section-thinkup_header_rssiconswitch td {
+	padding-bottom: 0;
+}
+
+/* Portfolio */
+#redux-container #section-thinkup_portfolio_layout .redux-image-select {
+	max-width: 300px;
+}
+
+/* Notification Bar */
+#redux-container #section-thinkup_notification_backgroundcolourswitch,
+#redux-container #section-thinkup_notification_maintextcolourswitch,
+#redux-container #section-thinkup_notification_buttoncolourswitch,
+#redux-container #section-thinkup_notification_buttontextcolourswitch {
+	border: none;
+}
+#redux-container #section-thinkup_notification_backgroundcolourswitch th,
+#redux-container #section-thinkup_notification_backgroundcolourswitch td,
+#redux-container #section-thinkup_notification_maintextcolourswitch th,
+#redux-container #section-thinkup_notification_maintextcolourswitch td,
+#redux-container #section-thinkup_notification_buttoncolourswitch th,
+#redux-container #section-thinkup_notification_buttoncolourswitch td,
+#redux-container #section-thinkup_notification_buttontextcolourswitch th,
+#redux-container #section-thinkup_notification_buttontextcolourswitch td {
+	padding-bottom: 0;
+}
+
+/* Special Pages */
+#redux-container #section-thinkup_404_content {
+	border-bottom: none;
+}
+#redux-container #section-thinkup_404_content th,
+#redux-container #section-thinkup_404_content td {
+	padding-bottom: 0;
+}
+#redux-container #section-thinkup_404_content textarea {
+	height: 180px;
+}
+
+/* SEO noodp and noydir message */
+#redux-container #seo-information {
+	font-weight: normal;
+}
+
+/* Typography */
+#redux-container #section-thinkup_font_bodyswitch,
+#redux-container #section-thinkup_font_bodyheadingswitch,
+#redux-container #section-thinkup_font_preheaderswitch,
+#redux-container #section-thinkup_font_mainheaderswitch,
+#redux-container #section-thinkup_font_footerheadingswitch,
+#redux-container #section-thinkup_font_mainfooterswitch,
+#redux-container #section-thinkup_font_postfooterswitch,
+#redux-container #section-thinkup_font_slidertitleswitch,
+#redux-container #section-thinkup_font_slidertextswitch {
+	border: none;
+}
+#redux-container #section-thinkup_font_bodyswitch th,
+#redux-container #section-thinkup_font_bodyswitch td,
+#redux-container #section-thinkup_font_bodyheadingswitch th,
+#redux-container #section-thinkup_font_bodyheadingswitch td,
+#redux-container #section-thinkup_font_preheaderswitch th,
+#redux-container #section-thinkup_font_preheaderswitch td,
+#redux-container #section-thinkup_font_mainheaderswitch th,
+#redux-container #section-thinkup_font_mainheaderswitch td,
+#redux-container #section-thinkup_font_footerheadingswitch th,
+#redux-container #section-thinkup_font_footerheadingswitch td,
+#redux-container #section-thinkup_font_mainfooterswitch th,
+#redux-container #section-thinkup_font_mainfooterswitch td,
+#redux-container #section-thinkup_font_postfooterswitch th ,
+#redux-container #section-thinkup_font_postfooterswitch td,
+#redux-container #section-thinkup_font_slidertitleswitch th,
+#redux-container #section-thinkup_font_slidertitleswitch td,
+#redux-container #section-thinkup_font_slidertextswitch th,
+#redux-container #section-thinkup_font_slidertextswitch td {
+	padding-bottom: 0;
+}
+
+/* Hide shortcode button in Redux */
+#redux-container #cldra_thinkupshortcodes-engine-shortcodeinsert {
+	display: none;
+}
+
+/* Image select alignment */
+#redux-container .redux-image-select {
+	text-align: left;
+}
+
+/* Homepage Pre-Designed Content */
+#redux-container #section-thinkup_homepage_section1_icon,
+#redux-container #section-thinkup_homepage_section1_title,
+#redux-container #section-thinkup_homepage_section1_desc,
+#redux-container #section-thinkup_homepage_section2_icon,
+#redux-container #section-thinkup_homepage_section2_title,
+#redux-container #section-thinkup_homepage_section2_desc,
+#redux-container #section-thinkup_homepage_section3_icon,
+#redux-container #section-thinkup_homepage_section3_title,
+#redux-container #section-thinkup_homepage_section3_desc {
+	border-bottom: none;
+}
+#redux-container #section-thinkup_homepage_section1_icon td,
+#redux-container #section-thinkup_homepage_section1_title td,
+#redux-container #section-thinkup_homepage_section1_desc td,
+#redux-container #section-thinkup_homepage_section2_icon td,
+#redux-container #section-thinkup_homepage_section2_title td,
+#redux-container #section-thinkup_homepage_section2_desc td,
+#redux-container #section-thinkup_homepage_section3_icon td,
+#redux-container #section-thinkup_homepage_section3_title td,
+#redux-container #section-thinkup_homepage_section3_desc td {
+	padding-bottom: 0 !important;
+}
+#redux-container #section-thinkup_homepage_section1_icon .redux-select-item,
+#redux-container #section-thinkup_homepage_section1_link .redux-select-item,
+#redux-container #section-thinkup_homepage_section2_icon .redux-select-item,
+#redux-container #section-thinkup_homepage_section2_link .redux-select-item,
+#redux-container #section-thinkup_homepage_section3_icon .redux-select-item,
+#redux-container #section-thinkup_homepage_section3_link .redux-select-item {
+	width: 340px !important;
+	max-width: 340px;
+}
+#redux-container #section-thinkup_homepage_section1_desc textarea,
+#redux-container #section-thinkup_homepage_section2_desc textarea,
+#redux-container #section-thinkup_homepage_section3_desc textarea {
+	max-width: 340px;
+	height: 85px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+
+/*---------------------------------------------------- 
+	META BOXES
+---------------------------------------------------- */
+
+/* Custom styling for side metabox - Featured Media */
+._thinkup_meta_featuredmedia th,
+._thinkup_meta_featuredmediatype th,
+._thinkup_meta_featuredmediamain th {
+	width: 100% !important;
+	text-align: left !important;
+	border-bottom: none !important;
+	padding-bottom: 10px !important;
+}
+._thinkup_meta_featuredmedia input[type=text],
+._thinkup_meta_featuredmediatype select,
+._thinkup_meta_featuredmediamain select {
+	width: 90% !important;
+	margin-bottom: 10px !important;
+}
+._thinkup_meta_featuredmedia p,
+._thinkup_meta_featuredmediatype p,
+._thinkup_meta_featuredmediamain p {
+	font-size: 13px !important;
+}
+
+/* Custom styling for side metabox - Featured Media (Post Page) */
+#thinkup_metaboxfeaturedmedia_post th {
+	display: none !important;
+}
+#thinkup_metaboxfeaturedmedia_post p {
+	font-size: 13px !important;
+}
+
+/* Hide image sizes from in-page ThinkUpSlider & Featured gallery */
+#_thinkup_meta_sliderimages .imgpreview .sizes,
+#_thinkup_meta_sliderimages .imgpreview .preview,
+#_thinkup_meta_featuredgallery .imgpreview .sizes,
+#_thinkup_meta_featuredgallery .imgpreview .preview {
+	display: none;
+}
+
+/* Template Selection - Portfolio */
+#_thinkup_meta_pagetemplates  .field_template th {
+	width: 100% !important;
+	display: block !important;
+	padding-bottom: 0 !important;
+}
+#_thinkup_meta_pagetemplates  .field_template td {
+	display: block !important;
+}
+#_thinkup_meta_pagetemplates  .field_template select {
+	width: 100% !important;
+}
+
+
+
+
+
+/*---------------------------------------------------- 
+	HIDE META OPTION FROM SHORTCODE CATEGORIES LIST
+---------------------------------------------------- */
+#thinkupshortcodes-categories option[value="metaoptions"] {
+	display: none;
+}
+
+
+/*---------------------------------------------------- 
+	HIDE IN-DEVELOPMENT FEATURES
+---------------------------------------------------- */
+
+#demo-intro {
+	display: none;
+}
+._thinkup_meta_colorscheme {
+	display: none;
+}
+
+
+/*---------------------------------------------------- 
+	FIX REDUX IMAGE ISSUE - MEDIA UPLOADER
+---------------------------------------------------- */
+
+.redux-slides-image {
+	max-height: 340px;
+	max-width: 340px;
+	padding: 5px;
+	margin-top: 10px;
+	border: 1px solid #E3E3E3;
+	background: #F7F7F7;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/*---------------------------------------------------- 
+	UPGRADE PROMOTION TAB - REDUX
+---------------------------------------------------- */
+
+/* Color Upgrade tab */
+#redux-sidebar #redux-group-menu li:nth-child(10) a,
+#redux-sidebar #redux-group-menu li:nth-child(10) a:hover,
+#redux-sidebar #redux-group-menu li:nth-child(10).active a,
+#redux-sidebar #redux-group-menu li:nth-child(10).active a:hover {
+	opacity: 1;
+	color: #FFF;
+	background: #0067CE;
+	border: none;
+}
+#redux-main div:nth-child(10) .form-table {
+	display: none;
+}

@@ -1,0 +1,628 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hardpressed\n"
+"POT-Creation-Date: 2014-02-26 14:48+0800\n"
+"PO-Revision-Date: 2014-02-26 14:49+0800\n"
+"Last-Translator: ed cardinal <lizardking67@gmail.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\hardpressed\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/404.php:9
+msgid "Error 404 - Page Not Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/404.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching, or one of the links below, can help."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/404.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:49
+msgid "Most Used Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/404.php:27
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:57
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:13
+#, php-format
+msgid "<span class=\"arc-title\">Daily Archives:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:15
+#, php-format
+msgid "<span class=\"arc-title\">Monthly Archives:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:17
+#, php-format
+msgid "<span class=\"arc-title\">Yearly Archives:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:19
+msgid "<span class=\"arc-title\">Archives</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:50
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/author.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/category.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/index.php:34
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:37
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/tag.php:50
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/archive.php:54
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/author.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/category.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/index.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/tag.php:54
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/author.php:20
+#, php-format
+msgid "<span class=\"arc-title\">Author Archives:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/category.php:11
+#, php-format
+msgid "<span class=\"arc-title\">Category Archives:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/comments.php:9
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/comments.php:42
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/comments.php:54
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:65
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:9
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:10
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:113
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-page.php:14
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:80
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:144
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:69
+msgid "Leave a comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:144
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:69
+msgid "1 Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:144
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:69
+msgid "% Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-aside.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:148
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-page.php:15
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-quote.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:50
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-status.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:73
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:28
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:95
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:122
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:133
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:23
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:34
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:29
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:58
+msgid ", "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:126
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:27
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:51
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-gallery.php:137
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-image.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:66
+msgid "Written by "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:66
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:718
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content-single.php:73
+msgid "Website: "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/content.php:37
+msgid "Continue reading"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:11
+msgid "&copy; "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:13
+msgid "- Powered by "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:13
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:13
+msgid "WordPress"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:14
+msgid " and "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:14
+msgid "http://hostmarks.com/"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/footer.php:14
+msgid "Hostmarks"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:33
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:34
+msgid "Footer Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:100
+msgid "Site Title Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:113
+msgid "Text Color for: Nav Links &amp; Widget Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:126
+msgid "Background Color for: Post Entry Titles, Section Titles, Pagination"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:138
+msgid "Text Color for: Post &amp; Section Titles, Pagination"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:151
+msgid "Background Color for: Meta \"Posted on...\", Buttons, Bullets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:163
+msgid "Text Color for: Meta \"Posted on...\", Buttons, Bullets"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:176
+msgid "Body Text Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:189
+msgid "Post/Page Links Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:202
+msgid "Widget Background Color"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:211
+msgid "Site Logo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:213
+msgid "Upload a logo to replace the default site name in the header"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:221
+msgid ""
+"Choose your logo (ideal width is 100-300px and ideal height is 40-100px)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:229
+msgid "Social Media Icons"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:231
+msgid "Optional media icons in the header"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:239
+msgid "Enter your Facebook url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:250
+msgid "Enter your Twitter url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:261
+msgid "Enter your Google+ url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:272
+msgid "Enter your Pinterest url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:283
+msgid "Enter your Linkedin url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:294
+msgid "Enter your Youtube url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:305
+msgid "Enter your Tumblr url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:316
+msgid "Enter your Instagram url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:327
+msgid "Enter your Flickr url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:338
+msgid "Enter your Vimeo url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:349
+msgid "Enter your Yelp url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:360
+msgid "Enter your RSS url"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:371
+msgid "Enter your email address"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:380
+msgid "Display Author Bio"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:382
+msgid "Option to show/hide the author bio in the posts."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:391
+msgid "Show the author bio in posts?"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:423
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:432
+msgid "#73878F"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:441
+msgid "#67C8E2"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:450
+msgid "#ffffff"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:459
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:495
+msgid "#353e42"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:469
+msgid "#47b4d1"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:486
+msgid "#ffcd50"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:506
+msgid "#eff0e9"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:534
+msgid "Category"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:535
+msgid "Tag"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:536
+msgid "Author"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:537
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:42
+msgid "Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:542
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:546
+msgid "Page "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:610
+msgid "Sidebar Right"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:629
+msgid "Post navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:639
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:643
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:665
+msgid "Pingback:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:665
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:684
+msgid "(Edit)"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:675
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:682
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:691
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:712
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></"
+"a><span class=\"byline\"> <span class=\"sep\"> by </span> <span class="
+"\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel="
+"\"author\">%7$s</a></span></span>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:806
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:807
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/functions.php:822
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:60
+msgid "Untitled"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:33
+msgid "Facebook"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:37
+msgid "Twitter"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:41
+msgid "Google+"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:45
+msgid "Pinterest"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:49
+msgid "Linkedin"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:53
+msgid "Youtube"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:57
+msgid "Tumblr"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:61
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:65
+msgid "Instagram"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:69
+msgid "Vimeo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:73
+msgid "Yelp"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:77
+msgid "RSS"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:81
+msgid "mailto:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:81
+msgid "Email"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:91
+msgid "Main menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/header.php:92
+msgid "Skip to content"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:18
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s"
+"\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">"
+"%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:33
+msgid "&larr; Previous"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:34
+msgid "Next &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:87
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:89
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:91
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/image.php:93
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:14
+#, php-format
+msgid "<span class=\"arc-title\">Search Results for:</span> %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:41
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/search.php:44
+msgid "Or you can try these links below."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/searchform.php:10
+msgid "Search..."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:15
+msgid "Categories"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:25
+msgid "Latest Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/sidebar.php:49
+msgid "Popular Posts"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\hardpressed/tag.php:11
+#, php-format
+msgid "<span class=\"arc-title\">Tag Archives:</span> %s"
+msgstr ""

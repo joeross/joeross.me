@@ -1,0 +1,90 @@
+body{background-image: none;background-color:#e7e7e7;}
+#archive-container .archive-title h1 a:empty {border-bottom:none !important;}
+#featured-container img.custom-header-image {float:left;}
+#featured-container {height:auto;}
+#site-title a{float:left;}
+
+#header-container #branding-left{
+    width:40%;
+    overflow: visible;
+}
+
+#header-container #branding-right{
+    width:58%;
+    overflow: hidden;
+}
+
+#header-container .sidebar {
+    width:98%;
+    float: right;
+    overflow: hidden;
+    text-align: right;
+}
+
+p.nocomments, p.nopassword {
+    background-color: #e7e7e7;
+}
+
+/* Pagination */
+.archive-nav {clear:both;}
+.archive-nav a {color:#333; font-size: 13px; text-decoration: none; border-bottom: 1px solid #333;}
+
+/* Social Icons */
+#wrapper .social-icons {
+    float:right;
+    position: absolute;
+    top: 7px;
+    right: 8px;
+}
+.social-icons div.social_icon_solo {
+    display: inline-block;
+    float: left;
+    padding-left: 7px;
+}
+.social-icons a{
+    text-decoration: none !important;
+}
+
+.social_icon_solo a i {
+    font-size: 18px;
+    color: #888;
+}
+.social_icon_solo a i:hover {
+    color: #000;
+}
+
+/* Featured container */
+
+//#featured-container {padding-top: 5px; margin-bottom: 5px;}
+
+/* Footer Box */
+#sidebar-box h4.widget-title {
+    font-size:11px;
+    text-transform: uppercase;
+}
+#sidebar-box .widget,#sidebar-box .widget li{
+    font-size: 12px;
+}
+#sidebar-box .widget a{
+    font-size: 11px;
+    color: #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+/*Responsive Menu Fix*/
+#menu-container{
+    position:relative;
+}
+.mudrn-menu {
+    position: absolute;
+    zoom:1 !important;
+}
+#menu-container .mudrn-tab a:active{
+    background-color: transparent !important;
+}
+#menu-container .mudrn-tab a:visited{
+    background-color: transparent !important;
+}
+#menu-container #menu {
+    z-index:11;
+}

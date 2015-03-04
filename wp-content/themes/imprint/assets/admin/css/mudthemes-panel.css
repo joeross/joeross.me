@@ -1,0 +1,667 @@
+@import url("fonts/fonts.css");
+@import url("font-awesome.4.1.0.css");
+@import url("colorpicker.css");
+
+/* Font Awesome (Custom) */
+
+.fa {font-size: 14px;}
+.mud-fa-basicsettings:before {content: "\f013";}
+.mud-fa-themelayout:before {content: "\f009";}
+.mud-fa-3featuredboxes:before {content: "\f1b2";}
+.mud-fa-headersettings:before{content: "\f06c";}
+.mud-fa-menustyling:before{content: "\f03a";}
+.mud-fa-socialoptions:before{content: "\f007";}
+.mud-fa-coloroptions:before{content: "\f044";}
+.mud-fa-fontstypes:before{content: "\f035";}
+.mud-fa-customcss:before{content: "\f13c";}
+.mud-fa-slideshow:before{content: "\f03e";}
+.mud-fa-googleanalytics:before{content: "\f012";}
+
+
+/*******************
+     CSS Reset
+********************/
+#mudsettings-main-wrapper a {
+    outline: none !important;
+}
+.mudwrap h1, .mudwrap h2, .mudwrap h3, .mudwrap h4, .mudwrap h5, .mudwrap h6, .mudwrap p, .mudwrap select {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.mudwrap input {
+    margin: 0;
+    padding:0;
+    vertical-align: baseline;
+    font-size: 100%;
+    font-weight: normal;    
+}
+.mudwrap select, input {
+    float: left;
+}
+
+.explain {
+    clear: both;
+}
+
+.mudwrap .valign-bottom {
+    vertical-align: text-bottom;
+}
+.mudwrap .valign-middle {
+    vertical-align: middle;
+}
+.mudwrap .font-11 {
+    font-size: 11px;
+}
+.mudwrap .font-12 {
+    font-size: 12px;
+}
+
+
+/* Layout */
+
+#mudsettings-main-wrapper {
+    min-height: 100%;
+}
+
+#mudsettings-box-wrapper {
+    width: 90%;
+    max-width: 1055px;
+    overflow: hidden;
+    border: 1px solid #e1e1e1;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#mudsettings-header {
+    width:100%;
+    float:left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#mudsettings-panel {
+    width:100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#mudsettings-nav-wrapper {
+    width:16.7140%;
+    //min-width: 160px;
+    float:left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#mudsettings-content-wrapper {
+    position: relative;
+    width:82.2550%;
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#mudsettings-nav-wrapper .mud-nav-tab {
+    
+}
+
+#mudsettings-content {
+    width: 100%;
+}
+
+a.mudthemes-nav {
+    float:left;
+}
+
+#mudsettings-main-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*************************
+          Header Design
+*************************/
+#mudsettings-header {
+    position: relative;
+    //background-image: url('../images/mudpanel/headerbg.jpg');
+    background-repeat: no-repeat;
+    background-color: #f1f1f1;
+    font-family: chivoregular, sans-serif;
+    min-height: 120px;
+    color: #222;
+    line-height: 1;
+}
+#mudsettings-header span.mud-admin-version {
+    position:absolute;
+    top:28px;
+    left:195px;
+    font-size: 13px;
+}
+#mudsettings-header .mud-admin-logo {
+    min-height: 87px;
+}
+#mudsettings-header .upgrade-box{
+    -moz-box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 8px 17px;
+    background-color:#29a2ef;
+    text-align: left;
+    border-bottom: 1px solid #777;
+}
+.upgrade-box p,
+.upgrade-box a{
+    line-height: 18px;
+    font-size: 13px;
+    color: #f7f7f7;
+}
+.upgrade-box i {
+    font-size: 8px;
+    vertical-align: text-top;
+}
+.upgrade-box .span-header-download i{
+    font-size: 12px;
+    vertical-align: baseline;
+}
+#mudsettings-header .mud-header-menu {
+    float:right;
+    padding-top: 2px;
+    padding-right: 10px;
+}
+.mud-header-menu a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #555;
+}
+.mud-header-menu a:hover {
+    color: #F00000;
+}
+.mud-header-menu span {
+}
+.mud-header-menu i {
+    padding-right:3px;
+}
+#mudsettings-header h1 {
+    padding-bottom: 10px;
+    font-size: 36px;
+}
+
+/*************************
+    Content Box Design
+*************************/
+#mudsettings-box-wrapper {
+    background-color: #fafafa;
+}
+
+#mudsettings-content-wrapper {
+    background-image: none;
+    background-color: #fafafa;
+    border-left: 1px solid #e1e1e1;
+    padding-left: 10px;
+}
+
+#mudsettings-content {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    width: 100%;
+    padding: 15px 10px 10px 10px;
+    color: #222;
+}
+
+/**************************
+        Navigation Design
+***************************/
+#mudsettings-panel {
+    //background-image: url('../images/mudpanel/navbg.jpg');
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+a.mudthemes-nav {
+    color:#444;
+    width: 100%;
+    padding: 15px 0;
+    background-color:#e7e7e7;
+    //background-image: url('../images/mudpanel/navtabbg.jpg');
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #cecece;
+    text-align: left;
+    text-decoration: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:12px;
+    letter-spacing: 1px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a.mudthemes-nav:hover {
+    background-image:none;
+}
+
+a.mudthemes-nav i {
+    padding: 0 10px 0 7px;
+}
+.mudthemes-resp-nav a {
+    display: block;
+    color:#fff;
+    width: 100%;
+    padding: 15px 0 15px 0;
+    background-color:#00788e;
+    background-image: url('../images/mudpanel/navtabbg.jpg');
+    background-position: left top;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #CCC;
+    text-align: center;
+    text-decoration: none;
+    font-family: mondaregular, sans-serif;
+    font-size:1.1em;
+}
+
+a.mudnav-active {
+    background-image:none;
+    background-color: #FFF;
+    color: #333;
+    
+
+    //background-color: #FC7C27;
+}
+
+/************************
+          Form Elements
+************************/
+#of-option-footersettings,
+#of-option-customcss {
+    padding-bottom: 150px;
+}
+.mudwrap .section {
+    padding: 15px 10px 30px 5px;
+    border-bottom: 1px solid #e3e3e3;
+    overflow: hidden;
+}
+.mudwrap .option{
+    float:left;
+}
+.mudwrap .controls {
+    float: left;
+    line-height: 1;
+    //width: 50%;
+}
+
+.mudwrap .explain {
+    max-width: 375px;
+    padding-top: 10px;
+    font-family: chivoregular, sans-serif;
+    color: #666;
+}
+
+.mudwrap .section .heading {
+    width:195px;
+    display: inline;
+    float: left;
+    font-family: mondaregular, sans-serif;
+    font-size:13px;
+    color: #000;
+    padding: 0 0 10px 0;
+}
+
+.mudwrap .section-info {
+    padding: 5px 10px 15px 5px;
+    margin-bottom: 20px;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.mudwrap .section-info h2.heading {
+    text-shadow:none;
+    font-family: mondaregular, sans-serif;
+    font-size: 1.4em;
+    text-align: left;
+}
+
+.mudwrap .section-info p {
+    font-family: chivoregular, sans-serif;
+    color: #222;
+}
+
+.mudwrap .sectionlast {
+    border-bottom: none;
+}
+
+.mudwrap .subsectionlast {
+    border-bottom: none;
+}
+
+.mudwrap select {
+    //min-width: 175px;
+    width: auto;
+    height: 23px;
+    margin: 2px 10px 0 0;
+    padding: 2px 0 0 3px;
+    background-color:#e9e9e9;
+    font-family: alegreyaregular, serif;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.mudwrap input[type="text"] {
+    width: 200px;
+    height: 18px;
+    background-color:#e9e9e9;
+    font-family: alegreyaregular, serif;
+    font-size: 1.2em;
+}
+.mudwrap input.of-color[type="text"] {
+    width: 90px;
+    height: 23px;
+    margin: 2px 0 0 4px;
+    padding: 2px 0 2px 3px;
+    background-color:#e9e9e9;
+    font-family: alegreyaregular, serif;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.mudwrap input.of-background-color[type="text"] {
+    height: 23px;
+    margin-right: 5px;
+}
+
+.mudwrap input.checkbox[type="checkbox"] {
+    margin: 0 5px 0 0;
+    //background-color:#000;
+}
+
+.mudwrap input.of-radio[type="radio"] {
+    line-height: 14px !important;
+    vertical-align: baseline;
+}
+
+.mudwrap input.upload[type="text"] {
+    width: 200px;
+    height: 23px;
+    margin: 2px 0 0 0;
+    padding: 2px 0 2px 3px;
+    background-color:#e9e9e9;
+}
+
+.mudwrap input.mud-bg-upload[type="text"] {
+    width: 220px;
+}
+.mudwrap .upload_button {
+    height: 23px;
+    margin: 0 0 0 10px;
+    padding: 2px 14px 2px 14px;
+    background-image: none;
+    background-color: #ddd;
+}
+
+.mudwrap .section-upload .explain {
+    padding-top:13px;
+}
+.mudwrap .section-radio label {
+    float: left;
+    padding-left: 4px;
+    padding-right: 9px;
+    vertical-align: middle;
+}
+.mudwrap .section-radio .explain {
+    padding-top: 15px;
+}
+.mudwrap .section-checkbox .controls {
+    width:450px;
+}
+.mudwrap .section-checkbox label.explain {
+    vertical-align: middle;
+    padding-top: 0;
+    line-height: 14px;
+}
+.mudwrap .of-featured-box-icons {
+    position: relative;
+    float: left;
+    width: 370px; 
+    max-height: 250px;
+    overflow-y: scroll;
+    border-top: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;    
+}
+.mudwrap .of-featured-box-icons i {
+    -moz-box-sizing: border-box;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    border-left: none;
+    min-width: 35px;
+    padding: 5px;
+}
+.iconselected {
+    background-color: #000;
+    color: #FFF;
+}
+.mudwrap #of-option-3featuredboxes input[type="text"] {
+    width: 350px;
+    background-color:#FFF;    
+}
+.mudwrap #of-option-3featuredboxes textarea {
+    width: 350px;
+}
+.mudwrap textarea {
+    width:280px;
+    margin: 0 0 10px 0;
+}
+
+#mudcss_section strong {
+    color: #F00000;
+    border-bottom: 1px dashed #F00000;
+}
+
+.mudwrap #optionsframework-submit {
+    display:none;
+    margin-top: 20px;
+}
+.mudwrap .section-submit {
+    padding:10px 5px 10px 5px;
+}
+.mudwrap #optionsframework-submit .button-primary {
+    height:25px;
+    float:right;
+    line-height: 1;
+    background-color: #2A95C5;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2A95C5), to(#21759B));
+    background: -webkit-linear-gradient(top, #2A95C5, #21759B);
+    background: -moz-linear-gradient(top, #2A95C5, #21759B);
+    background: -ms-linear-gradient(top, #2A95C5, #21759B);
+    background: -o-linear-gradient(top, #2A95C5, #21759B);
+    background: linear-gradient(top, #2A95C5,​ #21759B);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#2A95C5', EndColorStr='#21759B');
+}
+
+.mudwrap #optionsframework-submit .button-secondary {
+    height:25px;
+    float:left;
+    line-height: 1;
+    background-color: #237c25;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4c954f), to(#237c25));
+    background: -webkit-linear-gradient(top, #4c954f, #237c25);
+    background: -moz-linear-gradient(top, #4c954f, #237c25);
+    background: -ms-linear-gradient(top, #4c954f, #237c25);
+    background: -o-linear-gradient(top, #4c954f, #237c25);
+    background: linear-gradient(top, #4c954f, #237c25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4c954f', EndColorStr='#237c25');
+    color: #FFF;
+    text-shadow: none;
+    -moz-box-shadow: inset 0 1px 0 rgb(79, 179, 81);
+    -webkit-box-shadow: inset 0 1px 0 rgb(79, 179, 81);
+    box-shadow: inset 0 1px 0 rgb(79, 179, 81);    
+    border: 1px solid #3a893b;
+}
+
+.mudwrap #optionsframework-submit-top {
+    background-color: #333;
+    width: 100%;
+    float: right;
+    padding-top:10px;
+}
+
+.mudwrap #optionsframework-submit-top .button-primary {
+    padding: 2px 4px;
+}
+
+.mudwrap #optionsframework-submit-top .button-secondary {
+    margin-left: 2px;
+    padding: 2px 4px;
+    float:left;
+    background-color: #234c25;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4c954f), to(#237c25));
+    background: -webkit-linear-gradient(top, #4c954f, #237c25);
+    background: -moz-linear-gradient(top, #4c954f, #237c25);
+    background: -ms-linear-gradient(top, #4c954f, #237c25);
+    background: -o-linear-gradient(top, #4c954f, #237c25);
+    background: linear-gradient(top, #4c954f, #237c25);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#4c954f', EndColorStr='#237c25');
+    background: linear-gradient(#4c954f, #237c25);
+    color: #FFF;
+    text-shadow: none;
+    -moz-box-shadow: inset 0 1px 0 rgb(79, 179, 81);
+    -webkit-box-shadow: inset 0 1px 0 rgb(79, 179, 81);
+    box-shadow: inset 0 1px 0 rgb(79, 179, 81);
+    border: 1px solid #3a893b;
+
+}
+
+.mudwrap .screenshot{
+    float: left;
+}
+.mudwrap .screenshot img{
+    float: left;
+    clear: both;
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+    max-width: 100%;    
+    display:block;
+}
+.mudwrap .screenshot a {
+    float: left;
+    clear: both;
+    margin-bottom:10px;
+    background-color: #29a2ef;
+    padding:3px 7px;
+    color: #fff;
+    border-radius: 3px;
+}
+.mudwrap .mud-scroll-div {
+    float: right;
+}
+.mudwrap .mud-admin-status {
+    font-family: mondaregular,​sans-serif;    
+    font-size: 17px;
+    position: absolute;
+    top: 50px;
+    left: 30%;
+    width: 160px;
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.mudwrap .restore_defaults {
+    background-color: #FFFF66;
+}
+
+.mudwrap .save_options {
+    background-color: #FFFF66;
+}
+
+.mudwrap .mud-options-upgrade-box {
+    width: 100%;
+}
+
+.mudwrap .menu-upgrade-box {
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+.mudwrap .mud-options-upgrade-box span {
+    font-family: chivoregular,​sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    background-color: #29a2ef;
+    color: #FFF;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.mudwrap .mud-options-upgrade-box span a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px dashed #FFF;
+}
+
+.mudwrap .font-upgrade-box span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/************************
+        Responsive Design
+************************/
+@media only screen and (max-width: 1200px){
+    
+    #mudsettings-box-wrapper {
+        width: 100%;
+        max-width: 1055px;
+    }
+
+}
+
+@media only screen and (max-width: 1070px){
+    
+    #mudsettings-nav-wrapper {
+        width: 23%;
+    }
+    #mudsettings-content-wrapper {
+        width: 76%;
+    }
+    .mudwrap .option {
+        float: left;
+        clear: both;
+    }
+
+}
+
+@media only screen and (max-width: 930px){
+    
+    #mudsettings-nav-wrapper {
+        width: 30px;
+    }
+    
+    .mudwrap .mud-nav-tab span {
+        display: none;
+    }
+    
+    .mudwrap .option {
+        padding-top: 10px;
+    }
+}
+.mudwrap .mudthemes-resp-nav {
+    display: none;
+}
+
+.mudwrap .controls .of-radio-img-img {
+    border:3px solid #f9f9f9;
+    margin:0 5px 10px 0;
+    display:none;
+    cursor:pointer;
+    float:left;
+}
+.mudwrap .controls .of-radio-img-selected {
+    border:3px solid #ddd;
+}
+.mudwrap .controls .of-radio-img-img:hover {
+    opacity:.8;
+}

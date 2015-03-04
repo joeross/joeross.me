@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'mondaregular';
+    src: url('monda-regular-webfont.eot');
+    src: url('monda-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('monda-regular-webfont.woff') format('woff'),
+         url('monda-regular-webfont.ttf') format('truetype'),
+         url('monda-regular-webfont.svg#mondaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

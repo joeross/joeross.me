@@ -1,0 +1,62 @@
+*** Hoffman changelog ***
+
+
+Version 1.09 (2014-09-24)
+-------------------------
+- Fixed a bug that prevented post videos from being displayed on index.php
+- Added a fixed -webkit-font-smoothing parameter to style.css
+
+
+Version 1.08 (2014-09-24)
+-------------------------
+- Fixed the same bug for the video post format meta boxes (for real this time)
+
+
+Version 1.07 (2014-09-16)
+-------------------------
+- Fixed a critical bug which caused the quote content and attribution boxes to malfunction
+
+
+Version 1.06 (2014-08-21)
+-------------------------
+- Escaped URLs
+- Added function prefixes
+- Misc bug fixes
+
+
+Version 1.05 (2014-08-18)
+-------------------------
+- Added licensing information for screenshot.png
+- Misc bug fixes
+
+
+Version 1.04 (2014-08-06)
+-------------------------
+- Updated style.css for brevity and browser compatibility
+- Added a missing namespace, updated the Swedish translation
+- Updated the form/input styling
+- Updated the editor style with missing elements
+
+
+Version 1.03 (2014-08-01)
+-------------------------
+- Spruced up the gallery slideshow navigation
+- Improved the navigation toggle
+
+
+Version 1.02 (2014-07-19)
+-------------------------
+- Added missing namespaces in single.php
+– Removed extra semicolon from the recent comments widget
+- Added missing brackets in functions.php
+- Updated the .mo for Swedish
+
+
+Version 1.01 (2014-07-18)
+-------------------------
+- Fixed the author position function in single.php
+– Fixed CSS conflict between the author avatar in single.php and Gravatar
+
+
+Version 1.0 (2014-07-17)
+------------------------- 

@@ -1,0 +1,334 @@
+# Translation of Sorbet in Japanese
+# This file is distributed under the same license as the Sorbet package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-08-06 03:45:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Sorbet\n"
+
+#: eventbrite/eventbrite-index.php:37 eventbrite/eventbrite-single.php:24
+msgid "All events"
+msgstr ""
+
+#: eventbrite/eventbrite-index.php:37 eventbrite/eventbrite-single.php:24
+msgid "Eventbrite events"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WordPress.com"
+msgstr "wordpress.com"
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width, No Sidebar"
+msgstr "全幅、サイドバーなし"
+
+#. Description of the plugin/theme
+msgid "Sorbet is a delicious treat for your blog or website. Colorful post formats help your content pop, while secondary information (navigation, search, social links, and widgets) is tucked neatly away in the header for easy access that doesn't crowd your content."
+msgstr "Sorbet は、ブログや Web サイト向けの「ごちそう」のようなテーマです。カラフルな投稿フォーマットでコンテンツをポップに見せつつ、アクセスを行いやすいようにヘッダーに 2 次情報 (ナビゲーション、検索、ソーシャルリンク、ウィジェット) を整理して配置できるので、コンテンツがすっきりとしたサイトを作成できます。"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索:"
+
+#: inc/template-tags.php:143
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: inc/template-tags.php:138 inc/template-tags.php:149
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#: inc/template-tags.php:134
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">おすすめ</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
+
+#: inc/template-tags.php:116
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: inc/template-tags.php:96
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: inc/template-tags.php:92
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">の発言:</span>"
+
+#: inc/template-tags.php:59
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+
+#: inc/template-tags.php:60
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+
+#: inc/template-tags.php:82
+msgid "Pingback:"
+msgstr "ピンバック:"
+
+#: inc/template-tags.php:27
+msgctxt "Older posts"
+msgid "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+
+#: inc/template-tags.php:31
+msgctxt "Newer posts"
+msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "投稿ナビゲーション"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "ページ %s"
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#: header.php:42
+msgid "Social Links"
+msgstr "ソーシャルリンク"
+
+#: header.php:44
+msgid "Search"
+msgstr "検索"
+
+#: header.php:39
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:176
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "on"
+
+#: header.php:37
+msgid "Menu"
+msgstr "メニュー"
+
+#: functions.php:85
+msgid "Header Column 1"
+msgstr "ヘッダーカラム 1"
+
+#: functions.php:93
+msgid "Header Column 2"
+msgstr "ヘッダーカラム 2"
+
+#: functions.php:101
+msgid "Header Column 3"
+msgstr "ヘッダーカラム 3"
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:167
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:51
+msgid "Social Links Menu"
+msgstr "ソーシャルリンクメニュー"
+
+#: functions.php:77
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:50
+msgid "Footer Menu"
+msgstr "フッターメニュー"
+
+#: functions.php:49
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: footer.php:22
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: content.php:49
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: content.php:49
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: content.php:49
+msgid "Leave a comment"
+msgstr "コメントする"
+
+#: content.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:32 content.php:39
+msgid ", "
+msgstr ", "
+
+#: content-single.php:18 content.php:17
+msgid "All %s posts"
+msgstr "すべての%s投稿"
+
+#: content-page.php:18 content-single.php:39 content.php:52
+#: eventbrite/eventbrite-index.php:50 eventbrite/eventbrite-single.php:39
+#: inc/template-tags.php:82 inc/template-tags.php:119
+msgid "Edit"
+msgstr "編集"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿をする準備ができましたか ?  <a href=\"%1$s\">ここからスタート</a>してください。"
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント &rarr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&larr; 古いコメント"
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "「%2$s」への%1$s件のフィードバック"
+
+#: archive.php:79 archive.php:80 archive.php:81
+msgid "%s"
+msgstr "%s"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "音声"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "チャット"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "状態"
+
+#: archive.php:54
+msgid "Links"
+msgstr "リンク"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "引用"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "動画"
+
+#: archive.php:45
+msgid "Images"
+msgstr "画像"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "アサイド"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "年別アーカイブ: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "月別アーカイブ: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "日別アーカイブ: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "作成者: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"

@@ -1,0 +1,39 @@
+/*
+Theme Name: Imprint
+Theme URI: http://www.mudthemes.com/showcase/imprint/
+Description: A customizable, colourable & multipurpose theme with fixed and responsive layouts. Have tonnes of fonts, colors & layout options with slider and social icons. Clean and neat theme, best for magazine,  personal & corporate blogs. Includes fully configurable slideshow running on flexslider plugin. Upto 6 sidebars, can be customized & coloured easily. Easy navigation with 2 menus (top and bottom). Beautifully portrays full width content without any sidebar or add either left sidebar or right sidebar easily. Proudly display your social profiles (facebook, twitter, linkedin, pinterest, tumblr, youtube, skype, flickr, google plus) and RSS feed icon. Adjusts flexibly across devices like iPad, iPhone, Android or others with various resolutions whether low or HD. Other features include custom CSS, featured image, thumbnails, web safe fonts, footer box, translation ready and others. Very strongly codes, uses hooks in most places, comes with 100% GPL license, dedicated support team, and online documentation.
+Version: 1.2.8
+Author: mudThemes
+Author URI: http://www.mudthemes.com
+Tags: White, one-column, two-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, theme-options, featured-image-header, threaded-comments
+License: GNU General Public License, v2 (or newer)
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+======================================================
+Imprint WordPress Theme, Copyright 2014 mudthemes.com
+Imprint is distributed under the terms of the GNU GPL
+======================================================
+
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License
+* as published by the Free Software Foundation; either version 2
+* of the License, or (at your option) any later version.
+* 
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+* 
+* You should have received a copy of the GNU General Public License
+* along with this program; if not, write to the Free Software
+* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+===========================================================
+* Note: see the "readme.txt" page for copyright and license 
+* information for bundled resources, including images.
+===========================================================
+*/
+
+
+@import url("assets/global/css/addon/fix.css");
+/* fix.css : The last style sheet called before child theme. */

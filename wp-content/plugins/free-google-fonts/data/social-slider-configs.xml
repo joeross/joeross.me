@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <config>
+        <id>1</id>
+        <name>Facebook Left</name>
+        <img>1.png</img>        
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider></gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>    
+        </data>
+    </config>
+    <config>
+        <id>2</id>
+        <name>Twitter Left</name>
+        <img>3.png</img>
+        <data>
+            <gfonts_social_fb_slider></gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>3</id>
+        <name>Facebook And Twitter Left</name>
+        <img>6.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>top</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>   
+        </data>
+    </config>
+    <config>
+        <id>4</id>
+        <name>Twitter And Facebook Left</name>
+        <img>5.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>top</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>   
+        </data>
+    </config>
+    <!-- RIGHT -->
+    <config>
+        <id>5</id>
+        <name>Facebook Right</name>
+        <img>2.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider></gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>    
+        </data>
+    </config>
+    <config>
+        <id>6</id>
+        <name>Twitter Right</name>
+        <img>4.png</img>
+        <data>
+            <gfonts_social_fb_slider></gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>7</id>
+        <name>Facebook And Twitter Right</name>
+        <img>8.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>top</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>   
+        </data>
+    </config>
+    <config>
+        <id>8</id>
+        <name>Twitter And Facebook Right</name>
+        <img>7.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_r1</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>tw_r1</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>top</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>   
+        </data>
+    </config>
+    <config>
+        <id>9</id>
+        <name>Small Facebook Left</name>
+        <img>9.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider></gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>    
+        </data>
+    </config>
+    <config>
+        <id>10</id>
+        <name>Small Twitter Left</name>
+        <img>12.png</img>
+        <data>
+            <gfonts_social_fb_slider></gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>11</id>
+        <name>Small Facebook And Twitter Left</name>
+        <img>13.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>-50</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>32</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>12</id>
+        <name>Small Twitter And Facebook Left</name>
+        <img>14.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>20</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>0</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>0</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>15</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>15</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>-32</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>0</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>0</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>15</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>15</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>13</id>
+        <name>Small Facebook Right</name>
+        <img>10.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider></gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>left</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>    
+        </data>
+    </config>
+    <config>
+        <id>14</id>
+        <name>Small Twitter Right</name>
+        <img>11.png</img>
+        <data>
+            <gfonts_social_fb_slider></gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>0</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>left</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>0</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>15</id>
+        <name>Small Facebook And Twitter Right</name>
+        <img>15.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>-50</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>32</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+    <config>
+        <id>16</id>
+        <name>Small Twitter And Facebook Right</name>
+        <img>16.png</img>
+        <data>
+            <gfonts_social_fb_slider>on</gfonts_social_fb_slider>
+            <gfonts_social_fb_slider_bgcolor>#ffffff</gfonts_social_fb_slider_bgcolor>
+            <gfonts_social_fb_slider_border>5</gfonts_social_fb_slider_border>
+            <gfonts_social_fb_slider_border_color>#3b5998</gfonts_social_fb_slider_border_color>
+            <gfonts_social_fb_slider_bt_margin>20</gfonts_social_fb_slider_bt_margin>
+            <gfonts_social_fb_slider_cscheme>light</gfonts_social_fb_slider_cscheme>
+            <gfonts_social_fb_slider_faces>on</gfonts_social_fb_slider_faces>
+            <gfonts_social_fb_slider_header>on</gfonts_social_fb_slider_header>
+            <gfonts_social_fb_slider_height>500</gfonts_social_fb_slider_height>
+            <gfonts_social_fb_slider_hp>right</gfonts_social_fb_slider_hp>
+            <gfonts_social_fb_slider_icon>fb_blue_64</gfonts_social_fb_slider_icon>
+            
+            <gfonts_social_fb_slider_radius_lb>15</gfonts_social_fb_slider_radius_lb>
+            <gfonts_social_fb_slider_radius_lt>15</gfonts_social_fb_slider_radius_lt>
+            <gfonts_social_fb_slider_radius_rb>0</gfonts_social_fb_slider_radius_rb>
+            <gfonts_social_fb_slider_radius_rt>0</gfonts_social_fb_slider_radius_rt>
+            <gfonts_social_fb_slider_stream></gfonts_social_fb_slider_stream>
+            
+            <gfonts_social_fb_slider_vp>middle</gfonts_social_fb_slider_vp>
+            <gfonts_social_fb_slider_width>250</gfonts_social_fb_slider_width>
+            <gfonts_social_fb_slider_zindex>10000</gfonts_social_fb_slider_zindex>
+            <gfonts_social_tw_slider>on</gfonts_social_tw_slider>
+            <gfonts_social_tw_slider_bgcolor>#ffffff</gfonts_social_tw_slider_bgcolor>
+            <gfonts_social_tw_slider_border>5</gfonts_social_tw_slider_border>
+            <gfonts_social_tw_slider_border_color>#4099ff</gfonts_social_tw_slider_border_color>
+            <gfonts_social_tw_slider_bt_margin>-32</gfonts_social_tw_slider_bt_margin>
+            <gfonts_social_tw_slider_cscheme>light</gfonts_social_tw_slider_cscheme>
+            <gfonts_social_tw_slider_footer>on</gfonts_social_tw_slider_footer>
+            <gfonts_social_tw_slider_header></gfonts_social_tw_slider_header>
+            <gfonts_social_tw_slider_height>500</gfonts_social_tw_slider_height>
+            <gfonts_social_tw_slider_hp>right</gfonts_social_tw_slider_hp>
+            <gfonts_social_tw_slider_icon>twitter_white_blue</gfonts_social_tw_slider_icon>
+            
+            <gfonts_social_tw_slider_limit>5</gfonts_social_tw_slider_limit>
+            <gfonts_social_tw_slider_link_color>#47A61E</gfonts_social_tw_slider_link_color>
+            
+            <gfonts_social_tw_slider_radius_lb>15</gfonts_social_tw_slider_radius_lb>
+            <gfonts_social_tw_slider_radius_lt>15</gfonts_social_tw_slider_radius_lt>
+            <gfonts_social_tw_slider_radius_rb>0</gfonts_social_tw_slider_radius_rb>
+            <gfonts_social_tw_slider_radius_rt>0</gfonts_social_tw_slider_radius_rt>
+            <gfonts_social_tw_slider_vp>middle</gfonts_social_tw_slider_vp>
+            
+            <gfonts_social_tw_slider_width>250</gfonts_social_tw_slider_width>
+            <gfonts_social_tw_slider_zindex>10000</gfonts_social_tw_slider_zindex>
+        </data>
+    </config>
+</root>

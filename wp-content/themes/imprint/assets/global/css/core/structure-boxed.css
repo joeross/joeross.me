@@ -1,0 +1,170 @@
+/*******************************
+           Theme Structure
+********************************/
+
+#wrapper {
+    max-width: 1056px;
+    width:100%;
+    margin: 12px auto;
+    padding-top: 20px;
+    background-color: #FFF;
+}
+
+#header-container,
+#top_menu_container,
+#menu-container,
+#featured-container,
+#main-container,
+#sidebar-box,
+#footer {
+    overflow: hidden;
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar-box,
+#top_menu_container,
+#footer {
+    width: 100%;
+}
+
+#footer {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width:100%;
+    margin:0;
+    padding: 15px 10px 0px 10px;
+}
+
+#header-container,
+#menu-container,
+#featured-container,
+#main-container {
+    max-width: 960px;
+    width: 92%;
+    overflow: hidden;
+    clear: both;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#menu-container,
+#main-container {
+    margin-bottom: 25px;
+}
+
+#sidebar-box {
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+
+#sidebar-box .sidebar {
+	margin: 0 auto;
+}
+
+#header-container {
+    padding: 5px 0 50px 0;
+}
+
+#branding-left, #site-title, #site-description {
+    float: left;
+}
+
+#branding-right {
+    float: right;
+    margin: 0;
+    margin-right: 5px;
+}
+
+#menu-container {
+    overflow: visible;
+}
+
+#main-container {
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+
+#featured-container {
+    padding-top: 0px;
+    -moz-box-sizing: border-box;
+}
+
+.sidebar {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width: 310px;
+    width: 33.5106%;
+}
+
+#primary-sidebar .widget {
+    width: 100%;
+}
+
+.container-left,
+.container-right {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    max-width: 620px;
+    width: 66.4893%;
+}
+
+.container-left {
+    float:left;
+    padding-right:5px;
+}
+
+.container-right {
+    float:right;
+    padding-left:5px;
+}
+
+.container-only {
+    margin: 0 auto;
+    width:80%;
+    max-width: 720px;
+}
+
+#sidebar-left,
+#sidebar-center,
+#sidebar-right {
+    max-width: 310px;
+    width: 100%;
+    float: left;
+    margin-left: 15px;
+
+}
+.sidebar-right {
+    float: right;
+    padding-left:5px;
+}
+
+.sidebar-left {
+    float: left;
+    padding-right:5px;
+}
+
+#sidebar-box .footerbox_col_three {
+    max-width: 352px;
+    width: 33.30%; /* 33.3333 */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 1.4204%;
+    padding-right: 1.4204%;
+    float: left;
+}
+
+#sidebar-box .footerbox_col_four {
+    max-width: 264px;
+    width: 24.95%; /* 25% */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding-left: 1.3257%;
+    padding-right: 1.3257%;
+    float: left;
+}

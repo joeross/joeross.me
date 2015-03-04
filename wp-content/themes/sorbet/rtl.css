@@ -1,0 +1,363 @@
+* html {
+  font-size: 112.5%;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+caption, th, td, th {
+  text-align: right;
+}
+
+ul {
+  margin: 0 27px 27px 0;
+}
+
+ol {
+  margin: 0 27px 27px 0;
+}
+
+li > ul,
+li > ol {
+  margin-left: auto;
+  margin-right: 27px;
+}
+
+dd {
+  margin: 13.5px 27px 13.5px 0;
+}
+
+blockquote {
+  border-left: 0;
+  border-right: 5px solid rgba(155, 162, 175, 0.25);
+  padding-right: 27px;
+  padding-left: 0;
+}
+
+.toggles .screen-reader-text {
+	right: 0;
+	left: auto;
+}
+
+.content-area {
+  float: right;
+  margin: 0 0 0 -25%;
+}
+@media screen and (max-width: 47.2226em) {
+  .content-area {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.right-sidebar .site-main {
+  margin: 0 0 0 30%;
+}
+@media screen and (max-width: 47.2226em) {
+  .right-sidebar .site-main {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+.site-content .widget-area {
+  float: left;
+}
+@media screen and (max-width: 47.2226em) {
+  .site-content .widget-area {
+    float: none;
+  }
+}
+
+.site-branding {
+  float: right;
+}
+@media screen and (max-width: 47.2226em) {
+  .site-branding {
+    float: none;
+  }
+}
+
+.toggles {
+  float: left;
+  text-align: left;
+}
+@media screen and (max-width: 47.2226em) {
+  .toggles {
+    float: none;
+    text-align: center;
+  }
+}
+.toggles .toggle:before {
+  margin-left: auto;
+  margin-right: 6.75px;
+}
+@media screen and (max-width: 47.2226em) {
+  .toggles .toggle:before {
+    margin: 0 3.375px;
+  }
+}
+
+.panel .widget-area {
+  float: right;
+  margin-left: 5%;
+  margin-right: auto;
+}
+.panel .widget-area:nth-of-type(3n) {
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.secondary-navigation li {
+  margin: 0 0 0 6.75px;
+}
+.secondary-navigation li:after {
+  margin: 0 9px 0 0;
+}
+
+.search-no-results .hentry .search-field {
+  float: right;
+  margin-left: 13.5px;
+  margin-right: auto;
+}
+
+.error404 .hentry .search-field {
+  float: right;
+  margin-left: 13.5px;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 47.2226em) {
+  .widget-area {
+    float: none;
+  }
+}
+
+.panel .search-wrapper input[type="submit"] {
+  float: left;
+}
+
+.main-navigation ul {
+  padding-right: 0;
+}
+.main-navigation ul ul {
+  float: right;
+  right: -6.75px;
+  left: auto;
+  text-align: right;
+}
+.main-navigation ul ul:before {
+  right: 27px;
+  left: auto;
+}
+.main-navigation ul ul ul {
+  right: 100%;
+  left: auto;
+}
+@media screen and (max-width: 47.2226em) {
+  .main-navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  .main-navigation ul ul {
+    float: none;
+  }
+  .main-navigation ul ul a {
+    padding: 13.5px 27px 13.5px 13.5px;
+  }
+  .main-navigation ul ul ul {
+    right: auto;
+    left: auto;
+  }
+  .main-navigation ul ul ul a {
+    padding-right: 54px;
+    padding-left: 0;
+  }
+}
+
+.comments-link,
+.post-date,
+.sticky .post-date,
+.tags-links,
+.byline,
+.edit-link {
+  margin-left: 27px;
+  margin-right: auto;
+}
+.comments-link:before,
+.post-date:before,
+.sticky .post-date:before,
+.tags-links:before,
+.byline:before,
+.edit-link:before {
+  margin-left: 2px;
+  margin-right: auto;
+}
+@media screen and (max-width: 47.2226em) {
+  .comments-link,
+  .post-date,
+  .sticky .post-date,
+  .tags-links,
+  .byline,
+  .edit-link {
+    float: none;
+  }
+}
+
+.page-title:before {
+  float: right;
+  margin-left: 3px;
+  margin-right: 0;
+}
+
+.author-archives-img {
+  float: right;
+}
+
+.author-info {
+  float: left;
+  margin: 0 -108px 0 0;
+}
+
+.author-archives-name,
+.author-archives-url,
+.author-archives-bio {
+  margin: 0 108px 0 0;
+}
+
+.site-content [class*="post-navigation"] .nav-previous a:before,
+.site-content [class*="paging-navigation"] .nav-previous a:before {
+  right: 0;
+  left: auto;
+  margin-right: -48px;
+  margin-left: auto;
+  text-align: left;
+}
+@media screen and (max-width: 47.2226em) {
+  .site-content [class*="post-navigation"] .nav-previous a:before,
+  .site-content [class*="paging-navigation"] .nav-previous a:before {
+    margin-right: -33px;
+    margin-left: auto;
+  }
+}
+.site-content [class*="post-navigation"] .nav-next a:before,
+.site-content [class*="paging-navigation"] .nav-next a:before {
+  left: 0;
+  right: auto;
+  margin-left: -48px;
+  margin-right: auto;
+  text-align: right;
+}
+@media screen and (max-width: 47.2226em) {
+  .site-content [class*="post-navigation"] .nav-next a:before,
+  .site-content [class*="paging-navigation"] .nav-next a:before {
+    margin-left: -33px;
+    margin-right: auto;
+  }
+}
+
+.site-content .comment-navigation .nav-previous {
+  float: right;
+  text-align: right;
+}
+.site-content .comment-navigation .nav-next {
+  float: left;
+  text-align: left;
+}
+
+.comment-list {
+  margin-right: 0;
+  margin-left: auto;
+}
+.comment-list .children {
+  padding-right: 6.75px;
+  padding-left: 0;
+}
+
+.pingback .edit-link,
+.trackback .edit-link {
+  float: left;
+  margin-right: 27px;
+  margin-left: 0;
+}
+
+.pingback .edit-link,
+.trackback .edit-link {
+  float: left;
+}
+
+.comment-author .avatar-wrapper {
+  float: right;
+  margin: -8px -40px -8px 13.5px;
+  left: auto;
+  right: 50%;
+}
+@media screen and (max-width: 47.2226em) {
+  .comment-author .avatar-wrapper {
+    margin-right: -30px;
+    margin-left: auto;
+  }
+}
+
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label,
+.comment-form-comment label {
+  left: auto;
+  right: 0;
+}
+.comment-form-author input,
+.comment-form-email input,
+.comment-form-url input,
+.comment-form-comment input {
+  padding-right: 100px;
+  padding-left: 0;
+}
+
+#cancel-comment-reply-link {
+  float: left;
+}
+#cancel-comment-reply-link:before {
+  margin-left: 3px;
+  margin-right: auto;
+}
+
+.reply {
+  margin-left: 27px;
+  margin-right: auto;
+}
+.reply:before {
+  margin-left: 3px;
+  margin-right: auto;
+}
+
+.comment-respond:after {
+  left: auto;
+  right: 0;
+}
+
+.widget select {
+  margin-left: auto;
+  margin-right: 1px;
+}
+
+#infinite-handle span {
+  float: none;
+}
+
+.social-links a:before {
+  margin-left: 4.5px;
+  margin-right: auto;
+}
+.social-links a:last-of-type:before {
+  margin-left: 0;
+  margin-right: auto;
+}

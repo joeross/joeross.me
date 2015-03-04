@@ -1,0 +1,335 @@
+# Translation of Sorbet in Hebrew
+# This file is distributed under the same license as the Sorbet package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2014-08-06 03:45:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Sorbet\n"
+
+#: eventbrite/eventbrite-index.php:37 eventbrite/eventbrite-single.php:24
+msgid "All events"
+msgstr ""
+
+#: eventbrite/eventbrite-index.php:37 eventbrite/eventbrite-single.php:24
+msgid "Eventbrite events"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WordPress.com"
+msgstr "וורדפרס.קום"
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width, No Sidebar"
+msgstr "רוחב מלא, ללא עמודה צידית"
+
+#. Description of the plugin/theme
+msgid "Sorbet is a delicious treat for your blog or website. Colorful post formats help your content pop, while secondary information (navigation, search, social links, and widgets) is tucked neatly away in the header for easy access that doesn't crowd your content."
+msgstr "<span dir=rtl>Sorbet הוא פינוק טעים במיוחד עבור הבלוג או אתר האינטרנט שלך.</span> <span dir=rtl>פורמטים צבעוניים לפוסטים מסייעים לתוכן שלך לבלוט, בעוד שהמידע המשני (ניווט, חיפוש, קישורים למדיה חברתית ווידג'טים) ממוקם בצורה מסודרת בכותרת העליונה כדי לאפשר גישה בקלות מבלי לצופף את התוכן.</span>"
+
+#: searchform.php:13
+msgctxt "submit button"
+msgid "Search"
+msgstr "חפש"
+
+#: searchform.php:11
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "חיפוש &hellip;"
+
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "חפש:"
+
+#: inc/template-tags.php:143
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: search.php:16
+msgid "Search Results for: %s"
+msgstr "תוצאות החיפוש: %s"
+
+#: inc/template-tags.php:138 inc/template-tags.php:149
+msgid "View all posts by %s"
+msgstr "הצגת הרשומות של %s"
+
+#: inc/template-tags.php:134
+msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
+msgstr ""
+
+#: inc/template-tags.php:116
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: inc/template-tags.php:96
+msgid "Your comment is awaiting moderation."
+msgstr "התגובה ממתינה לאישור."
+
+#: inc/template-tags.php:92
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">הגיב:</span>"
+
+#: inc/template-tags.php:59
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+
+#: inc/template-tags.php:60
+msgctxt "Next post link"
+msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+
+#: inc/template-tags.php:82
+msgid "Pingback:"
+msgstr "פינגבק:"
+
+#: inc/template-tags.php:27
+msgctxt "Older posts"
+msgid "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+
+#: inc/template-tags.php:31
+msgctxt "Newer posts"
+msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
+msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
+
+#: inc/template-tags.php:56
+msgid "Post navigation"
+msgstr "ניווט ברשומות"
+
+#: inc/template-tags.php:23
+msgid "Posts navigation"
+msgstr "ניווט בין הרשומות"
+
+#: inc/extras.php:67
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: header.php:50
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: header.php:42
+msgid "Social Links"
+msgstr "קישורים חברתיים"
+
+#: header.php:44
+msgid "Search"
+msgstr "חיפוש"
+
+#: header.php:39
+msgid "Widgets"
+msgstr "וידג'טים"
+
+#. translators: If there are characters in your language that are not supported
+#. by PT Serif, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:176
+msgctxt "PT Serif font: on or off"
+msgid "on"
+msgstr "off"
+
+#: header.php:37
+msgid "Menu"
+msgstr "תפריט"
+
+#: functions.php:85
+msgid "Header Column 1"
+msgstr ""
+
+#: functions.php:93
+msgid "Header Column 2"
+msgstr ""
+
+#: functions.php:101
+msgid "Header Column 3"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported
+#. by Source Sans Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:167
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:51
+msgid "Social Links Menu"
+msgstr "תפריט קישורי מדיה חברתית"
+
+#: functions.php:77
+msgid "Sidebar"
+msgstr " סרגל צדדי"
+
+#: functions.php:50
+msgid "Footer Menu"
+msgstr "תפריט כותרת תחתית"
+
+#: functions.php:49
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: footer.php:22
+msgid "Theme: %1$s by %2$s."
+msgstr "ערכת עיצוב: %1$s של %2$s"
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: content.php:49
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: content.php:49
+msgid "1 Comment"
+msgstr "תגובה אחת"
+
+#: content.php:49
+msgid "Leave a comment"
+msgstr "השארת תגובה"
+
+#: content.php:29
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "להמשיך לקרוא <span class=\"meta-nav\">&larr;</span>"
+
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:32 content.php:39
+msgid ", "
+msgstr ", "
+
+#: content-single.php:18 content.php:17
+msgid "All %s posts"
+msgstr "כל הרשומות של %s"
+
+#: content-page.php:18 content-single.php:39 content.php:52
+#: eventbrite/eventbrite-index.php:50 eventbrite/eventbrite-single.php:39
+#: inc/template-tags.php:82 inc/template-tags.php:119
+msgid "Edit"
+msgstr "עריכה"
+
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "נראה כי לא ניתן למצוא את מה שחיפשת, אולי חיפוש יעזור."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "מצוערים, אבל לא נמצאה התאמה. אפשר לנסות שוב עם מילות חיפוש שונות."
+
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכן לפרסם את הרשומה הראשונה שלך? <a href=\"%1$s\">התחל כאן</a>."
+
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "לא מצאתי כלום"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: comments.php:39 comments.php:59
+msgid "Newer Comments &rarr;"
+msgstr "תגובות חדשות יותר &larr;"
+
+#: comments.php:38 comments.php:58
+msgid "&larr; Older Comments"
+msgstr "&rarr; תגובות ישנות יותר"
+
+#: comments.php:37 comments.php:57
+msgid "Comment navigation"
+msgstr "ניווט בתגובות"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "מחשבה אחת על &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s מחשבות על &ldquo;%2$s&rdquo;"
+
+#: archive.php:79 archive.php:80 archive.php:81
+msgid "%s"
+msgstr "%s"
+
+#: archive.php:66
+msgid "Archives"
+msgstr "ארכיון"
+
+#: archive.php:60
+msgid "Audios"
+msgstr "קבצי אודיו"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "צ'טים"
+
+#: archive.php:57
+msgid "Statuses"
+msgstr "סטטוסים"
+
+#: archive.php:54
+msgid "Links"
+msgstr "קישורים"
+
+#: archive.php:51
+msgid "Quotes"
+msgstr "ציטוטים"
+
+#: archive.php:48
+msgid "Videos"
+msgstr "סרטונים"
+
+#: archive.php:45
+msgid "Images"
+msgstr "תמונות"
+
+#: archive.php:42
+msgid "Galleries"
+msgstr "גלריות"
+
+#: archive.php:39
+msgid "Asides"
+msgstr "קצרצרים"
+
+#: archive.php:36
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "שנה: %s"
+
+#: archive.php:33
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:33
+msgid "Month: %s"
+msgstr "חודש: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "יום: %s"
+
+#: archive.php:27
+msgid "Author: %s"
+msgstr "מחבר: %s"
+
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "לא הצלחנו למצוא שום דבר בכתובת זו. כדאי לנסות את הקישורים הבאים, או את החיפוש."
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "אופס. העמוד שביקשת אינו קיים."

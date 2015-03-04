@@ -1,0 +1,57 @@
+== Change log ==
+
+= 1.2.1=
+* Added: fefault color for Dark color scheme
+* Removed unnesessary class in excerpt featured image
+* Removed unnecessary mobile menu script
+* Renamed Page/Post Featured Image Size to Page/Post Featured Header Image Size
+* Bug Fixed: Classes for excerpt and content fixed in content.php
+* Bug Fixed: Default Options now saving on saving other options in customizer
+* Bug Fixed: Options Spelling Mistake
+
+= 1.2 =
+* Added title tag via add theme support
+* Bug Fixed: Homepage Category Conditions (Reporter by leucospis)
+* Bug Fixed: Removed unnecessary code in sidebar options meta (Reporter by ladonnaraeh)
+* Bug Fixed: Assistive text 
+* Bug Fixed: Secondary Menu anchor ID
+* Changed customizer button color
+* Removed unnecessary file catchbase-customizer-color-options.php
+* Removed unnecessary css
+
+= 1.1.1 =
+* Added hover color css Foursquare, PollDaddy and Twitch TV social icons
+* Bug Fixed: Single Post/Page Featured Image showing extra hi
+
+= 1.1 =
+* Added Foursquare, PollDaddy and Twitch TV social icons
+* Bug Fixed: Featured header image
+* Bug Fixed: Featured content width in mobile 
+* Bug Fixed: Sanitize email for email output
+* Bug Fixed: Typo in content featured image
+* Bug Fixed: Primary sidebar closing tag issue
+* Removed unnecessary body_class for page-blog
+* Moved Featured content position option from Homepage/Frontpage options to featured content settings
+* Changed catchbase_footer_content_start and catchbase_footer_sidebar hook priority  
+
+= 1.0 =
+* Fixed Sub-menu issue
+* Fixed featured image issue in archive pages
+* Fixed color scheme
+* Fixed frontpage category options
+* Fixed content width 
+* Fixed featured content positions
+* Removed dark-noise.png image
+* Removed unnecessary header right sidebar
+* Removed default favicon and webclip icon
+* Standardize code quality
+* Updated stylesheets
+* Updated theme customizer types
+* Updated readme.txt and theme description
+* Updated genericons to version 3.3
+
+= 0.2 =
+* Initial Release in Catchthemes.com
+
+= 0.1 =
+* Submitted to WordPress.org

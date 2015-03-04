@@ -1,0 +1,118 @@
+img {max-width:100%; width:auto; height:auto;}
+.mudrn-tab{
+    display: none;
+}
+
+@media only screen and (max-width: 1056px){
+    #wrapper{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+@media only screen and (max-width: 900px){
+    
+    #main-container, #featured-container, #menu-container {
+        max-width: 85%;
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .container-left, .sidebar-right {
+        max-width: 90%;
+        width:100%;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        //padding-top: 30px !important;
+    }
+    
+    .container-right, .sidebar-left {
+        max-width: 90%;
+        width:100%;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        //padding-top: 30px !important;
+    }
+
+    #sidebar-box .sidebar {
+        max-width: 90%;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        clear: both;
+    }
+    
+    #bottom_menu_container {
+        max-width: 100%;
+        float: none !important;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #bottom_menu {
+        float: none !important;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    #bottom_menu .sf-menu > li {
+        float: none;
+    }
+    
+    #copyright {
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    #menu-container #menu {
+        display: none;
+    }
+    .mudrn-tab{
+        display:block;
+    }
+}
+
+@media only screen and (max-width: 765px){
+    #header-container #branding-left {
+        width:100% !important;
+        clear:both;
+    }
+    
+    #header-container #branding-right{
+        display: none;
+    }
+    
+    a.symbol {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    div.simplesocialbuttons {
+        padding-top:20px;
+    }
+    div.simplesocialbutton {
+        clear:both; padding-bottom: 12px;
+    }
+    a.symbol {
+        font-size: 15px !important;
+    }    
+}
+
+#menu-container #menu.mudrn-menu li {
+    list-style-type:  none;
+    float:none;
+}
+#menu-container #menu.mudrn-menu li a{
+    border:none;
+}

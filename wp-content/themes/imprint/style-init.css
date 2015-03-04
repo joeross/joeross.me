@@ -1,0 +1,6 @@
+/**
+ * The first stylesheet called by the theme.
+ */
+ 
+@import url("assets/global/css/core/reset.css");
+@import url("assets/global/css/core/fonts-application.css");

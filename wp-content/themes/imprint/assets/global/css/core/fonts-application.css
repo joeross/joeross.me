@@ -1,0 +1,31 @@
+body { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#site-title a, .post-template .post-title h1, #archive-container .archive-title h1 a { font-family: "Times New Roman", Times, serif; }
+pre, code, kbd, pre, tt, var { font-family: "Courier New", Courier, monospace; }
+#copyright { font-family: Verdana, Geneva, sans-serif; }
+.post-template .post-meta { font-family: Tahoma, Arial, sans-serif; }
+
+/*
+body { font-family: "Palatino Linotype", Palatino, "Times New Roman", Times, serif; }
+h1, h2, h3, h4, h5, h6 { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#site-title a { font-family: "Palatino Linotype", Palatino, serif; }
+#site-description { font-family: Verdana, Geneva, sans-serif; }
+#menu-container a { font-family:Verdana, Geneva, sans-serif; }
+#menu-container a:hover { font-family:Verdana, Geneva, sans-serif; }
+.post-template .post-title h1 { font-family: "Times New Roman", Times, serif; }
+.post-template .post-meta { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#archive-container .page-link, .post-template .post-nav-link { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+.post-template p.tags-below-content { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#content-container .post-content li { font-family: "Times New Roman", Times, serif; }
+#archive-container .archive-meta-container { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#archive-container .archive-title h1 { font-family: "Times New Roman", Times, serif; }
+#archive-container .archive-meta { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#archive-container .archive-excerpt p { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#comments .comment-body { font-family: Arial, Helvetica, "Helvetica Neue", sans-serif; }
+#primary-sidebar .widget { font-family: Verdana, Geneva, sans-serif; }
+#primary-sidebar h4.widget-title { font-family: Verdana, Geneva, sans-serif; }
+#primary-sidebar #calendar_wrap #wp-calendar { font-family: "Palatino Linotype", Palatino, serif; }
+#sidebar-box .widget { font-family: Verdana, Geneva, sans-serif; }
+#sidebar-box h4.widget-title { font-family: Verdana, Geneva, sans-serif; }
+#sidebar-box #calendar_wrap #wp-calendar { font-family: "Palatino Linotype", Palatino, serif; }
+#footer { font-family: Verdana, Geneva, sans-serif; }
+*/

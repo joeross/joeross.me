@@ -1,0 +1,78 @@
+/**
+ * Sass for state rules.
+ *
+ * RTL, transitions, active states, hover states.
+ *
+ * @package WordPress
+ * @subpackage anchorage
+ * @since anchorage 1.0
+ */
+
+.one-eighty {
+	transform: rotate( 180deg );
+	-ms-transform:rotate( 180deg ); /* IE 9 */
+	-webkit-transform:rotate( 180deg );
+	-moz-transform:rotate( 180deg );
+}
+
+/* Active states */
+a:active,
+input:active,
+a:focus,
+input:focus {
+	outline: 1px dotted $color;
+}
+
+.inverse-color {
+	a:active,
+	input:active,
+	a:focus,
+	input:focus  {
+		outline: 1px dotted $inverse_color;
+	}
+}
+
+/* Universal Transitions - Module one-offs are in _modules.scss*/
+input,
+a,
+a > * {
+	transition: all $transition;
+	transition-property: color, transform, right, left, top, bottom;
+}
+
+.screen-reader-text	 {
+	transition: opacity $transition;
+}
+
+/* is_rtl() */
+.rtl {
+
+	.has-halfs >:first-child {
+		padding-left: 5%;
+		padding-right: 0;
+	}
+
+	.has-halfs >:nth-child(2) {
+		padding-right: 5%;
+		padding-left: 0;
+	}
+
+	.has-halfs >:nth-child(2),
+	.has-halfs >:nth-child(2) > * {
+		text-align: left;
+	}
+
+	.menu-item:first-child {
+	    margin-right: 0;
+	    margin-left: $medium_margin;
+	}
+
+	.shadowed,
+	.shadowed .search-field {
+		text-shadow: 1px 1px 0 $color,
+			     	 2px 2px 0 $inverse_color;
+		padding-left: 0px;
+		padding-right: 2px;
+	}
+
+}

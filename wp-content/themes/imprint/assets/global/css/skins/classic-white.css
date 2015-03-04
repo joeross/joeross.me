@@ -1,0 +1,486 @@
+ins {
+    background: #D4FCBC;
+    border-bottom: 1px dotted #47AD09;
+    color: #333;
+}
+del {
+    background-color: #FBB6C2;
+    color: #555;
+}
+pre {
+    background: #f7f7f7;
+    color: #222;
+}
+abbr, acronym {
+    border-bottom: 1px solid #666;
+}
+hr {
+    background-color: #e7e7e7;
+}
+var,
+tt,
+kbd,
+code {
+    background-color: #eae8e8;
+}
+strong,
+b,
+dt,
+th {
+    color: #000;
+}
+
+a:link {
+    color: #444;
+}
+
+a:visited {
+    color: #444;
+}
+
+a:hover {
+    color: #888;
+}
+
+a:active {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+
+/*************************
+           Theme Layout
+**************************/
+body {
+    background-color: #e7e7e7;
+}
+
+#wrapper {
+    background-color: #FFF;
+}
+
+/************************
+         Header
+*************************/
+#site-title a {
+    color: #555;
+}
+#site-description {
+    color: #555;
+}
+/**************************
+        Theme Menu
+***************************/
+#menu-container {
+    background-color: #FFF;
+}
+
+#menu-container #menu {
+    background-color:#FFF !important;
+    border:none;
+    background-image:none;
+    border:1px solid #e1e1e1;
+    border-top: none;
+    border-right: none;
+}
+
+#menu-container #menu > ul > li {
+}
+#menu-container #menu > ul > li > a {
+    background-color: #f6f6f6;
+    border-right: 1px solid #e1e1e1;
+    border-top: 1px solid #e1e1e1;
+    color: #000;
+    background-image:none;
+}
+
+
+//#menu-container #menu > ul > li:first-child > a{ border-left:1px solid #e1e1e1;}
+
+#menu-container #menu > ul > li > a:hover {
+    background-color: #444;
+    color: #FFF;
+}
+
+//#menu-container #menu > ul > li:first-child > a:hover { border-left:1px solid #444;}
+
+#menu-container #menu .sfHover > a {
+    background-color: #444;
+    
+    color: #FFF;
+}
+
+#menu-container #menu li.current-menu-ancestor.sfHover > a {
+    background-color: #444;
+    color: #FFF;    
+}
+
+#menu-container #menu > ul > li.current-menu-ancestor > a,
+#menu-container #menu > ul > li.current_page_ancestor > a,
+#menu-container #menu > ul > li.current-menu-item > a,
+#menu-container #menu > ul > li.current_page_item > a {
+    background-color: #555;
+    color:#FFF;
+}
+
+#menu-container #menu > ul > li.current-menu-ancestor > a:hover,
+#menu-container #menu > ul > li.current-menu-item > a:hover{
+    background-color: #444;
+}
+/****************************
+        Dropdown Menu
+*****************************/
+#menu-container .sfHover ul.sub-menu,
+#menu-container .sfHover ul.children{
+    width: 175px;
+}
+
+#menu-container .sfHover ul.sub-menu a,
+#menu-container .sfHover ul.children a{
+    color: #444;
+    border-bottom: 1px solid #EEE;
+    background-color: #EEE;    
+}
+#menu-container .sfHover ul.sub-menu  a:hover,
+#menu-container .sfHover ul.children  a:hover{
+    color: #262626;
+    background-color: #e0e0e0;
+    border-bottom-color: #e0e0e0;
+}
+
+
+/*****************************
+      Responsive Menu
+*****************************/
+#menu-container .mudrn-menu,
+#menu-container .mudrn-menu ul,
+#menu-container .mudrn-menu li,
+#menu-container .mudrn-menu a,
+#menu-container .mudrn-menu a:hover,
+#menu-container .mudrn-menu li:hover {
+    background-image: none !important;
+    background-color: #282828 !important;
+    color: #CCC !important;
+    border: none !important;
+}
+#menu-container .mudrn-tab {
+    background-color: #444;
+}
+#menu-container .mudrn-tab a:active,
+#menu-container .mudrn-tab a:visited{
+    background-color: #000;
+}
+#menu-container .mudrn-tab a {
+    color: #FFF;
+}
+
+/******************************
+               Content
+*******************************/
+.post-template .post-title h1 {
+    color: #444;
+}
+
+.post-template .post-meta {
+    color:#444;
+}
+
+.post-content {
+    color: #222;
+}
+
+
+/***********************
+        Table
+************************/
+.post-template table {
+
+}
+.post-template thead th {
+    color: #FFF;
+    background-color: #444;
+    border: 1px solid #000;
+}
+.post-template tbody tr th {
+    background-color: #EEE;
+    border: 1px solid #999;
+}
+.post-template tbody tr th a {
+    text-decoration: none;
+}
+.post-template tr td {
+    border: 1px solid #999;
+}
+/*
+.post-template tr.even td {
+        background: #f9ebe9;
+}*/
+
+
+
+/*****************************
+             Archive Loop 
+******************************/
+#archive-container .archive-head h1 {
+    color: #454;
+}
+
+#archive-container .archive-head h1 span {
+    color: #933;
+}
+
+#archive-container .archive-description p {
+    color: #000;
+}
+
+/****** The content inside loop *******/
+
+.archive-loop-container {
+    border-bottom: 1px dashed #d7d7d7;
+}
+
+#archive-container .archive-meta .archive-meta-date,
+#archive-container .archive-meta .archive-meta-author a,
+#archive-container .archive-meta .archive-meta-category a,
+#archive-container .archive-meta .archive-meta-comment a {
+    color: #353535;
+}
+
+#archive-container a.read-more {
+    background-color: #1497ea;
+    color: #FFF;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+#archive-container .archive-excerpt img {
+    border: 1px solid #AAA;
+}
+
+/*******************************
+            Comments
+********************************/
+h3#comments-title,
+h3#reply-title {
+    color: #000;
+}
+
+.commentlist .children .comment-block-container {
+    // border-left: 1px dotted #CCC;
+}
+
+
+.commentlist .avatar {
+    border: 1px solid #e6e1db;
+}
+
+.comment-author cite {
+    color: #000;
+}
+
+.comment-meta a:link,
+.comment-meta a:visited {
+    color:#999999;
+}
+
+.comment-meta a:active,
+.comment-meta a:hover {
+    color:#999999;
+}
+
+.reply a {
+    background:#ebebeb;
+    color: #777;
+}
+
+.reply a:hover {
+    background-color:#d2d2d2;
+}
+
+p.nopassword,
+p.nocomments {
+    //border: 1px solid #000;
+    background-color: #EEE;
+    color: #222;
+}
+
+#comments .pingback {
+    border-bottom: 1px solid #bababa;
+}
+
+#comments .pingback p {
+    color: #888;
+}
+
+/********** Comments form **********/
+input[type=submit] {
+    color: #000;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+#respond .required {
+    color: #ff4b33;
+}
+
+#respond label {
+    color: #888;
+}
+
+#respond input {
+    border:1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+
+#respond textarea {
+    border:1px solid #ccc;
+    background: #fff;
+    color: #000;
+}
+
+#respond .form-allowed-tags {
+    color: #888;
+}
+
+/********************************
+                        Widgets
+*********************************/
+
+#primary-sidebar .widget {
+    background-color: #fff;
+}
+
+#primary-sidebar h4.widget-title {
+//    background-image: url("../../images/skin/classic-white/menu.png");
+    background-color: #444;
+    color: #fff;
+}
+
+#primary-sidebar h4.widget-title a {
+    color: #fff;
+}
+
+#primary-sidebar a {
+    color: #333;
+}
+
+#primary-sidebar .widget_tag_cloud a:hover {
+    color: #DDA046;
+}
+
+/*********** sidebar box *************/
+#sidebar-box {
+    background-color: #000;
+    color: #fafafa;
+}
+
+
+#sidebar-box h4.widget-title {
+    background-color: #333;
+    color: #EEE;
+}
+
+#sidebar-box h4.widget-title a {
+    color: #FFF;
+}
+
+#sidebar-box .widget {
+//    background-color: #444;
+}
+
+#sidebar-box .widget a {
+    color: #DDD;
+    border-bottom: 1px solid #888;
+}
+
+#sidebar-box .widget a:hover {
+    color: #DDA046;
+    border-bottom: 1px solid #DDA046;
+}
+
+#sidebar-box .widget_search {
+//    background-color: #851520;
+}
+
+#sidebar-box .widget_tag_cloud a:hover {
+    color: #DDA046;
+}
+
+#sidebar-box .widget_calendar {
+    //background-color: #851520;
+}
+
+/*************************
+                Footer
+*************************/
+#footer {
+    background-color: #333;
+}
+
+#copyright {
+    color: #999;
+}
+
+#copyright a {
+    color: #b7b7b7;
+    border-bottom: 1px solid #777;
+}
+
+/*************************
+    Wordpress Defaults
+*************************/
+
+.wp-caption {
+    background-color: #CCC;
+    color: #888;
+}
+
+.sticky {
+    background-color: #eee;
+}
+
+/**** TODO ****/
+#top_menu a {
+    color: #999;
+}
+#bottom_menu a {
+    color: #999;
+}
+.post-template .post-nav a {
+    color: #555;
+}
+#comments .comment-body {    
+    color: #444;
+}
+.comment-author cite {
+    color: #000;
+}
+#sidebar-box .widget {
+    color: #DDD;
+}
+li.comment {
+    background-image: url("../../images/core/comment-bg.png");
+    background-position: left top;
+    background-repeat: repeat-x;
+    border: 1px solid #e7e7e7;
+}
+#comments li.depth-2 .comment-block-container {
+    border: 1px solid #e7e7e7;
+    border-right: none;
+}
+.comment-author cite a:link,
+.comment-author cite a:visited {
+    border-bottom: 1px solid #999;
+}
+.comment-author cite a:hover {
+    border-bottom: 1px solid #CCC;
+}
+#archive-container .archive-title h1 a {
+    border-bottom: 1px solid #777;    
+}
+
+
