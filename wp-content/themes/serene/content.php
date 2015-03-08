@@ -61,7 +61,11 @@
 
 			edit_post_link( esc_attr__( 'Edit this post', 'Serene' ) );
 		} else {
-			the_excerpt();
+			if ( false === ( $show_content = get_theme_mod( 'show_content' ) ) || '' === $show_content ) {
+				the_excerpt();
+			} else {
+				the_content();
+			}
 		}
 		?>
 		</div>

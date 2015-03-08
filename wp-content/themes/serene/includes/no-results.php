@@ -5,7 +5,7 @@
  */
 ?>
 
-<div class="entry no-results-found">
+
 	<h1><?php esc_html_e( 'No Results Found', 'Serene' ); ?></h1>
 
 <?php if ( is_home() && current_user_can( 'publish_posts' ) ) : ?>
@@ -23,4 +23,3 @@
 	<?php get_search_form(); ?>
 
 <?php endif; ?>
-</div>

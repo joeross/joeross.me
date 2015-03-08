@@ -1,8 +1,22 @@
 == Change log ==
 
-= 1.2.1=
-* Added: fefault color for Dark color scheme
-* Removed unnesessary class in excerpt featured image
+= 1.3 =
+* Added Option in Enable Header Image: Excluding Home, Page/Post Featured Image 
+* Added catchbase- prefix to some js handles as done in _s
+* Bug Fixed: undefined index $page_for_posts for Featured Header Image
+* Bug Fixed: featured-heading-wrap, $headline and $subheadline empty check in featured content
+* Bug Fixed: Featured Content missing classes entry-header and entry-title
+* Bug Fixed: Html is now allowed in Promotion Headline
+* Bug Fixed: Setting max-width for button, input, select, textarea 
+* Changed get_page to get_post as get_page is depriciated
+* Fixed header text condition for Sidebar
+* Removed jquery cookie and its dependencies
+* Renamed "custom_meta_box_nonce" renamed to  "catchbase_custom_meta_box_nonce"
+* Sanitized custom metabox settings
+
+= 1.2.1 =
+* Added: Default color for Dark color scheme
+* Removed unnecessary class in excerpt featured image
 * Removed unnecessary mobile menu script
 * Renamed Page/Post Featured Image Size to Page/Post Featured Header Image Size
 * Bug Fixed: Classes for excerpt and content fixed in content.php

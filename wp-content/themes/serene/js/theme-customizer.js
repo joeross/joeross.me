@@ -5,6 +5,8 @@
  */
 
 ( function( $ ) {
+	$( '.meta-comments-count, .post:hover .meta-post-date' ).css( { '-webkit-transform' : 'none', 'transform' : 'none' } );
+
 	wp.customize( 'accent_color', function( value ) {
 		value.bind( function( to ) {
 			$( '.meta-post-date, .mejs-audio .mejs-controls .mejs-time-rail .mejs-time-handle, .footer-widget li:before, #mobile_menu ul li:before, #et_active_menu_item, .comment-reply-link, .form-submit input, .et-tags li' ).css( 'background-color', to );

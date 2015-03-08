@@ -4,7 +4,7 @@ Theme URI: http://catchthemes.com/themes/catch-base
 Author: Catch Themes
 Author URI: http://catchthemes.com/
 Description: If you are looking to tailor-make a unique site without having to spend time coding a strong base for a theme that is smooth and displays well in all mobile and desktop devices, Catch Base is where your search ends. Catch Base is a simple, clean and responsive WordPress Theme. Use this as a base for your theme development or custom site development, and you will be thrilled with its ease and efficiency! Catch Base is built in HTML5, CSS3 and WordPress Theme Customizer for real time customization. This theme is translation ready. Check out Theme Instructions at http://catchthemes.com/theme-instructions/catch-base/, Support at http://catchthemes.com/support/ and Demo at http://catchthemes.com/demo/catch-base/
-Version: 1.2.1
+Version: 1.3
 License: GNU General Public License, version 3 (GPLv3)
 License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 Text Domain: catchbase
@@ -715,6 +715,10 @@ textarea {
 	font-size: 100%; /* Corrects font size not being inherited in all browsers */
 	margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
 	vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+	max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;	
 }
 
 button,
@@ -1934,6 +1938,7 @@ caption {
 
 #feature-slider .cycle-slideshow img {
     display: block;
+    margin: 0 auto;
 }
 
 #feature-slider .cycle-pager { 

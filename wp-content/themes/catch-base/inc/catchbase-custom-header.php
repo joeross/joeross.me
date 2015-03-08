@@ -420,6 +420,8 @@ if ( ! function_exists( 'catchbase_featured_overall_image' ) ) :
 		// Get Page ID outside Loop
 		$page_id = $wp_query->get_queried_object_id();
 
+		$page_for_posts = get_option('page_for_posts');
+
 		// Check Enable/Disable header image in Page/Post Meta box
 		if ( is_page() || is_single() ) {
 			//Individual Page/Post Image Setting
@@ -447,6 +449,17 @@ if ( ! function_exists( 'catchbase_featured_overall_image' ) ) :
 			}
 			else {
 				catchbase_featured_image();	
+			}
+		}
+		elseif ( $enableheaderimage == 'exclude-home-page-post' ) {
+			if ( is_front_page() || ( is_home() && $page_for_posts != $page_id ) ) {
+				return false;
+			}
+			elseif ( is_page() || is_single() ) {
+				catchbase_featured_page_post_image();
+			}
+			else {
+				catchbase_featured_image();
 			}
 		}
 		// Check Entire Site

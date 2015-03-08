@@ -194,9 +194,9 @@ function catchbase_scripts() {
 
 	wp_enqueue_style( 'catchbase-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
+	wp_enqueue_script( 'catchbase-navigation', get_template_directory_uri() . '/js/navigation.min.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+	wp_enqueue_script( 'catchbase-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.min.js', array(), '20130115', true );
 
 	/**
 	 * Adds JavaScript to pages with the comment form to support
@@ -213,7 +213,7 @@ function catchbase_scripts() {
 	 * Enqueue the styles for the current color scheme for catchbase.
 	 */
 	if ( $options['color_scheme'] != 'light' )
-		wp_enqueue_style( 'dark', get_template_directory_uri() . '/css/colors/'. $options['color_scheme'] .'.css', array(), null );
+		wp_enqueue_style( 'catchbase-dark', get_template_directory_uri() . '/css/colors/'. $options['color_scheme'] .'.css', array(), null );
 	
 	/**
 	 * Loads up Responsive stylesheet and Menu JS
@@ -279,8 +279,7 @@ add_action( 'wp_enqueue_scripts', 'catchbase_scripts' );
  */
 function catchbase_enqueue_metabox_scripts() {
     //Scripts
-	wp_register_script( 'jquery-cookie', get_template_directory_uri() . '/js/jquery.cookie.min.js' );
-	wp_enqueue_script( 'catchbase-metabox', get_template_directory_uri() . '/js/catchbase-metabox.min.js', array( 'jquery-ui-tabs', 'jquery-cookie' ), '2013-10-05' );
+	wp_enqueue_script( 'catchbase-metabox', get_template_directory_uri() . '/js/catchbase-metabox.min.js', array( 'jquery', 'jquery-ui-tabs' ), '2013-10-05' );
 	
 	//CSS Styles
 	wp_enqueue_style( 'catchbase-metabox-tabs', get_template_directory_uri() . '/css/catchbase-metabox-tabs.css' );

@@ -4,6 +4,10 @@
  * @since Serene 1.0
  */
 
+if ( class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'infinite-scroll' ) ) {
+	return;
+}
+
 if ( function_exists( 'wp_pagenavi' ) ) {
 	wp_pagenavi();
 	return;

@@ -6,12 +6,10 @@
 
 get_header(); ?>
 
-<div id="content-area" class="clearfix">
-	<div id="left-area">
+<article id="post-0" class="page notfound">
+	<div class="post-content clearfix">
 		<?php get_template_part( 'includes/no-results', '404' ); ?>
-	</div> <!-- end #left-area -->
-
-	<?php get_sidebar(); ?>
-</div> <!-- end #content-area -->
+	</div> <!-- .post-content -->
+</article>
 
 <?php get_footer(); ?>

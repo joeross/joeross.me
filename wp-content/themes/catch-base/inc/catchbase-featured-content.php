@@ -75,12 +75,18 @@ function catchbase_featured_content_display() {
 
 			$catchbase_featured_content ='
 				<section id="featured-content" class="' . $classes . '">
-					<div class="wrapper">
-						<div class="featured-heading-wrap">
-							<h1 id="featured-heading" class="entry-title">'. esc_attr( $headline ) .'</h1>
-							<p>'. esc_attr( $subheadline ) .'</p>
-						</div><!-- .featured-heading-wrap -->
-
+					<div class="wrapper">';
+						if ( !empty( $headline ) || !empty( $subheadline ) ) {
+							$catchbase_featured_content .='<div class="featured-heading-wrap">';
+								if ( !empty( $headline ) ) {
+									$catchbase_featured_content .='<h1 id="featured-heading" class="entry-title">'. esc_attr( $headline ) .'</h1>';
+								}
+								if ( !empty( $subheadline ) ) {
+									$catchbase_featured_content .='<p>'. esc_attr( $subheadline ) .'</p>';
+								}
+							$catchbase_featured_content .='</div><!-- .featured-heading-wrap -->';
+						}
+						$catchbase_featured_content .='
 						<div class="featured-content-wrap">';
 
 							// Select content
@@ -287,7 +293,7 @@ function catchbase_page_content( $options ) {
 
 				$catchbase_page_content .= '
 					<div class="entry-container">';
-						$catchbase_page_content .= the_title( '<h2>','</h2>', false );
+						$catchbase_page_content .= the_title( '<header class="entry-header"><h1 class="entry-title">','</h1></header>', false );
 						$catchbase_page_content .= '<p>'. get_the_content( $more_link_text , true ) .'</p>';
 						$catchbase_page_content .= '<a href="' . get_permalink() . '" title="Permalink to '.the_title( '', '', false ).'"></a>';
 					$catchbase_page_content .= '
