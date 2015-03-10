@@ -66,3 +66,8 @@ Version 1.5
 * Fixed Main Menu effect
 * Added rich snippets on single pages
 * Minor bug fixes
+
+Version 1.5.1
+* Update FontAwesome to 4.3.0v
+* Adding theme support title-tag for WP 4.1
+* Minor bug fixes
