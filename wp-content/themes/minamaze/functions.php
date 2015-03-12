@@ -53,12 +53,16 @@ if ( ! function_exists( 'thinkup_themesetup' ) ) {
 		add_theme_support( 'automatic-feed-links' );
 		add_theme_support( 'post-thumbnails' );
 		add_theme_support( 'custom-background' );
+		add_theme_support( 'title-tag' );
 
 		// Add support for custom header
 		$args = apply_filters( 'custom-header', array( 'height' => 200, 'width'  => 1600 ) );
 		add_theme_support( 'custom-header', $args );
 
-		/* Register theme menu's. */
+		// Add WooCommerce functions.
+		add_theme_support( 'woocommerce' );
+
+		// Register theme menu's.
 		register_nav_menus( array( 'pre_header_menu' => 'Pre Header Menu', ) );
 		register_nav_menus( array( 'header_menu' => 'Primary Header Menu', ) );
 		register_nav_menus( array( 'sub_footer_menu' => 'Footer Menu', ) );
@@ -77,7 +81,7 @@ function thinkup_frontscripts() {
 	wp_enqueue_script('jquery');
 
 	/* Register theme stylesheets. */
-	wp_register_style( 'style', get_stylesheet_uri(), '', '1.1.4' );
+	wp_register_style( 'style', get_stylesheet_uri(), '', '1.1.5' );
 	wp_register_style( 'shortcodes', get_template_directory_uri() . '/styles/style-shortcodes.css', '', '1.1' );
 	wp_register_style( 'responsive', get_template_directory_uri() . '/styles/style-responsive.css', '', '1.1' );
 	wp_register_style( 'sidebarleft', get_template_directory_uri() . '/styles/layouts/thinkup-left-sidebar.css', '', '1.1' );
@@ -134,7 +138,7 @@ add_action( 'wp_enqueue_scripts', 'thinkup_frontscripts', 10 );
 function thinkup_adminscripts() {
 
 	/* Register theme stylesheets. */
-	wp_register_style( 'backend', get_template_directory_uri() . '/styles/backend/style-backend.css', '', 1.1 );
+	wp_register_style( 'backend', get_template_directory_uri() . '/styles/backend/style-backend.css', '', 1.3 );
 
 	/* Register theme scripts. */
 	wp_register_script( 'backend', get_template_directory_uri() . '/lib/scripts/main-backend.js', array( 'jquery' ), '1.1' );

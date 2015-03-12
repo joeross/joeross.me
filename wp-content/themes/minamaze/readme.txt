@@ -127,6 +127,11 @@ The following opensource projects, graphics, fonts, API's or other files as list
 	Changelog
 -----------------------------------------------------------------------------
 
+Version 1.1.5
+- New:     Page title is now output using add_theme_support( 'title-tag' ) to ensure compliance with WordPress 4.1.1 guidelines.
+- New:     Add WooCommerce compatibility to allow users to customize WooCommerce from theme folder.
+- Fixed:   jQuery code used to add tr tags in main-backend.js corrected to reduce risk of conflicts with 3rd party code / plugins .
+
 Version 1.1.4
 - Fixed:   Function thinkup_input_wptitle() removed as it causes issues with page title when posts are assigned to homepage.
 
