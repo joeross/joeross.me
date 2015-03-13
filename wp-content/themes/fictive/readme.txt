@@ -68,6 +68,9 @@ Featured Images look best at 634 pixels wide or larger, and are displayed above 
 
 == Changelog ==
 
+= 1.1.1 - Feb 26 2015 =
+* Fixed visual issue with site header being cut off on mobile, when no header image present.
+
 = 1.1 - Nov 27 2014 =
 * Add support for the Eventbrite API plugin.
 * Improve caption display.

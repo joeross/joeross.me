@@ -31,6 +31,10 @@ function fictive_body_classes( $classes ) {
 		$classes[] = 'group-blog';
 	}
 
+	if ( get_header_image() ) {
+		$classes[] = 'has-header-image';
+	}
+
 	return $classes;
 }
 add_filter( 'body_class', 'fictive_body_classes' );

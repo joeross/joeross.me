@@ -15,10 +15,12 @@ msgid "Eventbrite event"
 msgstr ""
 
 #. Author URI of the plugin/theme
+#: wp-content/themes/pub/fictive/style.css
 msgid "https://wordpress.com/themes/"
 msgstr ""
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/fictive/style.css
 msgid "Fictive is all about you -- your style, your look, your story. Make it personal with a custom header image, a Gravatar, and links to your favorite social networks. Use Post Formats to dress up your content, add a custom menu and widgets, or keep it simple with a fixed-position header."
 msgstr "Fictive, c&rsquo;est vous - votre style, votre look, votre histoire. Rendez-le personnel avec une image d'en-tête personnalisée, un Gravatar, et des liens vers vos réseaux sociaux préférés. Utilisez les formats d'article pour mettre en forme votre contenu, ajoutez un menu et des widgets personnalisés, ou restez simples avec une en-tête fixe."
 
@@ -83,7 +85,7 @@ msgstr "Navigation des articles"
 msgid "Posts navigation"
 msgstr "Navigation des articles"
 
-#: inc/extras.php:63
+#: inc/extras.php:67
 msgid "Page %s"
 msgstr "Page %s"
 

@@ -3,7 +3,7 @@
  * Author: Automattic
  * Author URI: https://wordpress.com/themes/
  * Description: Fictive is all about you -- your style, your look, your story. Make it personal with a custom header image, a Gravatar, and links to your favorite social networks. Use Post Formats to dress up your content, add a custom menu and widgets, or keep it simple with a fixed-position header.
- * Version: 1.1
+ * Version: 1.1.1
  * License: GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: fictive
@@ -1114,12 +1114,15 @@ a:hover, a:focus, a:active {
 }
 @media screen and (max-width: 51em) {
   .site-branding {
+		margin-top: 72px;
     margin-bottom: 0;
     border-left: 0;
     border-right: 0;
   }
+  .has-header-image .site-branding {
+    margin-top: 0;
+  }
 }
-
 .site-title {
   font-size: 1.625em;
   line-height: 1.84615em;

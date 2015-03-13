@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Fictive package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-06-27 10:53:14+0000\n"
+"PO-Revision-Date: 2015-02-04 23:30:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,11 +10,17 @@ msgstr ""
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Fictive\n"
 
+#: eventbrite/eventbrite-index.php:38 eventbrite/eventbrite-single.php:25
+msgid "Eventbrite event"
+msgstr "Eventbrite-Event"
+
 #. Author URI of the plugin/theme
+#: wp-content/themes/pub/fictive/style.css
 msgid "https://wordpress.com/themes/"
-msgstr ""
+msgstr "https://wordpress.com/themes/"
 
 #. Description of the plugin/theme
+#: wp-content/themes/pub/fictive/style.css
 msgid "Fictive is all about you -- your style, your look, your story. Make it personal with a custom header image, a Gravatar, and links to your favorite social networks. Use Post Formats to dress up your content, add a custom menu and widgets, or keep it simple with a fixed-position header."
 msgstr ""
 
@@ -37,7 +43,7 @@ msgstr "%s <span class=\"says\">schreibt:</span>"
 
 #: inc/template-tags.php:83
 msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
-msgstr ""
+msgstr "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
 #: inc/template-tags.php:110
 msgid "Pingback:"
@@ -51,7 +57,7 @@ msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
 #: inc/template-tags.php:60
 msgctxt "Next post link"
 msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
-msgstr ""
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
 
 #: inc/template-tags.php:74
 msgid "<span class=\"post-date\"><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">Featured</a></span><span class=\"byline\"><span class=\"author vcard\"><a class=\"url fn n\" href=\"%3$s\" title=\"%4$s\" rel=\"author\">%5$s</a></span></span>"
@@ -64,12 +70,12 @@ msgstr "Zeige alle Beiträge von %s"
 #: inc/template-tags.php:27
 msgctxt "Older posts"
 msgid "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
-msgstr ""
+msgstr "<span class=\"meta-nav screen-reader-text\">&larr;</span>"
 
 #: inc/template-tags.php:31
 msgctxt "Newer posts"
 msgid "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
-msgstr ""
+msgstr "<span class=\"meta-nav screen-reader-text\">&rarr;</span>"
 
 #: inc/template-tags.php:56
 msgid "Post navigation"
@@ -79,7 +85,7 @@ msgstr "Beitragsnavigation"
 msgid "Posts navigation"
 msgstr "Beiträge-Navigation"
 
-#: inc/extras.php:63
+#: inc/extras.php:67
 msgid "Page %s"
 msgstr "Seite %s"
 
@@ -89,11 +95,11 @@ msgstr "Scroll"
 
 #: inc/customizer.php:29
 msgid "Gravatar Email"
-msgstr ""
+msgstr "Gravatar-E-Mail"
 
 #: inc/customizer.php:41
 msgid "Sidebar Position"
-msgstr ""
+msgstr "Seitenleisten-Position"
 
 #: inc/customizer.php:45
 msgid "Fixed"
@@ -118,7 +124,7 @@ msgstr "Widgets"
 #. translators: If there are characters in your language that are not supported
 #. by Bitter, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:162
+#: functions.php:168
 msgctxt "Bitter font: on or off"
 msgid "on"
 msgstr "on"
@@ -130,16 +136,16 @@ msgstr "Menü"
 #. translators: If there are characters in your language that are not supported
 #. by Open Sans, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:153
+#: functions.php:159
 msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
 #: functions.php:45
 msgid "Social Links"
-msgstr ""
+msgstr "Social-Links"
 
-#: functions.php:72
+#: functions.php:78
 msgid "Sidebar"
 msgstr "Seitenleiste"
 
@@ -180,6 +186,7 @@ msgid "All %s posts"
 msgstr "Alle %s Beiträge"
 
 #: content-page.php:30 content-single.php:27 content.php:35
+#: eventbrite/eventbrite-index.php:46 eventbrite/eventbrite-single.php:33
 #: inc/template-tags.php:110 inc/template-tags.php:147
 msgid "Edit"
 msgstr "Bearbeiten"
