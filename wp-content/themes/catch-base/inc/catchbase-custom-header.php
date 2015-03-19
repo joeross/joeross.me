@@ -189,7 +189,7 @@ if ( ! function_exists( 'catchbase_site_branding' ) ) :
 	 *
 	 * @action 	
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_site_branding() {
 		//catchbase_flush_transients();
@@ -222,7 +222,7 @@ if ( ! function_exists( 'catchbase_site_branding' ) ) :
 			$catchbase_header_text = '';
 		}
 
-		if ( '' != $options['logo'] ) {
+		if ( '' != $options['logo'] && !$options['logo_disable'] ) {
 			if( ! $options['move_title_tagline'] ) {
 				$catchbase_site_branding  = '<div id="site-branding" class="logo-left">';
 				$catchbase_site_branding .= $catchbase_site_logo;
@@ -256,7 +256,7 @@ if ( ! function_exists( 'catchbase_featured_image' ) ) :
 	 * To override this in a child theme
 	 * simply create your own catchbase_featured_image(), and that function will be used instead.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_featured_image() {
 		$options				= catchbase_get_theme_options();	
@@ -331,7 +331,7 @@ if ( ! function_exists( 'catchbase_featured_page_post_image' ) ) :
 	 * To override this in a child theme
 	 * simply create your own catchbase_featured_imaage_pagepost(), and that function will be used instead.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_featured_page_post_image() {
 		global $post;
@@ -409,7 +409,7 @@ if ( ! function_exists( 'catchbase_featured_overall_image' ) ) :
 	 * To override this in a child theme
 	 * simply create your own catchbase_featured_pagepost_image(), and that function will be used instead.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_featured_overall_image() {
 		global $post, $wp_query;
@@ -492,7 +492,7 @@ if ( ! function_exists( 'catchbase_featured_image_display' ) ) :
 	/**
 	 * Display Featured Header Image
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_featured_image_display() {
 		add_action( 'catchbase_after_header', 'catchbase_featured_overall_image', 40 );	

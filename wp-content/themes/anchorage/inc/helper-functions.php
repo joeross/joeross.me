@@ -467,12 +467,13 @@ if( ! function_exists( 'anchorage_get_uploads_url' ) ) {
  * @param  string $direction The direction in which the arrow will point.
  * @param  array  $classes   An array of HTML classes for the arrow.
  * @param  string $href      Link the arrow to a url.
+ * @param  string $text 	 Text after the arrow.
  * @return string The arrow, with classes, wrapped in either a link or span.
  *
  * @since  anchorage 1.0
  */
 if( ! function_exists( 'anchorage_get_arrow' ) ) {
-	function anchorage_get_arrow( $direction = 'down', $classes = array(), $href = '#' ) {
+	function anchorage_get_arrow( $direction = 'down', $classes = array(), $href = '#', $text = '' ) {
 
 		// Grab the correct arrow char for the direction.
 		if ( $direction == 'left' ) {
@@ -484,6 +485,8 @@ if( ! function_exists( 'anchorage_get_arrow' ) ) {
 		} else {
 			$out = esc_html__( '&darr;', 'anchorage' );
 		}
+
+		$out .= $text;
 
 		// Build the classes.
 		$classes = array_map( 'sanitize_html_class', $classes );

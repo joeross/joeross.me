@@ -139,10 +139,6 @@ img.wp-smiley,
 
 }
 
-.primary-menu-toggle.opened {
-	position: absolute;
-}
-
 .primary-menu-toggle:focus {
 	outline: none;
 }
@@ -167,8 +163,8 @@ img.wp-smiley,
 }
 
 #blog-header {
-	position: absolute;
-	right: 0;
+	position: fixed;
+	left: 0;
 	top: 0;
 	bottom: 0;
 	height: 100%;
@@ -176,11 +172,15 @@ img.wp-smiley,
 	padding: $large_padding 0 0;
 }
 
+body.un-affix-menu #blog-header {
+	position: absolute;
+}
+
 #blog-header.open {
 	min-width: 280px;
 }
 
-#blog-header > * {
+.blog-header-inner > * {
 	padding-left: $large_padding;
 	padding-right: $large_padding;
 	padding-bottom: $large_padding;
@@ -191,7 +191,6 @@ img.wp-smiley,
 }
 
 #blog-header .blog-title {
-	padding-right: 92px;
 	margin: 0;
 }
 
@@ -229,6 +228,10 @@ img.wp-smiley,
 
 .header-widget > ul {
 	padding-left: $medium_padding;
+}
+
+.header-widget .textwidget p a {
+	text-decoration: underline;
 }
 
 /** 
@@ -364,6 +367,12 @@ img.wp-smiley,
 	-moz-hyphens: auto;
 	-webkit-hyphens: auto;
 	hyphens: auto;
+}
+
+/* The first article on the page should leave extra padding for the menu arrow. */
+.post:first-child .entry-header {
+	padding-left: $large_padding;
+	padding-right: $large_padding;
 }
 
 .sticky .entry-title {

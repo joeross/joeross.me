@@ -22,7 +22,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
 /**
  * Register widgetized area and update sidebar with default widgets
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_widgets_init() {
 	//Primary Sidebar
@@ -67,7 +67,7 @@ add_action( 'widgets_init', 'catchbase_widgets_init' );
 /**
  * Adds catchbaseSocialIcons widget.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 class Catchbase_social_icons_widget extends WP_Widget {
 
@@ -147,7 +147,7 @@ class Catchbase_social_icons_widget extends WP_Widget {
 /**
  * Register Widgets
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_register_widgets() {
     register_widget( 'Catchbase_social_icons_widget' );

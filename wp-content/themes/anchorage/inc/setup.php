@@ -52,6 +52,9 @@ if( ! function_exists( 'anchorage_setup' ) ) {
 		// Allow for post thumbnails.
 		add_theme_support( 'post-thumbnails' );
 
+		// Allow WP to control the title tag.
+		add_theme_support( 'title-tag' );
+
 		// Allow for HTML5.	
 		add_theme_support( 'html5', array(
 			'comment-list',

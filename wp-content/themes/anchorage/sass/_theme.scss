@@ -23,7 +23,10 @@ textarea,
 a {color: $accent_color;}
 
 .primary-menu-toggle:focus,
-a:hover {color: $inverse_accent_color;}
+a:hover,
+a.opened {
+	color: $inverse_accent_color;
+}
 
 #blog-header > *,
 a.button,

@@ -93,6 +93,11 @@ The following opensource projects, graphics, fonts, API's or other files as list
 	Changelog
 -----------------------------------------------------------------------------
 
+Version 1.0.5
+- New:     Add WooCommerce compatibility to allow users to customize WooCommerce from theme folder.
+- Updated: Page title is now output correctly using add_theme_support( 'title-tag' ) with backward compatibility for pre WordPress v4.1.
+- Updated: Functions that are used to add additional image sizes are now child theme compatible allowing feature to be overwritten from child theme.
+
 Version 1.0.4
 - New:     three-columns tag added to style.css given the 3 column layout of the homepage feauted content section.
 - Updated: Breadcrumbs display correctly  for taxonomy archive pages.

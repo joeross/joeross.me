@@ -1,6 +1,6 @@
 === Catch Base ===
 
-If you are looking to tailor-make a unique site without having to spend time coding a strong base for a theme that is smooth and displays well in all mobile and desktop devices, Catch Base is where your search ends. Catch Base is a simple, clean and responsive WordPress Theme. Use this as a base for your theme development or custom site development, and you will be thrilled with its ease and efficiency! Catch Base is built in HTML5, CSS3 and WordPress Theme Customizer for real time customization. This theme is translation ready. Check out Theme Instructions at http://catchthemes.com/theme-instructions/catch-base/, Support at http://catchthemes.com/support/ and Demo at http://catchthemes.com/demo/catch-base/
+If you are looking to tailor-make a unique site without having to spend time coding a strong base for a theme that is smooth and displays well in all mobile and desktop devices, Catch Base is where your search ends. Catch Base is a simple, clean and responsive WordPress Theme. Use this as a base for your theme development or custom site development, and you will be thrilled with its ease and efficiency! Catch Base is built in HTML5, CSS3 and WordPress Theme Customizer for real time customization. This theme is translation ready and also currently translated in Swedish. Check out Theme Instructions at http://catchthemes.com/theme-instructions/catch-base/, Support at http://catchthemes.com/support/ and Demo at http://catchthemes.com/demo/catch-base/
 
 
 == Support ==
@@ -12,6 +12,7 @@ Support Forum: http://catchthemes.com/support-forum/forum/catch-base-free/
 == Translation ==
 
 Catch Base theme is translation ready.
+Added Translation for Swedish by Anders Paulcén ( Email: anderspaulcen@gmail.com )
 
 
 == License ==
@@ -115,6 +116,28 @@ Available icons:
 * Vimeo
 * WordPress
 * YouTube
+
+Skype Link:
+Skype link can have several formats which are documented below:
+Username:
+    skype:profile_name?action 
+
+    Examples of such actions are
+    * call        to call
+    * chat        to chat
+    * voicemail   to leave a voice mail
+    * sendfile    to send a file
+    * add         to add to contacts
+    * userinfo    to view profile
+
+    E.g: skype:echo123?call
+    This will initiate test call use skype usenarme echo123
+
+Number:
+    callto://+*********** 
+
+    E.g: callto://+14044627491
+    This will initiate Skype to call phone number 14044627491
 
 = Theme Instructions =
 

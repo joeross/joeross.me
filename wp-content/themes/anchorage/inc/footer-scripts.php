@@ -104,13 +104,13 @@ if( ! function_exists( 'anchorage_offscreen_menu' ) ) {
 					var blogHeader = $( '#blog-header' );
 
 					// The item that toggles the blog header.
-					var toggle = $( '[href="#blog-header"]');
+					var toggle = $( '[href="#blog-header"]' );
 					
 					// The classes that are toggled on/off the blog header.
 					var blogHeaderClasses = 'two-of-five zero-width open closed';
 					
 					// The classes that are toggled on/off the toggle link.
-					var toggleClasses = 'inverse-color one-eighty opened';
+					var toggleClasses = 'one-eighty opened';
 					
 					// Stuff that's not the blog header.
 					var notHeader = $( '#loop, .archive-header, #blog-footer' )
@@ -132,7 +132,27 @@ if( ! function_exists( 'anchorage_offscreen_menu' ) ) {
 					
 						}
 					});
+		
+					// A function to toggle a body class in case the menu is taller than the window.
+					function affixMenu() {
 						
+						var headerInner = $( '.blog-header-inner' );
+						var headerHeight = headerInner.height();
+						var windowHeight = $( window ).height();
+
+						if( headerHeight > windowHeight ) {
+							$( 'body' ).addClass( 'un-affix-menu' );
+						} else {
+							$( 'body' ).removeClass( 'un-affix-menu' );
+						}
+
+					}
+
+					// Sniff for menu height every 300ms.
+					setInterval( function () {
+						affixMenu();
+					}, 300);
+
 				});
 			</script>
 

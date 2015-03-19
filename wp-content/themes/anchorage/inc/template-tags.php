@@ -127,8 +127,9 @@ if( ! function_exists( 'anchorage_header_menu' ) ) {
 		// Start the menu.
 		echo "
 			<header id='blog-header' class='marquee zero-width closed inverse-color'>
-				$home_link
-				$menu
+				<div class='blog-header-inner'>
+					$home_link
+					$menu
 		";
 
 		// Grab the header widget area.
@@ -144,11 +145,15 @@ if( ! function_exists( 'anchorage_header_menu' ) ) {
 
 		// Close the menu.
 		echo '
+				</div>
 			</header>
 		';
 
+		// The label for the menu toggle arrow.
+		$menu_label = '<span class="screen-reader-text">' . esc_html__( 'Menu', 'anchorage' ) . '</span>';
+
 		// Grab the toggle arrow.
-		echo anchorage_get_arrow( 'left', array( 'toggle', 'shadowed', 'primary-menu-toggle' ), '#blog-header' );
+		echo anchorage_get_arrow( 'left', array( 'toggle', 'shadowed', 'primary-menu-toggle' ), '#blog-header', $menu_label );
 
 	}
 }
@@ -481,7 +486,7 @@ if ( ! function_exists( 'anchorage_get_paging_nav' ) ) {
 if( ! function_exists( 'anchorage_get_archive_header' ) ) {
 	function anchorage_get_archive_header() {
 		
-		if( is_single() || is_page() || is_singular() ) { return false; }
+		if( is_home() || is_single() || is_page() || is_singular() ) { return false; }
 
 		// Grab the number of posts found by the current query.
 		global $wp_query;
@@ -580,6 +585,8 @@ if( ! function_exists( 'anchorage_get_archive_header' ) ) {
 if( ! function_exists( 'anchorage_get_no_posts' ) ) {
 	function anchorage_get_no_posts() {
 
+		$out = '';
+
 		$find_your_way = esc_html__( 'Find your way by searching:', 'anchorage' );
 		
 		$search_header  = "$find_your_way";
@@ -638,10 +645,19 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 
 		$out = '';
 
+		// We'll need this a few times.  The setting in wp-admin to put posts on a special page.
+		$page_for_posts = get_option( 'page_for_posts' );
+
+		// We'll need this to print information about the query in some situations, such as date queries.
+		global $wp_query;
+		$query = $wp_query -> query;
+
 		/**
 		 * Determine what sort of page view this is.
 		 * Based on that, we might grab parent posts, parent terms, or just a home link.
 		 */
+
+		$resource_type = '';
 
 		// If we're viewing a term archive, denote that resource type.
 		if( anchorage_is_termish() ) {
@@ -676,11 +692,20 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 			$object_type = get_post_type();
 			$post_type_obj = get_post_type_object( $object_type );
 
+		} elseif( is_home() ) {
+			$resource_type = 'posts_page';
 		}
 
 		// Start an array to hold the breadcrumbs, starting with a string to denote the homepage.
 		$crumb_array = array( 'home' );
 
+		// If you are on a bloggish page, and the blog has its own page for posts, add the link to the posts page.
+		if( ! empty( $page_for_posts ) ) {
+			if( is_single() || is_category() || is_tag() || is_date() ) {
+				$crumb_array[]= 'posts_page_linked';
+			}
+		}
+		
 		// If it's a tax or nested post type, we can use the get_ancestors() function.
 		if( ( $resource_type == 'taxonomy' ) || ( $resource_type == 'hierarchical_post_type' ) ) {	
 			$get_ancestors = get_ancestors( $object_id, $object_type );
@@ -698,6 +723,9 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 			// We also have to add that first category in at the end.
 			$get_ancestors []= $first_category -> term_id;
 
+		// If the admin has chosen a page of posts...
+		} elseif( $resource_type == 'posts_page' ) {
+			$crumb_array []= 'posts_page';
 		}
 		
 		// If we did a call to get_ancestors(), we want to remove empty elements, reverse the order, and merge it in with the rest of the breadcrumbs.
@@ -707,8 +735,10 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 			$crumb_array = array_merge( $crumb_array, $get_ancestors );
 		}
 
-		// Add a string to denote the current page.
-		$crumb_array []= 'current';
+		// Add a string to denote the current page, unless we are on the posts_page.
+		if( ! is_home() ) {
+			$crumb_array []= 'current';
+		}
 
 		/**
 		 * Let's see if the current view has child terms or child posts.
@@ -805,6 +835,44 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 
 					$crumb_title = $post_type_obj -> labels -> name;
 
+				// If it's a date, build crumbs for each part of the date.
+				} elseif( is_date() ) {
+
+					$year        = '';
+					$linked_year = '';
+
+					$month        = '';
+					$linked_month = '';
+					
+					$date        = '';
+					$linked_date = '';
+					
+					// If there is a year in the query, build a link to that year.
+					if( isset( $query['year'] ) )  {
+						$year        = $query['year'];
+						$year_href   = esc_url( get_year_link( $year ) );
+						$linked_year = anchorage_get_breadcrumb( $year, $year_href );
+					}
+
+					// If there is a month in the query, build a link to that month.
+					if( isset( $query['monthnum'] ) ) {
+						$month_name   = date( 'M', $query['monthnum'] );
+						$month_href   = get_month_link( $year, $query['monthnum'] );
+						$linked_month = anchorage_get_breadcrumb( $month_name, $month_href );
+					}
+
+					// If there is a day in the query, grab that day number.
+					if( isset( $query['day'] ) )  { $day = $query['day']; }
+
+					//
+					$crumb_title = $linked_year;
+
+					if( is_month() ) {
+						$crumb_title .= "$arrow $month_name";
+					} elseif( is_day() ) {
+						$crumb_title .= "$arrow $linked_month $arrow $day";
+					}
+
 				} else {
 					$term = get_queried_object();
 					$crumb_title = wp_kses_post( $term -> name );
@@ -832,6 +900,16 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 						}
 					}
 				}
+
+			} elseif( $crumb == 'posts_page' ) {
+				
+				$crumb_title = get_the_title( $page_for_posts );
+				$crumb_link =  FALSE;
+
+			} elseif( $crumb == 'posts_page_linked' ) {
+				
+				$crumb_title = get_the_title( $page_for_posts );
+				$crumb_link =  get_permalink( $page_for_posts );
 
 			// If this breadcrumb is not for one of our special strings, dig into it and output the correct data.
 			} else {
@@ -866,7 +944,7 @@ if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
 			$out .= $this_crumb;
 
 			// Unless we're at the end of the crumbs, add an arrow.
-			if( $i != $count ) {
+			if( $i < $count ) {
 				$out .= $arrow;
 			}
 

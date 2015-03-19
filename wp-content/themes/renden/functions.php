@@ -56,6 +56,9 @@ if ( ! function_exists( 'thinkup_themesetup' ) ) {
 		$args = apply_filters( 'custom-header', array( 'height' => 200, 'width'  => 1600 ) );
 		add_theme_support( 'custom-header', $args );
 
+		// Add WooCommerce functions.
+		add_theme_support( 'woocommerce' );
+
 		// Register theme menu's.
 		register_nav_menus( array( 'pre_header_menu' => 'Pre Header Menu', ) );
 		register_nav_menus( array( 'header_menu' => 'Primary Header Menu', ) );
@@ -80,7 +83,7 @@ function thinkup_frontscripts() {
 	wp_enqueue_style( 'thinkup-bootstrap', get_template_directory_uri() . '/lib/extentions/bootstrap/css/bootstrap.css', '', '2.3.2' );
 	wp_enqueue_style( 'thinkup-prettyPhoto', get_template_directory_uri() . '/lib/extentions/prettyPhoto/css/prettyPhoto.css', '', '3.1.5' );
 	wp_enqueue_style( 'thinkup-shortcodes', get_template_directory_uri() . '/styles/style-shortcodes.css', '', '1.1' );
-	wp_enqueue_style( 'thinkup-style', get_stylesheet_uri(), '', '1.0.4' );
+	wp_enqueue_style( 'thinkup-style', get_stylesheet_uri(), '', '1.0.5' );
 
 	// Add Font Packages.
 	wp_enqueue_style( 'dashicons' );

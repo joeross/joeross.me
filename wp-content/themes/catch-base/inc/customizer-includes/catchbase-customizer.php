@@ -20,7 +20,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
  * @param $wp_customize Theme Customizer object
  * @return void
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_customize_register( $wp_customize ) {
 	$wp_customize->get_setting( 'blogname' )->transport			= 'postMessage';
@@ -189,7 +189,7 @@ add_action( 'customize_register', 'catchbase_customize_register' );
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_checkbox( $input ) {
     if ( $input == 1 ) {
@@ -206,7 +206,7 @@ function catchbase_sanitize_checkbox( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_custom_css( $input ) {
 	if ( $input != '' ) { 
@@ -230,7 +230,7 @@ function catchbase_sanitize_custom_css( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_image( $input ) {
 	return esc_url_raw( $input );
@@ -241,7 +241,7 @@ function catchbase_sanitize_image( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_post_id( $input ) {
     //check if post exists
@@ -259,7 +259,7 @@ function catchbase_sanitize_post_id( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_page( $input ) {
 	if(  get_post( $input ) ){
@@ -276,7 +276,7 @@ function catchbase_sanitize_page( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_category_list( $input ) {
 	if ( $input != '' ) { 
@@ -316,7 +316,7 @@ function catchbase_sanitize_category_list( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_no_of_slider( $input ) {
 	if ( absint( $input ) > 20 ) {
@@ -332,7 +332,7 @@ function catchbase_sanitize_no_of_slider( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_no_of_social_icons( $input ) {
 	if ( absint( $input ) > 10 ) {
@@ -349,7 +349,7 @@ function catchbase_sanitize_no_of_social_icons( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_footer_code( $input ) {
 	return ( stripslashes( wp_filter_post_kses( addslashes ( $input ) ) ) );
@@ -361,7 +361,7 @@ function catchbase_sanitize_footer_code( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_sanitize_featured_slide_transition_effects( $input ) {
 	$catchbase_featured_slide_transition_effects = array_keys( catchbase_featured_slide_transition_effects() );
@@ -382,7 +382,7 @@ function catchbase_sanitize_featured_slide_transition_effects( $input ) {
  * @param  $input entered value
  * @return sanitized output
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_reset_all_settings( $input ) {
 	if ( $input == 1 ) {
@@ -401,7 +401,7 @@ function catchbase_reset_all_settings( $input ) {
 /**
  * Dummy Sanitizaition function as it contains no value to be sanitized
  *
- * @since  Catchbase 1.2
+ * @since Catch Base 1.2
  */
 function create_sanitize_important_link() {
 	return false;
@@ -412,7 +412,7 @@ function create_sanitize_important_link() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously for catchbase.
  * And flushes out all transient data on preview
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_customize_preview() {
 	wp_enqueue_script( 'catchbase_customizer', get_template_directory_uri() . '/js/catchbase-customizer.min.js', array( 'customize-preview' ), '20120827', true );
@@ -426,7 +426,7 @@ add_action( 'customize_preview_init', 'catchbase_customize_preview' );
 /**
  * Custom scripts and styles on customize.php for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_customize_scripts() {
 	wp_register_script( 'catchbase_customizer_custom', get_template_directory_uri() . '/js/catchbase-customizer-custom-scripts.min.js', array( 'jquery' ), '20131028', true );

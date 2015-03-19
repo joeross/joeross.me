@@ -24,7 +24,7 @@
  * 
  * @action add_meta_boxes
  * 
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_add_custom_box() {
 	add_meta_box(
@@ -46,7 +46,7 @@ add_action( 'add_meta_boxes', 'catchbase_add_custom_box' );
 /**
  * Renders metabox to for sidebar layout
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_meta_options() {
 	global $post;
@@ -152,7 +152,7 @@ function catchbase_meta_options() {
  * 
  * @action save_post
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_save_custom_meta( $post_id ) { 
 	global $post;

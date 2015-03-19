@@ -36,6 +36,7 @@
 
 /* Needs to be about 23px wider than outer wrappers to prevent odd lateral whitespace around full width elements that have a bg color */
 body {
+	position: relative; /* Helps iPhone with making header menu full height. */
 	/*min-width: $small_device;*/
 }
 
@@ -137,7 +138,7 @@ blockquote > :last-child,
  */
 
 .home #loop {
-	margin-top: $large_margin;
+	padding-top: $x_large_padding;
 }
 
 #loop {
@@ -146,6 +147,6 @@ blockquote > :last-child,
 
 @media ( max-width: $small_device ) {
 	.home #loop {
-		margin-top: $medium_margin;
+		padding-top: $large_padding;
 	}
 }

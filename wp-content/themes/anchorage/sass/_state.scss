@@ -32,7 +32,7 @@ input:focus {
 	}
 }
 
-/* Universal Transitions - Module one-offs are in _modules.scss*/
+/* Universal Transitions - Module one-offs are in _modules.scss */
 input,
 a,
 a > * {
@@ -69,10 +69,12 @@ a > * {
 
 	.shadowed,
 	.shadowed .search-field {
-		text-shadow: 1px 1px 0 $color,
-			     	 2px 2px 0 $inverse_color;
 		padding-left: 0px;
 		padding-right: 2px;
+	}
+
+	.shadowed.blog-title {
+		padding: 0 $large_padding;
 	}
 
 }

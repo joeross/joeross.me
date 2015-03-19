@@ -5,8 +5,8 @@ msgstr ""
 "Project-Id-Version: Catch Base\n"
 "Report-Msgid-Bugs-To: http://catchthemes.com/support-forum/forum/catch-base-"
 "free/\n"
-"POT-Creation-Date: 2015-02-20 21:51+0545\n"
-"PO-Revision-Date: 2015-02-20 21:51+0545\n"
+"POT-Creation-Date: 2015-03-16 23:47+0545\n"
+"PO-Revision-Date: 2015-03-16 23:47+0545\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: en\n"
@@ -16,7 +16,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.7.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;"
+"_nx:1,2,4c;esc_html__\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -100,6 +101,14 @@ msgstr ""
 msgid "Archives"
 msgstr ""
 
+#: ../comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
 #: ../comments.php:34 ../comments.php:59
 msgid "Comment navigation"
 msgstr ""
@@ -141,8 +150,8 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: ../content-page.php:35 ../inc/catchbase-core.php:629
-#: ../inc/catchbase-core.php:648
+#: ../content-page.php:35 ../inc/catchbase-core.php:624
+#: ../inc/catchbase-core.php:643 ../inc/catchbase-core.php:769
 msgid "Edit"
 msgstr ""
 
@@ -174,89 +183,101 @@ msgstr ""
 msgid "Error 404"
 msgstr ""
 
-#: ../inc/catchbase-breadcrumb.php:222 ../inc/catchbase-core.php:900
+#: ../inc/catchbase-breadcrumb.php:222 ../inc/catchbase-core.php:895
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: ../inc/catchbase-core.php:126 ../inc/catchbase-menus.php:27
+#: ../inc/catchbase-core.php:121 ../inc/catchbase-menus.php:27
 msgid "Primary Menu"
 msgstr ""
 
-#: ../inc/catchbase-core.php:127 ../inc/catchbase-menus.php:69
+#: ../inc/catchbase-core.php:122 ../inc/catchbase-menus.php:69
 msgid "Secondary Menu"
 msgstr ""
 
-#: ../inc/catchbase-core.php:595
+#: ../inc/catchbase-core.php:590
 msgid "Post navigation"
 msgstr ""
 
-#: ../inc/catchbase-core.php:604
+#: ../inc/catchbase-core.php:599
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#: ../inc/catchbase-core.php:605
+#: ../inc/catchbase-core.php:600
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:629
+#: ../inc/catchbase-core.php:624
 msgid "Pingback:"
 msgstr ""
 
-#: ../inc/catchbase-core.php:639
+#: ../inc/catchbase-core.php:634
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:645
+#: ../inc/catchbase-core.php:640
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../inc/catchbase-core.php:652
+#: ../inc/catchbase-core.php:647
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../inc/catchbase-core.php:755
+#: ../inc/catchbase-core.php:750
 msgctxt "Used before publish date."
 msgid "<span class=\"screen-reader-text\">Posted on</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:762
+#: ../inc/catchbase-core.php:757
 msgctxt "Used before post author name."
 msgid "<span class=\"screen-reader-text\">Author</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:791 ../inc/catchbase-core.php:799
+#: ../inc/catchbase-core.php:765
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/catchbase-core.php:765
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/catchbase-core.php:765
+msgid "% Comments"
+msgstr ""
+
+#: ../inc/catchbase-core.php:786 ../inc/catchbase-core.php:794
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ""
 
-#: ../inc/catchbase-core.php:794
+#: ../inc/catchbase-core.php:789
 msgctxt "Used before category names."
 msgid "<span class=\"screen-reader-text\">Categories</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:802
+#: ../inc/catchbase-core.php:797
 msgctxt "Used before tag names."
 msgid "<span class=\"screen-reader-text\">Tags</span>"
 msgstr ""
 
-#: ../inc/catchbase-core.php:996
+#: ../inc/catchbase-core.php:991
 #, php-format
 msgid "%s"
 msgstr ""
 
-#: ../inc/catchbase-core.php:1479
+#: ../inc/catchbase-core.php:1474
 msgid "Scroll Up"
 msgstr ""
 
-#: ../inc/catchbase-core.php:1496
+#: ../inc/catchbase-core.php:1491
 msgid "Posted on"
 msgstr ""
 
-#: ../inc/catchbase-core.php:1497
+#: ../inc/catchbase-core.php:1492
 msgid "By"
 msgstr ""
 
@@ -474,7 +495,7 @@ msgstr ""
 msgid "Googleplus"
 msgstr ""
 
-#: ../inc/catchbase-default-options.php:450 ../inc/catchbase-social-icons.php:60
+#: ../inc/catchbase-default-options.php:450 ../inc/catchbase-social-icons.php:61
 msgid "Email"
 msgstr ""
 
@@ -612,6 +633,17 @@ msgid ""
 "Here you can showcase the x number of Featured Content. You can edit this "
 "Headline, Subheadline and Feaured Content from \"Appearance -> Customize -> "
 "Featured Content Options\"."
+msgstr ""
+
+#: ../inc/catchbase-featured-content.php:267
+#: ../inc/catchbase-featured-content.php:276
+#: ../inc/catchbase-featured-content.php:287
+#: ../inc/catchbase-featured-content.php:298
+#: ../inc/catchbase-featured-slider.php:178
+#: ../inc/catchbase-featured-slider.php:185
+#: ../inc/catchbase-featured-slider.php:201
+#: ../inc/catchbase-featured-slider.php:211
+msgid "Permalink to:"
 msgstr ""
 
 #: ../inc/catchbase-menus.php:28 ../inc/catchbase-menus.php:70
@@ -848,6 +880,12 @@ msgstr ""
 #: ../inc/customizer-includes/catchbase-customizer-social-icons.php:22
 #: ../inc/customizer-includes/catchbase-customizer-social-icons.php:29
 msgid "Social Links"
+msgstr ""
+
+#: ../inc/customizer-includes/catchbase-customizer-social-icons.php:46
+msgid ""
+"Skype link can be of formats:<br>callto://+{number}<br> skype:{username}?"
+"{action}. More Information in readme file"
 msgstr ""
 
 #: ../inc/customizer-includes/catchbase-customizer-theme-options.php:21

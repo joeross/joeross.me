@@ -18,7 +18,7 @@ if ( ! function_exists( 'catchbase_doctype' ) ) :
 	/**
 	 * Doctype Declaration
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_doctype() {
@@ -35,7 +35,7 @@ if ( ! function_exists( 'catchbase_head' ) ) :
 	/**
 	 * Header Codes
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_head() {
@@ -56,7 +56,7 @@ if ( ! function_exists( 'catchbase_doctype_start' ) ) :
 	/**
 	 * Start div id #page
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_page_start() {
@@ -72,7 +72,7 @@ if ( ! function_exists( 'catchbase_page_end' ) ) :
 	/**
 	 * End div id #page
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_page_end() {
@@ -88,12 +88,12 @@ if ( ! function_exists( 'catchbase_header_start' ) ) :
 	/**
 	 * Start Header id #masthead and class .wrapper
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_header_start() {
 		?>
-		<header id="masthead" class="site-header" role="banner">
+		<header id="masthead" role="banner">
     		<div class="wrapper">
 		<?php
 	}
@@ -105,7 +105,7 @@ if ( ! function_exists( 'catchbase_header_end' ) ) :
 	/**
 	 * End Header id #masthead and class .wrapper
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_header_end() {
@@ -122,7 +122,7 @@ if ( ! function_exists( 'catchbase_content_start' ) ) :
 	/**
 	 * Start div id #content and class .wrapper
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 *
 	 */
 	function catchbase_content_start() {
@@ -138,7 +138,7 @@ if ( ! function_exists( 'catchbase_content_end' ) ) :
 	/**
 	 * End div id #content and class .wrapper
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_content_end() {
 		?>
@@ -155,7 +155,7 @@ if ( ! function_exists( 'catchbase_content_sidebar_wrap_start' ) ) :
 	/**
 	 * Start div id #content_sidebar_wrap
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_content_sidebar_wrap_start() {
 		?>
@@ -169,7 +169,7 @@ if ( ! function_exists( 'catchbase_content_sidebar_wrap_end' ) ) :
 	/**
 	 * End div id #content_sidebar_wrap
 	 * 
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_content_sidebar_wrap_end() {
 		?>
@@ -183,7 +183,7 @@ if ( ! function_exists( 'catchbase_sidebar_secondary' ) ) :
 	/**
 	 * Secondary Sidebar
 	 * 
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_sidebar_secondary() {
 		get_sidebar( 'secondary' );
@@ -195,7 +195,7 @@ if ( ! function_exists( 'catchbase_layout_condition_check' ) ) :
 	/**
 	 * Layout Optons Condition Check and Hook
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_layout_condition_check() {
 		global $post, $wp_query;
@@ -249,7 +249,7 @@ if ( ! function_exists( 'catchbase_footer_content_start' ) ) :
 /**
  * Start footer id #colophon
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_footer_content_start() {
 	?>
@@ -264,7 +264,7 @@ if ( ! function_exists( 'catchbase_footer_sidebar' ) ) :
 /**
  * Footer Sidebar
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_footer_sidebar() {
 	get_sidebar( 'footer' );
@@ -277,7 +277,7 @@ if ( ! function_exists( 'catchbase_footer_content_end' ) ) :
 /**
  * End footer id #colophon
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_footer_content_end() {
 	?>
@@ -292,15 +292,16 @@ if ( ! function_exists( 'catchbase_header_right' ) ) :
 /**
  * Shows Header Right Social Icon
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_header_right() { ?>
 	<aside class="sidebar sidebar-header-right widget-area">
-	<?php
-		//Header Right Widgets Sidebar
-		the_widget( 'Catchbase_social_icons_widget' );
-	?>
-	</aside><!-- .sidebar .header-sidebar .widget-area -->
+		<section class="widget widget_catchbase_social_icons" id="header-right-social-icons">
+			<div class="widget-wrap">
+				<?php echo catchbase_get_social_icons(); ?>
+			</div>
+		</section>		
+	</aside><!-- .sidebar .header-sidebar .widget-area -->	
 <?php	
 }
 endif;

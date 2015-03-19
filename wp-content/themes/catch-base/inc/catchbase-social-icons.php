@@ -17,7 +17,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
 /**
  * Generate social icons.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_social_icons(){
 	if( ( !$catchbase_social_icons = get_transient( 'catchbase_social_icons' ) ) ) {
@@ -44,6 +44,7 @@ function catchbase_get_social_icons(){
 		$social_icons['Path']			= isset( $options['path_link'] ) ? $options['path_link'] : '' ;
 		$social_icons['Dribbble']		= isset( $options['dribbble_link'] ) ? $options['dribbble_link'] : '' ;
 		$social_icons['Skype']			= isset( $options['skype_link'] ) ? $options['skype_link'] : '' ;
+		$social_icons['SkypeNumber']	= isset( $options['skype_number'] ) ? $options['skype_number'] : '' ;
 		$social_icons['Digg']			= isset( $options['digg_link'] ) ? $options['digg_link'] : '' ;
 		$social_icons['Reddit']			= isset( $options['reddit_link'] ) ? $options['reddit_link'] : '' ;
 		$social_icons['Stumbleupon']	= isset( $options['stumbleupon_link'] ) ? $options['stumbleupon_link'] : '' ;
@@ -53,14 +54,20 @@ function catchbase_get_social_icons(){
 		$social_icons['Spotify']		= isset( $options['spotify_link'] ) ? $options['spotify_link'] : '' ;
 		$social_icons['Twitch']			= isset( $options['twitch_link'] ) ? $options['twitch_link'] : '' ;
 
-		foreach ( $social_icons as $key => $value )
-			if( $value !='' ){
+		foreach ( $social_icons as $key => $value ) {
+			if( '' != $value ){
 				$title	=	explode( '-', $key );
-				if ( $key == 'Mail' )  
-					$output .= '<a class="genericon_parent genericon genericon-'. strtolower( $key ) .'" target="_blank" title="'. __( 'Email', 'catchbase') . '" href="mailto:'. sanitize_email( $value ) .'"><span class="screen-reader-text">'. __( 'Email', 'catchbase') . '</span> </a>';
-				else
+				if ( 'Mail' == $key  ) { 
+					$output .= '<a class="genericon_parent genericon genericon-'. strtolower( $key ) .'" title="'. __( 'Email', 'catchbase') . '" href="mailto:'. sanitize_email( $value ) .'"><span class="screen-reader-text">'. __( 'Email', 'catchbase') . '</span> </a>';
+				}
+				else if ( 'Skype' == $key  ) { 
+					$output .= '<a class="genericon_parent genericon genericon-'. strtolower( $key ) .'" title="'. $title[ 0 ] . '" href="'. esc_attr( $value ) .'"><span class="screen-reader-text">'.$title[ 0 ] . '</span> </a>';
+				}
+				else {
 					$output .= '<a class="genericon_parent genericon genericon-'. strtolower( $key ) .'" target="_blank" title="'. $title[ 0 ] .'" href="'. esc_url( $value ) .'"><span class="screen-reader-text">'. $title[ 0 ] .'</span> </a>';
+				}
 			}
+		}
 
 		$catchbase_social_icons = $output;
 		

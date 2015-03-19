@@ -25,7 +25,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
  * Set the content width based on the theme's design and stylesheet.
  */
 if ( ! isset( $content_width ) )
-	$content_width = 1200; /* pixels */
+	$content_width = 540; /* pixels */
 
 
 if ( ! function_exists( 'catchbase_content_width' ) ) :
@@ -64,12 +64,7 @@ if ( ! function_exists( 'catchbase_content_width' ) ) :
 			$layout='default';
 		}
 
-		// Theme Columns: Default width sidebars
-		if ( $layout == 'three-columns' || ( $layout=='default' && $themeoption_layout == 'three-columns' ) ) {
-			$content_width = 540;
-		}
-		// Two Colums: Left and Right Sidebar & One Column: No Sidbear
-		elseif ( $layout == 'right-sidebar' || $layout == 'left-sidebar' || $layout == 'no-sidebar' || ( $layout=='default' && $themeoption_layout == 'right-sidebar' ) || ( $layout=='default' && $themeoption_layout == 'left-sidebar' ) || ( $layout=='default' && $themeoption_layout == 'no-sidebar' ) ) {
+		if ( $layout == 'right-sidebar' || $layout == 'left-sidebar' || $layout == 'no-sidebar' || ( $layout=='default' && $themeoption_layout == 'right-sidebar' ) || ( $layout=='default' && $themeoption_layout == 'left-sidebar' ) || ( $layout=='default' && $themeoption_layout == 'no-sidebar' ) ) {
 			$content_width = 780;
 		}	
 	}
@@ -187,7 +182,7 @@ add_action( 'after_setup_theme', 'catchbase_setup' );
  * @uses  wp_register_script, wp_enqueue_script, wp_register_style, wp_enqueue_style, wp_localize_script
  * @action wp_enqueue_scripts
  *
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_scripts() {
 	$options			= catchbase_get_theme_options();
@@ -275,7 +270,7 @@ add_action( 'wp_enqueue_scripts', 'catchbase_scripts' );
  *
  * @action admin_print_scripts-post-new, admin_print_scripts-post, admin_print_scripts-page-new, admin_print_scripts-page
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_enqueue_metabox_scripts() {
     //Scripts
@@ -359,7 +354,7 @@ require get_template_directory() . '/inc/catchbase-metabox.php';
  * Returns the options array for catchbase.
  * @uses  get_theme_mod
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_theme_options() {
 	return get_theme_mod( 'catchbase_theme_options', catchbase_get_default_theme_options() );
@@ -373,7 +368,7 @@ function catchbase_get_theme_options() {
  * 
  * @action customize_save, catchbase_customize_preview (see catchbase_customizer function: catchbase_customize_preview)
  * 
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_flush_transients(){
 	delete_transient( 'catchbase_featured_content' );
@@ -412,7 +407,7 @@ add_action( 'customize_save', 'catchbase_flush_transients' );
  * 
  * @action edit_category
  * 
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_flush_category_transients(){
 	delete_transient( 'all_the_cool_cats' );
@@ -427,7 +422,7 @@ add_action( 'edit_category', 'catchbase_flush_category_transients' );
  * 
  * @action save_post
  * 
- * @since  Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_flush_post_transients(){
 	delete_transient( 'catchbase_featured_content' );
@@ -453,7 +448,7 @@ if ( ! function_exists( 'catchbase_favicon' ) ) :
 	 *
 	 * @action wp_head, admin_head
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_favicon() {
 		if( ( !$catchbase_favicon = get_transient( 'catchbase_favicon' ) ) ) {
@@ -491,7 +486,7 @@ if ( ! function_exists( 'catchbase_web_clip' ) ) :
 	 *
 	 * @action wp_head
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_web_clip() {
 		if( ( !$catchbase_web_clip = get_transient( 'catchbase_web_clip' ) ) ) {
@@ -519,7 +514,7 @@ if ( ! function_exists( 'catchbase_custom_css' ) ) :
 	 *
 	 * @action wp_enqueue_scripts
 	 * 
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_custom_css() {
 		//catchbase_flush_transients();
@@ -557,7 +552,7 @@ if ( ! function_exists( 'catchbase_content_nav' ) ) :
 	/**
 	 * Display navigation to next/previous pages when applicable
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_content_nav( $nav_id ) {
 		global $wp_query, $post;
@@ -617,7 +612,7 @@ if ( ! function_exists( 'catchbase_comment' ) ) :
 	 *
 	 * Used as a callback by wp_list_comments() for displaying the comments.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_comment( $comment, $args, $depth ) {
 		$GLOBALS['comment'] = $comment;
@@ -678,7 +673,7 @@ if ( ! function_exists( 'catchbase_the_attached_image' ) ) :
 	/**
 	 * Prints the attached image with a link to the next attached image.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_the_attached_image() {
 		$post                = get_post();
@@ -733,7 +728,7 @@ if ( ! function_exists( 'catchbase_entry_meta' ) ) :
 	/**
 	 * Prints HTML with meta information for the current post-date/time and author.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_entry_meta() {
 		echo '<p class="entry-meta">';
@@ -782,7 +777,7 @@ if ( ! function_exists( 'catchbase_tag_category' ) ) :
 	/**
 	 * Prints HTML with meta information for the categories, tags.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_tag_category() {
 		echo '<p class="entry-meta">';
@@ -814,7 +809,7 @@ if ( ! function_exists( 'catchbase_categorized_blog' ) ) :
 	/**
 	 * Returns true if a blog has more than 1 category
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_categorized_blog() {
 		if ( false === ( $all_the_cool_cats = get_transient( 'all_the_cool_cats' ) ) ) {
@@ -843,7 +838,7 @@ endif; //catchbase_categorized_blog
 /**
  * Get our wp_nav_menu() fallback, wp_page_menu(), to show a home link.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_page_menu_args( $args ) {
 	$args['show_home'] = true;
@@ -855,7 +850,7 @@ add_filter( 'wp_page_menu_args', 'catchbase_page_menu_args' );
 /**
  * Filter in a link to a content ID attribute for the next/previous image links on image attachment pages
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_enhanced_image_navigation( $url, $id ) {
 	if ( ! is_attachment() && ! wp_attachment_is_image( $id ) )
@@ -924,7 +919,7 @@ endif;
 /**
  * Count the number of footer sidebars to enable dynamic classes for the footer
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_footer_sidebar_class() {
 	$count = 0;
@@ -970,7 +965,7 @@ if ( ! function_exists( 'catchbase_excerpt_length' ) ) :
 	 * function tied to the excerpt_length filter hook.
 	 * @uses filter excerpt_length
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_excerpt_length( $length ) {
 		// Getting data from Customizer Options
@@ -986,7 +981,7 @@ if ( ! function_exists( 'catchbase_continue_reading' ) ) :
 	/**
 	 * Returns a "Custom Continue Reading" link for excerpts
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_continue_reading() {
 		// Getting data from Customizer Options
@@ -1003,7 +998,7 @@ if ( ! function_exists( 'catchbase_excerpt_more' ) ) :
 	/**
 	 * Replaces "[...]" (appended to automatically generated excerpts) with catchbase_continue_reading().
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_excerpt_more( $more ) {
 		return catchbase_continue_reading();	
@@ -1018,7 +1013,7 @@ if ( ! function_exists( 'catchbase_custom_excerpt' ) ) :
 	 *
 	 * function tied to the get_the_excerpt filter hook.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_custom_excerpt( $output ) {
 		if ( has_excerpt() && ! is_attachment() ) {
@@ -1036,7 +1031,7 @@ if ( ! function_exists( 'catchbase_more_link' ) ) :
 	 *
 	 * function tied to the the_content_more_link filter hook.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_more_link( $more_link, $more_link_text ) {
 	 	$options		=	catchbase_get_theme_options();
@@ -1052,7 +1047,7 @@ if ( ! function_exists( 'catchbase_body_classes' ) ) :
 	/**
 	 * Adds Catchbase layout classes to the array of body classes.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_body_classes( $classes ) {
 		global $post;
@@ -1179,7 +1174,7 @@ if ( ! function_exists( 'catchbase_responsive' ) ) :
 	 * @display responsive meta tag
 	 * @action wp_head
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_responsive() {
 		$options 			= catchbase_get_theme_options();
@@ -1199,7 +1194,7 @@ if ( ! function_exists( 'catchbase_archive_content_image' ) ) :
 	 * To override this in a child theme
 	 * simply create your own catchbase_archive_content_image(), and that function will be used instead.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_archive_content_image() {
 		$options = catchbase_get_theme_options();
@@ -1229,7 +1224,7 @@ if ( ! function_exists( 'catchbase_single_content_image' ) ) :
 	 * To override this in a child theme
 	 * simply create your own catchbase_single_content_image(), and that function will be used instead.
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_single_content_image() {
 		global $post, $wp_query;
@@ -1300,7 +1295,7 @@ if ( ! function_exists( 'catchbase_get_comment_section' ) ) :
 	 * @display comments_template
 	 * @action catchbase_comment_section
 	 *
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_get_comment_section() {
 		if ( comments_open() || '0' != get_comments_number() )
@@ -1318,7 +1313,7 @@ if ( ! function_exists( 'catchbase_promotion_headline' ) ) :
 	 * simply create your own catchbase_promotion_headline(), and that function will be used instead.
 	 *
 	 * @uses catchbase_before_main action to add it in the header
-	 * @since Catchbase 1.0
+	 * @since Catch Base 1.0
 	 */
 	function catchbase_promotion_headline() { 
 		//delete_transient( 'catchbase_promotion_headline' );
@@ -1404,7 +1399,7 @@ add_action( 'catchbase_before_content', 'catchbase_promotion_headline', 30 );
  * @display footer_text
  * @action catchbase_footer
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_footer_content() {
 	//catchbase_flush_transients();
@@ -1437,7 +1432,7 @@ add_action( 'catchbase_footer', 'catchbase_footer_content', 100 );
  * @param [string/array] $attr Query string or array of attributes.
  * @return [string] image html
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 
 function catchbase_get_first_image( $postID, $size, $attr ) {

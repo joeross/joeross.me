@@ -20,7 +20,7 @@ if( !function_exists( 'catchbase_featured_content_display' ) ) :
 *
 * @uses action hook catchbase_before_content.
 *
-* @since Catchbase 1.0
+* @since Catch Base 1.0
 */
 function catchbase_featured_content_display() {
 	//catchbase_flush_transients();
@@ -79,10 +79,10 @@ function catchbase_featured_content_display() {
 						if ( !empty( $headline ) || !empty( $subheadline ) ) {
 							$catchbase_featured_content .='<div class="featured-heading-wrap">';
 								if ( !empty( $headline ) ) {
-									$catchbase_featured_content .='<h1 id="featured-heading" class="entry-title">'. esc_attr( $headline ) .'</h1>';
+									$catchbase_featured_content .='<h1 id="featured-heading" class="entry-title">'. $headline .'</h1>';
 								}
 								if ( !empty( $subheadline ) ) {
-									$catchbase_featured_content .='<p>'. esc_attr( $subheadline ) .'</p>';
+									$catchbase_featured_content .='<p>'. $subheadline .'</p>';
 								}
 							$catchbase_featured_content .='</div><!-- .featured-heading-wrap -->';
 						}
@@ -115,7 +115,7 @@ if ( ! function_exists( 'catchbase_featured_content_display_position' ) ) :
  *
  * @action catchbase_content, catchbase_after_secondary
  * 
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_content_display_position() {
 	// Getting data from Theme Options
@@ -147,7 +147,7 @@ if ( ! function_exists( 'catchbase_demo_content' ) ) :
  *
  * @get the data value from customizer options
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  *
  */
 function catchbase_demo_content( $options ) {
@@ -230,7 +230,7 @@ if ( ! function_exists( 'catchbase_page_content' ) ) :
  *
  * @param $options: catchbase_theme_options from customizer
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_page_content( $options ) {
 	global $post;
@@ -264,7 +264,7 @@ function catchbase_page_content( $options ) {
 
 		$i=0; 
 		while ( $get_featured_posts->have_posts()) : $get_featured_posts->the_post(); $i++;
-			$title_attribute = apply_filters( 'the_title', get_the_title( $post->ID ) );
+			$title_attribute = the_title_attribute( array( 'before' => __( 'Permalink to:', 'catchbase' ), 'echo' => false ) );
 			
 			$excerpt = get_the_excerpt();
 			
@@ -273,7 +273,7 @@ function catchbase_page_content( $options ) {
 				if ( has_post_thumbnail() ) {
 					$catchbase_page_content .= '
 					<figure class="featured-homepage-image">
-						<a href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">
+						<a href="' . get_permalink() . '" "' . the_title_attribute( array( 'before' => __( 'Permalink to:', 'catchbase' ), 'echo' => false ) ) . '">
 						'. get_the_post_thumbnail( $post->ID, 'medium', array( 'title' => esc_attr( $title_attribute ), 'alt' => esc_attr( $title_attribute ), 'class' => 'pngfix' ) ) .'
 						</a>
 					</figure>';
@@ -284,7 +284,7 @@ function catchbase_page_content( $options ) {
 					if ( '' != $catchbase_first_image ) {
 						$catchbase_page_content .= '
 						<figure class="featured-homepage-image">
-							<a href="' . get_permalink() . '" title="'.the_title( '', '', false ).'">
+							<a href="' . get_permalink() . '" title=""' . the_title_attribute( array( 'before' => __( 'Permalink to:', 'catchbase' ), 'echo' => false ) ) . '">
 								'. $catchbase_first_image .'
 							</a>
 						</figure>';
@@ -295,7 +295,7 @@ function catchbase_page_content( $options ) {
 					<div class="entry-container">';
 						$catchbase_page_content .= the_title( '<header class="entry-header"><h1 class="entry-title">','</h1></header>', false );
 						$catchbase_page_content .= '<p>'. get_the_content( $more_link_text , true ) .'</p>';
-						$catchbase_page_content .= '<a href="' . get_permalink() . '" title="Permalink to '.the_title( '', '', false ).'"></a>';
+						$catchbase_page_content .= '<a href="' . get_permalink() . '" title="' . the_title_attribute( array( 'before' => __( 'Permalink to:', 'catchbase' ), 'echo' => false ) ) . '"></a>';
 					$catchbase_page_content .= '
 					</div><!-- .entry-container -->
 				</article><!-- .featured-post-'. $i .' -->';

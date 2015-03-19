@@ -17,7 +17,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
 /**
  * Returns the default options for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_default_theme_options() {
 	
@@ -102,7 +102,7 @@ function catchbase_get_default_theme_options() {
 /**
  * Returns an array of color schemes registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_color_schemes() {
 	$color_scheme_options = array(
@@ -123,7 +123,7 @@ function catchbase_color_schemes() {
 /**
  * Returns an array of layout options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_layouts() {
 	$layout_options = array(
@@ -151,7 +151,7 @@ function catchbase_layouts() {
 /**
  * Returns an array of content layout options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_archive_content_layout() {
 	$layout_options = array(
@@ -172,7 +172,7 @@ function catchbase_get_archive_content_layout() {
 /**
  * Returns an array of feature header enable options
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_enable_featured_header_image_options() {
 	$enable_featured_header_image_options = array(
@@ -213,7 +213,7 @@ function catchbase_enable_featured_header_image_options() {
 /**
  * Returns an array of feature image size
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_image_size_options() {
 	$featured_image_size_options = array(
@@ -238,7 +238,7 @@ function catchbase_featured_image_size_options() {
 /**
  * Returns an array of content and slider layout options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_slider_content_options() {
 	$featured_slider_content_options = array(
@@ -263,7 +263,7 @@ function catchbase_featured_slider_content_options() {
 /**
  * Returns an array of feature content types registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_content_types() {
 	$featured_content_types = array(
@@ -284,7 +284,7 @@ function catchbase_featured_content_types() {
 /**
  * Returns an array of featured content options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_content_layout_options() {
 	$featured_content_layout_option = array(
@@ -305,7 +305,7 @@ function catchbase_featured_content_layout_options() {
 /**
  * Returns an array of feature slider types registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_slider_types() {
 	$featured_slider_types = array(
@@ -326,7 +326,7 @@ function catchbase_featured_slider_types() {
 /**
  * Returns an array of feature slider transition effects
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_featured_slide_transition_effects() {
 	$featured_slide_transition_effects = array(
@@ -379,7 +379,7 @@ function catchbase_featured_slide_transition_effects() {
 /**
  * Returns an array of color schemes registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_pagination_types() {
 	$pagination_types = array(
@@ -408,7 +408,7 @@ function catchbase_get_pagination_types() {
 /**
  * Returns an array of content featured image size.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_single_post_image_layout_options() {
 	$single_post_image_layout_options = array(
@@ -440,7 +440,7 @@ function catchbase_single_post_image_layout_options() {
 /**
  * Returns list of social icons currently supported
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
 */
 function catchbase_get_social_icons_list() {
 	$catchbase_social_icons_list =	array( 
@@ -480,7 +480,7 @@ function catchbase_get_social_icons_list() {
 /**
  * Returns an array of metabox layout options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_metabox_layouts() {
 	$layout_options = array(
@@ -516,7 +516,7 @@ function catchbase_metabox_layouts() {
 /**
  * Returns an array of metabox header featured image options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_metabox_header_featured_image_options() {
 	$header_featured_image_options = array(
@@ -543,7 +543,7 @@ function catchbase_metabox_header_featured_image_options() {
 /**
  * Returns an array of metabox featured image options registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_metabox_featured_image_options() {
 	$featured_image_options = array(
@@ -580,7 +580,7 @@ function catchbase_metabox_featured_image_options() {
 /**
  * Returns catchbase_contents registered for catchbase.
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 function catchbase_get_content() {
 	$theme_data = wp_get_theme();

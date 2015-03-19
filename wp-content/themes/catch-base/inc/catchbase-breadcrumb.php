@@ -19,7 +19,7 @@ if ( ! defined( 'CATCHBASE_THEME_VERSION' ) ) {
  *
  * @action catchbase_after_header
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 if( !function_exists( 'catchbase_add_breadcrumb' ) ) :
 
@@ -47,7 +47,7 @@ add_action( 'catchbase_after_header', 'catchbase_add_breadcrumb', 50 );
  *
  * Adopted from Dimox
  *
- * @since Catchbase 1.0
+ * @since Catch Base 1.0
  */
 if( !function_exists( 'catchbase_custom_breadcrumbs' ) ) :
 

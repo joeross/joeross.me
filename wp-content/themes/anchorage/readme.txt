@@ -1,10 +1,10 @@
 === anchorage ===
 
 Contributors: scofennell@gmail.com
-Tags: black, white, gray, light, one-column, right-sidebar, responsive-layout, fluid-layout, accessibility-ready, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready.
+Tags: black, white, gray, light, one-column, left-sidebar, responsive-layout, fluid-layout, accessibility-ready, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready.
 Requires at least: 4.0
 Tested up to: 4.2
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ Use the wordpress.org support forum for this theme.
 1) Theme home page.
 
 == Changelog ==
+
+= V 1.0.3 =
+* Moved sidebar to left side since iphones seem to like that layout better.
+* Fixed breadcrumbs bug for blogs with a page of posts / page on front.
 
 = V 1.0.2 =
 * Fix wording in theme description.
