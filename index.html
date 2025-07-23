@@ -1,182 +1,160 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!doctype html>
+<html lang="en">
+<page url="https://joeross.neocities.org/index.html">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="omg.lol proofs" content="proven.lol/1ea80f" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="authorization_endpoint" href="https://indieauth.com/auth" />
+		<link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+		<link rel="microsub" href="https://aperture.p3k.io/microsub/865" />
+		<title>Joe Ross ⓡ joeross.me</title>
+		<style>
+			@media (prefers-color-scheme: dark) {
+			  html {
+			    background-color: #111111;
+			    color: #fbfbfb;
+			  }
 
-      <script src="https://kit.fontawesome.com/abc8184f51.js" crossorigin="anonymous"></script>
-      <meta http-equiv="content-type" content="text/html; charset=utf-8">
-      <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="omg.lol proofs" content="proven.lol/0dac79">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			  a {
+			    color: #ca8465;
+			  }
+			}
 
-      <!-- lots and lots of rel="me" links! -->
-      <a rel="me" href="https://joeross.me"></a>
-      <!-- bluesky isn't serving public profile pages yet
-      <a rel="me" href="https://bsky.app/profile/joeross.me"></a> -->
-      <a rel="me" href="https://github.com/joeross"></a>
-      <a rel="me" href="https://joeross.micro.blog"></a></a>
-      <a rel="me" href="https://joeross.omg.lol"></a>
-      <a rel="me" href="https://joeross.proven.lol"></a>
-      <a rel="me" href="https://tumblr.joeross.me"></a>
-      <!-- letterboxd strips the rel=me 
-      <a rel="me" href="https://letterboxd.com/joeross"></a> -->
-      <a rel="me" href="https://mastodon.social/@joeross"></a>
-      <!-- micro.blog/joeross strips the rel=me 
-      <a rel="me" href="https://micro.blog/joeross"></a> -->
-      <!-- paste.lol doesn't render HTML
-      <a rel="me" href="https://paste.lol/joeross"></a> -->
-      <!-- pinboard won't work either
-      <a rel="me" href="https://pinboard.in/u:joeross/profile/public/"></a> -->
-      <a rel="me" href="https://read.cv/joeross"></a>
-      <a rel="me" href="https://social.lol/@joeross"></a>
-      <a rel="me" href="https://status.lol/joeross"></a>
-      <!-- twitter doesn't support rel=me
-      <a rel="me" href="https://twitter.com/joeross"></a> -->
-      <a rel="me" href="https://joeross.weblog.lol"></a>
-      <!-- last.fm doesn't support rel=me
-      <a rel="me" href="https://www.last.fm/user/arcane14"></a> -->
-      <!-- email isn't really supported either
-      <a rel="me" href="mailto:joe@joeross.me"></a> -->
-      
-      <!-- IndieAuth.com stuff -->
-      <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-      <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-          
-      <!-- To use social readers via microsub, follow these steps.
-      (Details: https://indieweb.org/Microsub#Getting_Started)
-      1. After publishing this to your domain, sign in to https://aperture.p3k.io/login with your domain
-      2. You will see a <link> tag displayed on your dashboard that looks like:
-        <link rel="microsub" href="https://aperture.p3k.io/microsub/000">
-      3. Copy that <link> tag and paste it after this HTML comment.
-      4. Publish the updated page!
-    -->
-      <link rel="microsub" href="https://aperture.p3k.io/microsub/865">
-      <title>Joe Ross ⓡ joeross.me</title>
-      <style>
-          @media (prefers-color-scheme: dark) {
-          html { background-color: #111111; color: #fbfbfb; }
-          a { color: #ca8465; }
-          }
+			body {
+			  line-height: 1.6;
+			  font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+			  text-align: center;
+			  margin: 1rem auto;
+			  min-height: 90vh;
+			  display: flex;
+			  flex-direction: column;
+			  justify-content: center;
+			  align-items: center;
+			}
 
-          main { padding: 1.5em;}
+			img.u-photo {
+			  border-radius: 50%;
+			}
 
-          body {
-        line-height: 1.6;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Helvetica, Arial, sans-serif;
-        text-align: center;
-        margin: 1rem auto;
-        min-height: 90vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
-      }
-      
-      .social {
-        color:#ffffff;
-        margin-right:.5em;
-      }
+			ul {
+			  list-style: none;
+			  padding: 0;
+			  margin: 0;
+			}
 
-      .social_1 {
-        margin-left: -.25em;
-      }
+			li {
+			  padding-bottom: 0.5em; /* Added for spacing */
+			}
 
-      .social_2 {
-        margin-left: -1.015em;
-      }
+			.JR {
+			  padding-top: 35px;
+			}
 
-      .social_3 {
-        margin-left: 0;
-      }
+			.JR p {
+			  padding-top: 15px;
+			  font-style: italic;
+			  opacity: 15%;
+			  font-size: xx-small;
+			}
+		</style>
+	</head>
+	<body class="h-card" rel="author">
+		<main>
+			<img
+				class="u-photo"
+				alt="The face of the legend himself, Joe Ross"
+				src="images/joe-pfp.jpeg"
+				width="150"
+				height="150"
+			/>
+			<h1>
+				👋 Hi, I'm
+				<span class="p-name">Joe Ross</span>
+			</h1>
+			<div class="p-note">
+				<ul>
+					<li>🏠 Princeton, dad, husband, butler of pets.</li>
+					<li>💼 Philly, lawyer, civil litigation.</li>
+					<li>Posts aren’t legal advice.</li>
+				</ul>
+			</div>
+			<p>
+				🖥️
+				<a class="u-url" href="https://joeross.me">joeross.me</a>
+			</p>
+			<ul>
+				<li>
+					✉️
+					<a class="u-email" href="mailto:hi@joeross.me" rel="me">
+						hi@joeross.me
+					</a>
+				</li>
+				<li>
+					❤️
+					<a class="u-url" href="https://joeross.lol" rel="me">
+						omg.lol
+					</a>
+				</li>
+				<li>
+					📝
+					<a class="u-url" href="https://micro.blog/joeross" rel="me">
+						micro.blog
+					</a>
+				</li>
+				<li>
+					🐘
+					<a
+						class="u-url"
+						rel="me"
+						href="https://mastodon.social/@joeross"
+					>
+						mastodon
+					</a>
+				</li>
+				<li>
+					☀️
+					<a
+						class="u-url"
+						rel="me"
+						href="https://bsky.app/profile/joeross.me"
+					>
+						bluesky
+					</a>
+				</li>
+			</ul>
 
-      .social_4 {
-        margin-left: -1.25em;
-      }
-
-      .contact {
-        color:#999;
-      }
-
-      ul {
-          line-height:2.5;
-      }
-      
-
-          .small {
-      font-size: .8rem;
-      }
-          .large {
-        font-size: 2rem;
-      }
-
-      img.u-photo { border-radius: 50%; scale: 75%; margin-bottom:-2em; }
-      ul { padding: 0; list-style: none; }
-      
-      
-    </style>
-  </head>
-
-  <body>
-    <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
-
-  <main class="h-card" rel="author">
-        <img class="u-photo" src="/images/logo-squared-circled-r.jpg" title="Welcome to the 100% handcrafted website of Joe Ross, built from scratch using nearly 170 lines of HTML and CSS code totalling almost 7,000 characters!"/>
-      <h1>
-        I'm <span class="p-name">Joe Ross</span>.
-      </h1>
-  <h2>Who?</h2>
-      <p class="p-note">
-      I'm a lawyer, geek, and writer.
-      </p>
-      <h2>Where?</h2>
-      <p class="p-note">I work in Philadelphia doing civil litigation.
-      </p>
-      <p>I live in Princeton with my wife, my two kids, and too many pets. Sorry pets. It's true.</p>
-  <h2>Contact</h2>
-      <p title="Sorry the email isn't clickable, but spambots can easily find and target email links, so I avoid posting them. Just remove the extra spaces.">You can send me an email at <span class="contact">hi @ joeross . me</span>.</p>
-
-      <p title="Like the email address above, this phone number has extra spaces to avoid spambots. Also, technically you can call and leave me a voicemail there, but it's a Google Voice number I don't check very often, so don't use it if you're in a hurry to get in touch.">You can find me on Signal and other phone-number-as-identity apps at <span class="contact">215 - 253 - 7146</span>.</p>
-  <h2>Elsewhere</h2>
-      <p>Here's where I spend much of my internet time. I'm <span class="contact">joeross</span> basically everywhere.</p>
-
-      <p class="social_1" title="Fun fact: You can find and follow me from any Mastodon server's search box by just searching for @joer@joeross.me. If you want to set up something similar, just search the web for 'webfinger' and 'mastodon'. Yes, really.">
-        <a class="u-url" href="https://mastodon.social/@joeross" ><span class="fa-solid fa-brands fa-mastodon social"></span>Mastodon</a>
-      </p>
-    
-      <p class="social_3" title="This is where I host the latest iteration of my ever-evolving blog. It's also a really cool IndieWeb community that's also based on ActivityPub, the protocol underlying Mastodon and the rest of the fediverse.">
-        
-      <a class="u-url" href="https://micro.blog/joeross" ><span class="fa-solid fa-brands fa-microblog social"></span>micro.blog</a>
-      </p>
-      
-      <p class="social_4" title="This is another cool community, though it's not ActivityPub, it offers it's own Mastodon server, social.lol, and so many other fun tools and toys.">
-        <a class="u-url" href="https://joeross.omg.lol" ><span class="fa-solid fa-classic fa-heart social"></span>omg.lol</a>
-      </p>
-
-      <p class="social_2" title="I don't do much over there, but I'm also having a hard time truly saying goodbye. After all, I started using Twitter when the only way to do it was via SMS text messages.">
-        <a class="u-url" href="https://twitter.com/joeross" ><span class="fa-solid fa-brands fa-twitter social"></span>Twitter</a>
-    </p>
-      
-      <p class="social_2" title="They are NOT skeets. They are posts.">
-        <a class="u-url" href="https://staging.bsky.app/profile/joeross.me" ><span class="fa-solid fa-sun social"></span>Bluesky</a>
-    </p>
-      
-      
-      
-      
-  <!-- Hid this to try a paragraph format     
-      <ul>
-        <li><span class="fa-solid fa-brands fa-mastodon"></span> <a class="u-url" href="https://mastodon.social/@joeross" >Mastodon</a></li>
-
-        <i><span class="fa-solid fa-sun" title="They are NOT skeets. They are posts."></span> <a class="u-url" href="https://staging.bsky.app/profile/did:plc:xxqlinj6dvgaz6grpxrvugj7" >Bluesky</a> </i>
-
-        <li><span class="fa-solid fa-brands fa-microblog"></span> <a class="u-url" href="https://micro.blog/joeross" >micro.blog</a></li>
-        
-        <li> <span class="fa-solid fa-classic fa-heart"></span> <a class="u-url" href="https://joeross.omg.lol" >omg.lol</a></li> -->
-        
-      <!--  <li><span class="fa-solid fa-classic fa-file-lines"></span> <a class="u-url" href="https://read.cv/joeross" rel="me">read.cv/joeross</a></li> -->
-
-  <!--    </ul> -->
-    <p style="font-size:1.5em;" title="I've kind of made the lowercase 'r' in a circle my own little logo.">ⓡ</p>
-    </main>
-  </body>
-  </html>
+			<a
+				href="https://joeross.micro.blog/"
+				rel="me"
+				style="display:none;"
+			></a>
+			<a
+				href="https://github.com/joeross"
+				rel="me"
+				style="display:none;"
+			></a>
+			<a
+				href="https://social.lol/@joeross"
+				rel="me"
+				style="display:none;"
+			></a>
+		</main>
+		
+		<footer>
+  <p style="font-style:italic;opacity:50%;font-size:small;">You are here: <span id="current-url"></span></p>
+  <script>
+    // Set the current URL into the span
+    document.getElementById('current-url').textContent = window.location.href;
+  </script>
+		<p style="font-style:italic;opacity:50%;font-size:small;">
+			ⓡ A
+			<a href="https://joeross.me" style="text-decoration-style: dotted;">
+				Joe Ross
+			</a>
+			production
+		</p>
+		</footer>
+	</body>
+</html>
